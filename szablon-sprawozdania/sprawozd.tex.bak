@@ -1,0 +1,98 @@
+\documentclass{article} 
+\usepackage{polski} %moze wymagac dokonfigurowania latexa, ale jest lepszy ni¿ standardowy babel'owy [polish] 
+\usepackage[cp1250]{inputenc} 
+\usepackage[OT4]{fontenc} 
+\usepackage{graphicx,color} %include pdf's (and png's for raster graphics... avoid raster graphics!) 
+\usepackage{url} 
+\usepackage[pdftex,hyperfootnotes=false,pdfborder={0 0 0}]{hyperref} %za wszystkimi pakietami; pdfborder nie wszedzie tak samo zaimplementowane bo specyfikacja nieprecyzyjna; pod miktex'em po prostu nie widac wtedy ramek
+
+
+\input{_ustawienia.tex}
+
+%\title{Sprawozdanie z laboratorium:\\Metaheurystyki i Obliczenia Inspirowane Biologicznie}
+%\author{}
+%\date{}
+
+
+\begin{document}
+
+\input{_tytulowa}
+
+
+
+\section{Wstêp}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.4\textwidth]{rys_graf.pdf}
+\end{center}
+\caption{Przyk³adowy schemat z graphviz'a. Przerywane strza³ki oznaczaj¹, ¿e wszêdzie gdzie siê da u¿ywamy grafiki wektorowej -- unikamy wstawiania bitmap do dokumentu. W niektórych przypadkach u¿ycie bitmap jest uzasadnione (w celu szybkiego podgl¹du na ekranie lub dla niezwykle skomplikowanych grafik, zawieraj¹cych np.~setki tysiêcy obiektów).}
+\label{fig-schemat}
+\end{figure}
+
+
+To jest przyk³adowy tekst w LaTeX -- pokazuje jak
+
+\begin{tightlist}
+\item wstawiæ schemat stworzony graphviz'em (Rys.~\ref{fig-schemat}),
+\item wstawiæ wykres stworzony gnuplot'em (Rys.~\ref{fig-1Tdelta}, \ref{fig-3d}, \ref{fig-every} i \ref{fig-regr}),
+\item zacytowaæ literaturê sformatowan¹ przez bibtex~\cite{MiOIB,Goldberg-2002},
+\item odwo³ywaæ siê do rysunków, cytowañ i czêœci sprawozdania (np.\ rozdzia³~\ref{sec-eksperymenty}).
+\end{tightlist}
+
+Nowsze wersje gnuplota maj¹ ju¿ ca³kiem niez³y terminal 'pdf', wiêc zwykle mo¿na zrezygnowaæ z poœrednictwa formatu ps/eps.
+
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{rys_wykres2d.pdf}
+\end{center}
+\caption{Przyk³adowy wykres z gnuplota, terminal postscript, zamieniony na pdf za pomoc¹ programu epstopdf z dystrybucji LaTeX'a (czasem eps2pdf). Ró¿nice $\Delta_{dir}$ wartoœci $p_{dir}$ dla k¹ta $90^\circ$.}
+\label{fig-1Tdelta}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.9\textwidth]{rys_wykres3d.pdf}
+\end{center}
+\caption{Jeszcze jeden przyk³adowy wykres z gnuplota.}
+\label{fig-3d}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.85\textwidth]{rys_gnuplot_every.pdf}
+\end{center}
+\caption{Przyk³ad filtrowania danych do wykresu (\emph{every}) oraz u¿ycie w³asnych funkcji i formu³ w gnuplocie.}
+\label{fig-every}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.85\textwidth]{rys_gnuplot_regr.pdf}
+\end{center}
+\caption{Przyk³ad regresji: gnuplot ma wbudowany modu³ dopasowuj¹cy do danych parametry funkcji o dowolnej zadanej postaci. Pozwala te¿ definiowaæ makra, prowadziæ obliczenia i umieszczaæ na wykresie etykiety.}
+\label{fig-regr}
+\end{figure}
+
+\clearpage %pozwol umiescic zalegle rysunki od razu tutaj 
+
+
+\section{Eksperymenty}
+\label{sec-eksperymenty}
+
+Pamiêtajmy o ró¿nicy pomiêdzy ³¹cznikiem\footnote{Poszukaj w Wikipedii has³a \emph{Dywiz}.} a myœlnikiem, a tak¿e o cytowaniu wszelkich materia³ów Ÿród³owych w odpowiednich miejscach~\cite{WikiDash}. Cytujmy konkretn¹ stronê, a nie ogólny adres witryny. Cudzys³owy polskie piszmy metod¹ ,,przecinków i apostrofów''.
+
+Do sprawdzania pisowni bezpoœrednio w pliku\ .tex s³u¿y miêdzy innymi program \emph{aspell}. Rozumie on ró¿ne sposoby kodowania polskich literek, a tak¿e ma wbudowane filtry do html'a i innych popularnych formatów. Dziêki tym filtrom pomija s³owa kluczowe, analizuj¹c tylko w³aœciwy tekst.
+
+
+
+
+%%%%%%%%%%%%%%%% literatura %%%%%%%%%%%%%%%%
+
+\bibliography{sprawozd}
+\bibliographystyle{plain}
+
+
+\end{document}
+

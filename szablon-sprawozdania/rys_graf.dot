@@ -1,0 +1,48 @@
+#use neato engine
+
+digraph G 
+{
+#start=529;
+#margin="0,0";
+#pad="0,0";
+#size="25,25!";
+#ratio=expand;
+node[fontname=Helvetica]
+
+
+
+gnuplot->teps
+gnuplot->tpng
+teps->eps
+tpng->png [style=dashed]
+
+pdflatex->pdf
+latex->ps
+eps->ps2pdf
+ps2pdf->pdf
+
+ps->latex
+eps->latex
+png->pdflatex
+jpeg->pdflatex
+pdf->pdflatex
+graphviz->eps
+graphviz->png [style=dashed]
+
+
+latex [fillcolor="#dddddd",style=filled,shape=box,pos="-0.5,0!"];
+pdflatex [fillcolor="#dddddd",style=filled,shape=box,pos="1.5,0!"];
+gnuplot [fillcolor="#dddddd",style=filled,shape=box,pos="0,4!"];
+graphviz [fillcolor="#dddddd",style=filled,shape=box,pos="1.1,2.2!"];
+ps2pdf [label="epstopdf,\nps2pdf",fillcolor="#dddddd",style=filled,shape=box,pos="0.5,0.8!"];
+pdf [pos="1.2,-1!"]
+ps [pos="-0.2,-1!"]
+
+eps [pos="-0.5,1.5!"]
+png [pos="2.1,1.5!"]
+jpeg [pos="1.2,1.5!"]
+
+teps [label="terminal\npostscript\n(enhanced)",pos="0,3!"]
+tpng [label="terminal\npng",pos="2,3!"]
+}
+
