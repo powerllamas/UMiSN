@@ -135,7 +135,48 @@ outlook = rain:
 
 \begin{itemize}
 \item Wygeneruj reguły dla zbioru \emph{GOLF} za~pomocą programu \emph{C4.5 for Windows}.
+
+
+\begin{verbatim}
+Rule 1: [70.7%]
+    IF    outlook = overcast
+    THEN  Play
+
+Rule 2: [63.0%]
+    IF    outlook = rain
+    AND   windy = false
+    THEN  Play
+
+Rule 3: [63.0%]
+    IF    outlook = sunny
+    AND   humidity > 75
+    THEN  Don't Play
+
+Rule 4: [50.0%]
+    IF    outlook = rain
+    AND   windy = true
+    THEN  Don't Play
+
+Default class: Play
+
+Errors in training set: 0 (0.0%)
+\end{verbatim}
+
 \item Porównaj wygenerowane reguły z~wyjściowym drzewem decyzyjnym. Czy reguły odzwierciedlają precyzyjnie drzewo?
+
+\begin{verbatim}
+Pruned decision tree:
+
+outlook = overcast: Play (4.0/1.2)
+outlook = sunny:
+|   humidity <= 75 : Play (2.0/1.0)
+|   humidity > 75 : Don't Play (3.0/1.1)
+outlook = rain:
+|   windy = true: Don't Play (2.0/1.0)
+|   windy = false: Play (3.0/1.1)
+\end{verbatim}
+
+Powyższe drzewo nie może być odtworzone przy użyciu samych tylko uzyskanych reguł. Jest tak, ponieważ nie pokrywają one wszystkich możliwych ścieżek od~korzenia do liścia -- brakuje reguły dla \texttt{outlook = sunny AND humidity <= 75}. Ponieważ jednak w~wyniku zawarta jest również klasa domyślna, w~tym wypadku \texttt{Play}, możemy ją wykorzystać jako liść dla ścieżek w~drzewie odpowiadającym brakującym regułom. W~ten sposób, w~tym konkretnym przypadku, możliwe jest zrekonstruowanie drzewa. Stąd reguły odzwierciedlają drzewo w~sposób precyzyjny.
 \end{itemize}
 
 \subsection{Porównanie klasyfikowania za pomocą drzew decyzyjnych i~reguł decyzyjnych (\emph{C4.5rules})}
