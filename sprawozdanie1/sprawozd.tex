@@ -9,84 +9,40 @@
 
 \input{_ustawienia.tex}
 
-%\title{Sprawozdanie z laboratorium:\\Metaheurystyki i Obliczenia Inspirowane Biologicznie}
-%\author{}
-%\date{}
-
-
 \begin{document}
 
 \input{_tytulowa}
 
+\section{Generowanie drzew decyzyjnych}
 
+\subsection{Generowanie drzewa}
 
-\section{Wstęp}
+\subsection{Konsultowanie}
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.4\textwidth]{rys_graf.pdf}
-\end{center}
-\caption{Przykładowy schemat z graphviz'a. Przerywane strzałki oznaczają, że wszędzie gdzie się da używamy grafiki wektorowej -- unikamy wstawiania bitmap do dokumentu. W niektórych przypadkach użycie bitmap jest uzasadnione (w celu szybkiego podglądu na ekranie lub dla niezwykle skomplikowanych grafik, zawierających np.~setki tysięcy obiektów).}
-\label{fig-schemat}
-\end{figure}
+\subsection{Różnica między gain ratio a info gain w praktyce}
 
+\subsection{Grupowanie wartości atrybutów}
 
-To jest przykładowy tekst w LaTeX -- pokazuje jak
+\subsection{Poszukiwanie optymalnej wielkości drzewa uproszczonego}
 
-\begin{tightlist}
-\item wstawić schemat stworzony graphviz'em (Rys.~\ref{fig-schemat}),
-\item wstawić wykres stworzony gnuplot'em (Rys.~\ref{fig-1Tdelta}, \ref{fig-3d}, \ref{fig-every} i \ref{fig-regr}),
-\item zacytować literaturę sformatowaną przez bibtex~\cite{MiOIB,Goldberg-2002},
-\item odwoływać się do rysunków, cytowań i części sprawozdania (np.\ rozdział~\ref{sec-eksperymenty}).
-\end{tightlist}
+\subsection{Windowing}
 
-Nowsze wersje gnuplota mają już całkiem niezły terminal 'pdf', więc zwykle można zrezygnować z pośrednictwa formatu ps/eps.
+\subsection{Generowanie krzywej uczenia}
 
+\subsection{Maksymalizacja trafności}
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.8\textwidth]{rys_wykres2d.pdf}
-\end{center}
-\caption{Przykładowy wykres z gnuplota, terminal postscript, zamieniony na pdf za pomocą programu epstopdf z dystrybucji LaTeX'a (czasem eps2pdf). Różnice $\Delta_{dir}$ wartości $p_{dir}$ dla kąta $90^\circ$.}
-\label{fig-1Tdelta}
-\end{figure}
+\section{Generowanie reguł decyzyjnych}
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.9\textwidth]{rys_wykres3d.pdf}
-\end{center}
-\caption{Jeszcze jeden przykładowy wykres z gnuplota.}
-\label{fig-3d}
-\end{figure}
+\subsection{Metoda pośrednia generowania reguł (C4.5rules)}
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.85\textwidth]{rys_gnuplot_every.pdf}
-\end{center}
-\caption{Przykład filtrowania danych do wykresu (\emph{every}) oraz użycie własnych funkcji i formuł w gnuplocie.}
-\label{fig-every}
-\end{figure}
+\subsection{Porównanie klasyfikowania za pomocą drzew decyzyjnych i~reguł decyzyjnych (C4.5rules)}
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.85\textwidth]{rys_gnuplot_regr.pdf}
-\end{center}
-\caption{Przykład regresji: gnuplot ma wbudowany moduł dopasowujący do danych parametry funkcji o dowolnej zadanej postaci. Pozwala też definiować makra, prowadzić obliczenia i umieszczać na wykresie etykiety.}
-\label{fig-regr}
-\end{figure}
+\subsection{Generowanie reguł z~użyciem algorytmu LEM}
 
-\clearpage %pozwol umiescic zalegle rysunki od razu tutaj 
+\subsection{Porównanie reguł generowanych za~pomocą algorytmu LEM i~C4.5}
 
-
-\section{Eksperymenty}
-\label{sec-eksperymenty}
-
-Pamiętajmy o różnicy pomiędzy łącznikiem\footnote{Poszukaj w Wikipedii hasła \emph{Dywiz}.} a myślnikiem, a także o cytowaniu wszelkich materiałów źródłowych w odpowiednich miejscach~\cite{WikiDash}. Cytujmy konkretną stronę, a nie ogólny adres witryny. Cudzysłowy polskie piszmy metodą ,,przecinków i apostrofów''.
-
-Do sprawdzania pisowni bezpośrednio w pliku\ .tex służy między innymi program \emph{aspell}. Rozumie on różne sposoby kodowania polskich literek, a także ma wbudowane filtry do html'a i innych popularnych formatów. Dzięki tym filtrom pomija słowa kluczowe, analizując tylko właściwy tekst.
-
-
-
+%Dla chętnych:
+%\subsection{Przeprowadź eksperyment generowania i~testowania reguł LEM w~ramach cross validation}
 
 %%%%%%%%%%%%%%%% literatura %%%%%%%%%%%%%%%%
 
