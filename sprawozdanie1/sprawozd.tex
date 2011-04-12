@@ -13,33 +13,56 @@
 
 \input{_tytulowa}
 
+%%%%%%%%%%%%%%%%%% Część I %%%%%%%%%%%%%%%%%
+
 \section{Generowanie drzew decyzyjnych}
 
 \subsection{Generowanie drzewa}
 
 \subsection{Konsultowanie}
 
-\subsection{Różnica między gain ratio a info gain w praktyce}
+\subsection{Różnica między \emph{gain ratio} a~\emph{info gain} w~praktyce}
 
 \subsection{Grupowanie wartości atrybutów}
 
 \subsection{Poszukiwanie optymalnej wielkości drzewa uproszczonego}
 
-\subsection{Windowing}
+\subsection{\emph{Windowing}}
 
 \subsection{Generowanie krzywej uczenia}
 
 \subsection{Maksymalizacja trafności}
 
+%%%%%%%%%%%%%%%%%% Część II %%%%%%%%%%%%%%%%%
+
 \section{Generowanie reguł decyzyjnych}
 
-\subsection{Metoda pośrednia generowania reguł (C4.5rules)}
+\subsection{Metoda pośrednia generowania reguł (\emph{C4.5rules})}
 
-\subsection{Porównanie klasyfikowania za pomocą drzew decyzyjnych i~reguł decyzyjnych (C4.5rules)}
+\subsubsection{Wygeneruj reguły dla zbioru \emph{GOLF} za~pomocą programu \emph{C4.5 for Windows}.}
+\subsubsection{Porównaj wygenerowane reguły z~wyjściowym drzewem decyzyjnym. Czy reguły odzwierciedlają precyzyjnie drzewo?}
 
-\subsection{Generowanie reguł z~użyciem algorytmu LEM}
+\subsection{Porównanie klasyfikowania za pomocą drzew decyzyjnych i~reguł decyzyjnych (\emph{C4.5rules})}
 
-\subsection{Porównanie reguł generowanych za~pomocą algorytmu LEM i~C4.5}
+\begin{itemize}
+\item Przeprowadź testy \emph{10-fold CV} na wybranych zbiorach dla drzew i~reguł.
+\item Porównaj wyniki pod kątem trafności klasyfikowania na zbiorze testującym oraz rozmiaru opisu.
+\item Przeprowadzając kilka eksperymentów uczenia i~testowania przeanalizuj wpływ parametrów \emph{Confidence Level} i~\emph{Redundancy Factor} na~otrzymywany zbiór reguł.
+\end{itemize}
+
+\subsection{Generowanie reguł z~użyciem algorytmu \emph{LEM}}
+
+\begin{itemize}
+\item Wygeneruj reguły dla zbioru \emph{HPAP.ISF}.
+\item Przyjrzyj się regułom możliwym; opisz je i~,,wydedukuj'', skąd się wzięły.
+\end{itemize}
+
+\subsection{Porównanie reguł generowanych za~pomocą algorytmu \emph{LEM} i~\emph{C4.5}}
+
+\begin{itemize}
+\item Wygeneruj reguły przy użyciu obu podejść dla zbiorów: \emph{HPAP}, \emph{VOTE} i~\emph{MONK}.
+\item Przyjrzyj się niezależnie regułom pewnym i~możliwym (\emph{LEM}).
+\end{itemize}
 
 %Dla chętnych:
 %\subsection{Przeprowadź eksperyment generowania i~testowania reguł LEM w~ramach cross validation}
