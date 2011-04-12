@@ -1,0 +1,22 @@
+Rule 1: [70.7%]
+    IF    outlook = overcast
+    THEN  Play
+
+Rule 2: [63.0%]
+    IF    outlook = rain
+    AND   windy = false
+    THEN  Play
+
+Rule 3: [63.0%]
+    IF    outlook = sunny
+    AND   humidity > 75
+    THEN  Don't Play
+
+Rule 4: [50.0%]
+    IF    outlook = rain
+    AND   windy = true
+    THEN  Don't Play
+
+Default class: Play
+
+Errors in training set: 0 (0.0%)
