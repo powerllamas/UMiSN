@@ -24,7 +24,29 @@
 	\\Zbiór uczący zawiera 14 przykładów. Są one opisane pięcioma atrybutami, w tym jednym atrybutem decyzyjnym.
 
 \item \textbf{Wygeneruj drzewo dla zbioru przykładów \emph{golf}; ustawienia standardowe.}
-	\begin{center}\includegraphics[width=1\textwidth]{drzewo.png}\end{center}
+	 Unpruned decision tree:
+
+\begin{verbatim}
+outlook = overcast: Play (4.0)
+outlook = sunny:
+|   humidity <= 75 : Play (2.0)
+|   humidity > 75 : Don't Play (3.0)
+outlook = rain:
+|   windy = true: Don't Play (2.0)
+|   windy = false: Play (3.0)
+
+Pruned decision tree:
+
+outlook = overcast: Play (4.0/1.2)
+outlook = sunny:
+|   humidity <= 75 : Play (2.0/1.0)
+|   humidity > 75 : Don't Play (3.0/1.1)
+outlook = rain:
+|   windy = true: Don't Play (2.0/1.0)
+|   windy = false: Play (3.0/1.1)
+\end{verbatim}
+
+
 
 \item \textbf{Przeanalizuj wyniki; czy udało się przeprowadzić pruning?}
 	\\Nie udało się przeprowadzić pruningu. Drzewa są identyczne.
@@ -33,7 +55,7 @@
 	\\Wygenerowane drzewo ma 3 węzły decyzyjne i 5 liści.
 
 \item \textbf{ Prześledź ścieżkę od korzenia do wybranego liścia.
-}		\\Korzeń jest węzłem związanym z atrybutem outlook. Jeśli dla klasyfikowanego przykładu wartość atrybutu outlook wynosi "sunny", to następny węzeł na ścieżce to ten związany z atrybutem humidity. Zakłądając, że dla naszego przykładu wilgotność jest większ niż $ 75\% $ , liściem w analizowanej ścieżce będzie liść odnoszący się decyzji "Don't Play".
+}		\\W korzeniu znajduje się test związany z atrybutem outlook. Jeśli dla klasyfikowanego przykładu wartość atrybutu outlook wynosi "sunny", to następny węzeł na ścieżce to ten związany z atrybutem humidity. Zakłądając, że dla naszego przykładu wilgotność jest większ niż $ 75\% $ , liściem w analizowanej ścieżce będzie liść odnoszący się decyzji "Don't Play".
 		\\Inaczej mówiąc, ścieżk ta klasyfikuje wszystkie dni w które jest słoneczna pogoda i wilgotność większa niż $ 75\% $ jako dni, w które nie gra się w golfa.
 		
 \item \textbf{Porównaj estymaty błędu dla drzewa oryginalnego (\emph{Unpruned}) i~uproszczonego (\emph{Pruned}).}
