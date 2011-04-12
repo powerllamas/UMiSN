@@ -19,19 +19,76 @@
 
 \subsection{Generowanie drzewa}
 
+\begin{itemize}
+\item Obejrzyj zawartość plików \emph{golf.nam}, \emph{golf.dat} i~\emph{golf.tst}; ile przykładów zawiera zbiór uczący? Iloma atrybutami są~one opisane?
+\item Wygeneruj drzewo dla zbioru przykładów \emph{golf}; ustawienia standardowe.
+\item Przeanalizuj wyniki; czy udało się przeprowadzić pruning?
+\item Obejrzyj drzewo; ile ma węzłów decyzyjnych, a~ile liści?
+\item Prześledź ścieżkę od korzenia do wybranego liścia.
+\item Porównaj estymaty błędu dla drzewa oryginalnego (\emph{Unpruned}) i~uproszczonego (\emph{Pruned}).
+\item Obejrzyj macierz pomyłek.
+\end{itemize}
+
 \subsection{Konsultowanie}
+
+\begin{itemize}
+\item Dokonaj konsultacji wymyślonego przykładu dla wygenerowanego drzewa.
+\item Konsultowanie przykładu ,,niepełnego''; dokładnie przeanalizuj wynik.
+\item Konsultowanie, gdy znany jest rozkład prawdopodobieństwa.
+\end{itemize}
 
 \subsection{Różnica między \emph{gain ratio} a~\emph{info gain} w~praktyce}
 
+\begin{itemize}
+\item Obejrzyj zbiór \emph{testgain} (\emph{dat} i~\emph{nam}).
+\item Wygeneruj dla niego dwukrotnie drzewo z~użyciem opcji \emph{gain ratio} i~\emph{info gain}; skomentuj wyniki.
+\end{itemize}
+
 \subsection{Grupowanie wartości atrybutów}
+
+\begin{itemize}
+\item Wygeneruj drzewo dla zbioru \emph{testgain}, zaznaczając opcję \emph{Subsetting}.
+\item Analogicznie dla \emph{CRX}: opisać problem (przyznawanie kard kretytowych), obejrzeć zbiór (atrybuty \emph{A4}, \emph{A6} i~\emph{A7} mają wiele wartości); wygenerować drzewo bez i~z~grupowaniem.
+\item Obejrzeć macierz pomyłek dla zbioru uczącego i~testującego; czy w~tym zastosowaniu przydałaby się macierz kosztów pomyłek?
+\end{itemize}
 
 \subsection{Poszukiwanie optymalnej wielkości drzewa uproszczonego}
 
+\begin{itemize}
+\item Poszukiwanie optymalnej wielkości drzewa uproszczonego przez dobór poziomu ufności procedury upraszczającej (\emph{Pruning confidence level}); przeprowadź serię eksperymentów \emph{10-fold cross-validation} dla zbioru \emph{Monk2}, ze~zmieniającym się poziomem ufności od~0.05 do~0.5, z~krokiem co najwyżej 0.05. Sporządź wykres zależności:
+
+\begin{itemize}
+\item średniego (po \emph{cross-validation}) rozmiaru drzewa uproszczonego,
+\item średniej trafności klasyfikowania drzewa uproszczonego na~zbiorze testującym,
+\item średniej estymaty błędu dla drzewa uproszczonego
+\end{itemize}
+
+...w funkcji poziomu ufności (odnieś te wyniki do średniej charakterystyki drzewa oryginalnego, nieuproszczonego).
+
+\item Poszukiwanie optymalnej wielkości drzewa uproszczonego poprzez prepruning, tj.~manewrowanie minimalną licznością węzła (\emph{Minimum objects}). Dla zbioru \emph{CRX} przebadać przedział od~2 do~10.
+\item Analiza wygenerowanego drzewa: poszukiwanie słabych punktów (liści o~małym wsparciu, poddrzew które generują szczególnie dużo błędów, etc.).
+\end{itemize}
+
 \subsection{\emph{Windowing}}
+
+\begin{itemize}
+\item Wyjaśnić zasadę i~opcje: \emph{Trials}, \emph{Initial window size}, \emph{Window increment}.
+\item Analiza wyników (\emph{CRX}).
+\end{itemize}
 
 \subsection{Generowanie krzywej uczenia}
 
+\begin{itemize}
+\item Dla zbioru \emph{vote} przygotować kilka[naście] zbiorów uczących o~liczności $n$ zmieniającej się od~50 do~300, ze~skokiem np.~50 przypadków, poprzez wybieranie pierwszych $n$ ze~zbioru \emph{vote.dat}.
+\item Wykreślić jako funkcję $n$ rozmiar drzewa uproszczonego oraz trafność klasyfikowania drzewa uproszczonego na zbiorze testującym.
+
+\end{itemize}
+
 \subsection{Maksymalizacja trafności}
+
+\begin{itemize}
+\item Uzyskaj jak najwyższą trafność klasyfikowania ze~zbioru \emph{GERMAN} w~eksperymencie \emph{10-fold CV}. Jakimi parametrami i~mechanizmami można manipulować, by~szukać najwyższej trafności? Kiedy można ufać tak uzyskanej trafności, a~kiedy można mówić o~nadużyciu?
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%% Część II %%%%%%%%%%%%%%%%%
 
@@ -39,8 +96,10 @@
 
 \subsection{Metoda pośrednia generowania reguł (\emph{C4.5rules})}
 
-\subsubsection{Wygeneruj reguły dla zbioru \emph{GOLF} za~pomocą programu \emph{C4.5 for Windows}.}
-\subsubsection{Porównaj wygenerowane reguły z~wyjściowym drzewem decyzyjnym. Czy reguły odzwierciedlają precyzyjnie drzewo?}
+\begin{itemize}
+\item Wygeneruj reguły dla zbioru \emph{GOLF} za~pomocą programu \emph{C4.5 for Windows}.
+\item Porównaj wygenerowane reguły z~wyjściowym drzewem decyzyjnym. Czy reguły odzwierciedlają precyzyjnie drzewo?
+\end{itemize}
 
 \subsection{Porównanie klasyfikowania za pomocą drzew decyzyjnych i~reguł decyzyjnych (\emph{C4.5rules})}
 
