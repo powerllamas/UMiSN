@@ -136,7 +136,7 @@ outlook = rain:
 \begin{itemize}
 \item Wygeneruj reguły dla zbioru \emph{GOLF} za~pomocą programu \emph{C4.5 for Windows}.
 
-
+\begin{figure}
 \begin{verbatim}
 Rule 1: [70.7%]
     IF    outlook = overcast
@@ -161,9 +161,13 @@ Default class: Play
 
 Errors in training set: 0 (0.0%)
 \end{verbatim}
+\caption{Reguły decyzyjne dla zbioru \emph{golf} uzyskane algorytmem \emph{C4.5rules}}
+\label{p2t1-rules}
+\end{figure}
 
 \item Porównaj wygenerowane reguły z~wyjściowym drzewem decyzyjnym. Czy reguły odzwierciedlają precyzyjnie drzewo?
 
+\begin{figure}
 \begin{verbatim}
 Pruned decision tree:
 
@@ -175,6 +179,9 @@ outlook = rain:
 |   windy = true: Don't Play (2.0/1.0)
 |   windy = false: Play (3.0/1.1)
 \end{verbatim}
+\caption{Drzewo decyzyjne dla zbioru \emph{golf} uzyskane algorytmem \emph{C4.5}}
+\label{p2t1-tree}
+\end{figure}
 
 Powyższe drzewo nie może być odtworzone przy użyciu samych tylko uzyskanych reguł. Jest tak, ponieważ nie pokrywają one wszystkich możliwych ścieżek od~korzenia do liścia -- brakuje reguły dla \texttt{outlook = sunny AND humidity <= 75}. Ponieważ jednak w~wyniku zawarta jest również klasa domyślna, w~tym wypadku \texttt{Play}, możemy ją wykorzystać jako liść dla ścieżek w~drzewie odpowiadającym brakującym regułom. W~ten sposób, w~tym konkretnym przypadku, możliwe jest zrekonstruowanie drzewa. Stąd reguły odzwierciedlają drzewo w~sposób precyzyjny.
 \end{itemize}
@@ -184,8 +191,7 @@ Powyższe drzewo nie może być odtworzone przy użyciu samych tylko uzyskanych 
 \begin{itemize}
 \item Przeprowadź testy \emph{10-fold CV} na wybranych zbiorach dla drzew i~reguł.
 
-
-\emph{Cross-validation} dla zbioru \emph{golf}:\\\\
+\begin{figure}
 \begin{tabular}{|r||r|rr|rr||r|rr|rr|r|}
 \hline
 &\multicolumn{5}{1||}{Before pruning}&\multicolumn{6}{1|}{After pruning} \\
@@ -213,7 +219,11 @@ Estimate \\
  Avg. &  7.2 &  0.5 &  4.0\% &  0.5 &  35.0\% &  6.7 &  0.7 &  5.7\% &  0.5 &  35.0\% &  42.6\%  \\
 \hline
 \end{tabular}
+\caption{\emph{Cross-validation} dla drzew utworzonych ze zbioru \emph{golf}}
+\label{p2t2-golf-trees-cv}
+\end{figure}
 
+\begin{figure}
 \begin{tabular}{|r|r|rr|rr|}
 \hline
  Ruleset & 
@@ -235,9 +245,11 @@ Estimate \\
     Avg. &  2.9 &  0.7 &  5.7\%  &  0.6 &  40.0\% \\
 \hline
 \end{tabular}
+\caption{\emph{Cross-validation} dla reguł utworzonych ze zbioru \emph{golf}}
+\label{p2t2-golf-rules-cv}
+\end{figure}
 
-
-\emph{Cross-validation} dla zbioru \emph{vote}:\\\\
+\begin{figure}
 \begin{tabular}{|r||r|rr|rr||r|rr|rr|r|}
 \hline
 &\multicolumn{5}{1||}{Before pruning}&\multicolumn{6}{1|}{After pruning} \\
@@ -265,7 +277,11 @@ Estimate \\
  Avg. & 20.5 &  7.4 & 2.8\% &  2.4 & 8.0\%  &  6.4 & 11.9 & 4.4\% &  1.5 &  5.0\%  &   7.1\%  \\
 \hline
 \end{tabular}
+\caption{\emph{Cross-validation} dla drzew utworzonych ze zbioru \emph{vote}}
+\label{p2t2-vote-trees-cv}
+\end{figure}
 
+\begin{figure}
 \begin{tabular}{|r|r|rr|rr|}
 \hline
  Ruleset & 
@@ -287,6 +303,9 @@ Estimate \\
     Avg. &  4.2 & 10.1 & 3.7\% &  1.7 &  5.7\% \\
 \hline
 \end{tabular}
+\caption{\emph{Cross-validation} dla reguł utworzonych ze zbioru \emph{vote}}
+\label{p2t2-vote-rules-cv}
+\end{figure}
 
 \item Porównaj wyniki pod kątem trafności klasyfikowania na zbiorze testującym oraz rozmiaru opisu.
 \item Przeprowadzając kilka eksperymentów uczenia i~testowania przeanalizuj wpływ parametrów \emph{Confidence Level} i~\emph{Redundancy Factor} na~otrzymywany zbiór reguł.
