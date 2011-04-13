@@ -1,0 +1,113 @@
+%%%%%%%%%%%%%%%%%% Część I %%%%%%%%%%%%%%%%%
+
+\section{Generowanie drzew decyzyjnych}
+
+\subsection{Generowanie drzewa}
+
+\begin{itemize}
+\item \textbf{Obejrzyj zawartość plików \emph{golf.nam}, \emph{golf.dat} i~\emph{golf.tst}; ile przykładów zawiera zbiór uczący? Iloma atrybutami są~one opisane?}
+	\\Zbiór uczący zawiera 14 przykładów. Są one opisane pięcioma atrybutami, w tym jednym atrybutem decyzyjnym.
+
+\item \textbf{Wygeneruj drzewo dla zbioru przykładów \emph{golf}; ustawienia standardowe.}
+	 Unpruned decision tree:
+
+\begin{verbatim}
+outlook = overcast: Play (4.0)
+outlook = sunny:
+|   humidity <= 75 : Play (2.0)
+|   humidity > 75 : Don't Play (3.0)
+outlook = rain:
+|   windy = true: Don't Play (2.0)
+|   windy = false: Play (3.0)
+
+Pruned decision tree:
+
+outlook = overcast: Play (4.0/1.2)
+outlook = sunny:
+|   humidity <= 75 : Play (2.0/1.0)
+|   humidity > 75 : Don't Play (3.0/1.1)
+outlook = rain:
+|   windy = true: Don't Play (2.0/1.0)
+|   windy = false: Play (3.0/1.1)
+\end{verbatim}
+
+
+
+\item \textbf{Przeanalizuj wyniki; czy udało się przeprowadzić pruning?}
+	\\Nie udało się przeprowadzić pruningu. Drzewa są identyczne.
+
+\item \textbf{Obejrzyj drzewo; ile ma węzłów decyzyjnych, a~ile liści?}
+	\\Wygenerowane drzewo ma 3 węzły decyzyjne i 5 liści.
+
+\item \textbf{ Prześledź ścieżkę od korzenia do wybranego liścia.
+}		\\W korzeniu znajduje się test związany z atrybutem outlook. Jeśli dla klasyfikowanego przykładu wartość atrybutu outlook wynosi "sunny", to następny węzeł na ścieżce to ten związany z atrybutem humidity. Zakłądając, że dla naszego przykładu wilgotność jest większ niż $ 75\% $ , liściem w analizowanej ścieżce będzie liść odnoszący się decyzji "Don't Play".
+		\\Inaczej mówiąc, ścieżk ta klasyfikuje wszystkie dni w które jest słoneczna pogoda i wilgotność większa niż $ 75\% $ jako dni, w które nie gra się w golfa.
+		
+\item \textbf{Porównaj estymaty błędu dla drzewa oryginalnego (\emph{Unpruned}) i~uproszczonego (\emph{Pruned}).}
+	\\Estymata błędu dla oryginalnego drzewa wynosi  $ 0\% $ a dla uproszczonego $ 38,5\% $ .
+
+\item \textbf{Obejrzyj macierz pomyłek.}
+	\\Ponieważ drzewo oryginalne nie generuje błędów dla zbioru uczącego to też jedyne co możemy z niego odczytać, to właśnie, że żadne obiekty nie są błędnie klasyfikowane, oraz że w przypadku 9 przykładów drzewo poprawnie zaklasyfikowało przykłądy do klasy "Play" a w 5 przypadkach do klasy "Don't Play".
+
+\end{itemize}
+
+\subsection{Konsultowanie}
+
+\begin{itemize}
+\item Dokonaj konsultacji wymyślonego przykładu dla wygenerowanego drzewa.
+\item Konsultowanie przykładu ,,niepełnego''; dokładnie przeanalizuj wynik.
+\item Konsultowanie, gdy znany jest rozkład prawdopodobieństwa.
+\end{itemize}
+
+\subsection{Różnica między \emph{gain ratio} a~\emph{info gain} w~praktyce}
+
+\begin{itemize}
+\item Obejrzyj zbiór \emph{testgain} (\emph{dat} i~\emph{nam}).
+\item Wygeneruj dla niego dwukrotnie drzewo z~użyciem opcji \emph{gain ratio} i~\emph{info gain}; skomentuj wyniki.
+\end{itemize}
+
+\subsection{Grupowanie wartości atrybutów}
+
+\begin{itemize}
+\item Wygeneruj drzewo dla zbioru \emph{testgain}, zaznaczając opcję \emph{Subsetting}.
+\item Analogicznie dla \emph{CRX}: opisać problem (przyznawanie kard kretytowych), obejrzeć zbiór (atrybuty \emph{A4}, \emph{A6} i~\emph{A7} mają wiele wartości); wygenerować drzewo bez i~z~grupowaniem.
+\item Obejrzeć macierz pomyłek dla zbioru uczącego i~testującego; czy w~tym zastosowaniu przydałaby się macierz kosztów pomyłek?
+\end{itemize}
+
+\subsection{Poszukiwanie optymalnej wielkości drzewa uproszczonego}
+
+\begin{itemize}
+\item Poszukiwanie optymalnej wielkości drzewa uproszczonego przez dobór poziomu ufności procedury upraszczającej (\emph{Pruning confidence level}); przeprowadź serię eksperymentów \emph{10-fold cross-validation} dla zbioru \emph{Monk2}, ze~zmieniającym się poziomem ufności od~0.05 do~0.5, z~krokiem co najwyżej 0.05. Sporządź wykres zależności:
+
+\begin{itemize}
+\item średniego (po \emph{cross-validation}) rozmiaru drzewa uproszczonego,
+\item średniej trafności klasyfikowania drzewa uproszczonego na~zbiorze testującym,
+\item średniej estymaty błędu dla drzewa uproszczonego
+\end{itemize}
+
+...w funkcji poziomu ufności (odnieś te wyniki do średniej charakterystyki drzewa oryginalnego, nieuproszczonego).
+
+\item Poszukiwanie optymalnej wielkości drzewa uproszczonego poprzez prepruning, tj.~manewrowanie minimalną licznością węzła (\emph{Minimum objects}). Dla zbioru \emph{CRX} przebadać przedział od~2 do~10.
+\item Analiza wygenerowanego drzewa: poszukiwanie słabych punktów (liści o~małym wsparciu, poddrzew które generują szczególnie dużo błędów, etc.).
+\end{itemize}
+
+\subsection{\emph{Windowing}}
+
+\begin{itemize}
+\item Wyjaśnić zasadę i~opcje: \emph{Trials}, \emph{Initial window size}, \emph{Window increment}.
+\item Analiza wyników (\emph{CRX}).
+\end{itemize}
+
+\subsection{Generowanie krzywej uczenia}
+
+\begin{itemize}
+\item Dla zbioru \emph{vote} przygotować kilka[naście] zbiorów uczących o~liczności $n$ zmieniającej się od~50 do~300, ze~skokiem np.~50 przypadków, poprzez wybieranie pierwszych $n$ ze~zbioru \emph{vote.dat}.
+\item Wykreślić jako funkcję $n$ rozmiar drzewa uproszczonego oraz trafność klasyfikowania drzewa uproszczonego na zbiorze testującym.
+
+\end{itemize}
+
+\subsection{Maksymalizacja trafności}
+
+\begin{itemize}
+\item Uzyskaj jak najwyższą trafność klasyfikowania ze~zbioru \emph{GERMAN} w~eksperymencie \emph{10-fold CV}. Jakimi parametrami i~mechanizmami można manipulować, by~szukać najwyższej trafności? Kiedy można ufać tak uzyskanej trafności, a~kiedy można mówić o~nadużyciu?
+\end{itemize}

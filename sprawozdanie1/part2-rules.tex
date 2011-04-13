@@ -1,0 +1,37 @@
+%%%%%%%%%%%%%%%%%% Część II %%%%%%%%%%%%%%%%%
+
+\section{Generowanie reguł decyzyjnych}
+
+\subsection{Metoda pośrednia generowania reguł (\emph{C4.5rules})}
+\input{part2-task1-figures}
+\begin{itemize}
+\item Wygeneruj reguły dla zbioru \emph{GOLF} za~pomocą programu \emph{C4.5 for Windows}.
+\item Porównaj wygenerowane reguły z~wyjściowym drzewem decyzyjnym. Czy reguły odzwierciedlają precyzyjnie drzewo?
+
+\\Powyższe drzewo nie może być odtworzone przy użyciu samych tylko uzyskanych reguł. Jest tak, ponieważ nie pokrywają one wszystkich możliwych ścieżek od~korzenia do liścia -- brakuje reguły dla \texttt{outlook = sunny AND humidity <= 75}. Ponieważ jednak w~wyniku zawarta jest również klasa domyślna, w~tym wypadku \texttt{Play}, możemy ją wykorzystać jako liść dla ścieżek w~drzewie odpowiadającym brakującym regułom. W~ten sposób, w~tym konkretnym przypadku, możliwe jest zrekonstruowanie drzewa. Stąd reguły odzwierciedlają drzewo w~sposób precyzyjny.
+\end{itemize}
+
+\subsection{Porównanie klasyfikowania za pomocą drzew decyzyjnych i~reguł decyzyjnych (\emph{C4.5rules})}
+\input{part2-task2-figures}
+\begin{itemize}
+\item Przeprowadź testy \emph{10-fold CV} na wybranych zbiorach dla drzew i~reguł.
+\item Porównaj wyniki pod kątem trafności klasyfikowania na zbiorze testującym oraz rozmiaru opisu.
+\item Przeprowadzając kilka eksperymentów uczenia i~testowania przeanalizuj wpływ parametrów \emph{Confidence Level} i~\emph{Redundancy Factor} na~otrzymywany zbiór reguł.
+\end{itemize}
+
+\subsection{Generowanie reguł z~użyciem algorytmu \emph{LEM}}
+
+\begin{itemize}
+\item Wygeneruj reguły dla zbioru \emph{HPAP.ISF}.
+\item Przyjrzyj się regułom możliwym; opisz je i~,,wydedukuj'', skąd się wzięły.
+\end{itemize}
+
+\subsection{Porównanie reguł generowanych za~pomocą algorytmu \emph{LEM} i~\emph{C4.5}}
+
+\begin{itemize}
+\item Wygeneruj reguły przy użyciu obu podejść dla zbiorów: \emph{HPAP}, \emph{VOTE} i~\emph{MONK}.
+\item Przyjrzyj się niezależnie regułom pewnym i~możliwym (\emph{LEM}).
+\end{itemize}
+
+%Dla chętnych:
+%\subsection{Przeprowadź eksperyment generowania i~testowania reguł LEM w~ramach cross validation}
