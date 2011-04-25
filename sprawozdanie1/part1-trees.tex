@@ -9,9 +9,9 @@
 	\\Zbiór uczący zawiera 14 przykładów. Są one opisane pięcioma atrybutami, w tym jednym atrybutem decyzyjnym.
 
 \item \textbf{Wygeneruj drzewo dla zbioru przykładów \emph{golf}; ustawienia standardowe.}
-	 Unpruned decision tree:
 
-\begin{verbatim}
+Drzewo przed pruningiem:	 
+	\begin{verbatim}
 outlook = overcast: Play (4.0)
 outlook = sunny:
 |   humidity <= 75 : Play (2.0)
@@ -19,9 +19,10 @@ outlook = sunny:
 outlook = rain:
 |   windy = true: Don't Play (2.0)
 |   windy = false: Play (3.0)
-
-Pruned decision tree:
-
+	\end{verbatim}
+	
+Drzewo po pruningu:
+	\begin{verbatim}
 outlook = overcast: Play (4.0/1.2)
 outlook = sunny:
 |   humidity <= 75 : Play (2.0/1.0)
@@ -29,7 +30,9 @@ outlook = sunny:
 outlook = rain:
 |   windy = true: Don't Play (2.0/1.0)
 |   windy = false: Play (3.0/1.1)
-\end{verbatim}
+	\end{verbatim}
+
+
 
 
 
@@ -70,14 +73,51 @@ outlook = rain:
 \begin{itemize}
 \item Obejrzyj zbiór \emph{testgain} (\emph{dat} i~\emph{nam}).
 \item Wygeneruj dla niego dwukrotnie drzewo z~użyciem opcji \emph{gain ratio} i~\emph{info gain}; skomentuj wyniki.
+	\\
+
+	Drzewo wygenerowane z użyciem opcji InfoGain:		
+		\begin{verbatim}
+			a1 = 1: A (2.0)
+			a1 = 2: A (2.0)
+			a1 = 3: B (2.0)
+			a1 = 4: B (2.0)	
+		\end{verbatim}
+
+
+	Drzewo wygenerowane z użyciem opcji GainRatio:
+		\begin{verbatim}
+			a2 = 1: A (4.0)
+			a2 = 2: B (4.0)
+		\end{verbatim}
+
+	Oba atrybuty są typu wyliczeniowego (pzyjmują wartości z określonego w definicji problemu zbioru). Zbiór wartości atrybutu a1 ma wielkość 4 a atrybutu a2 wielkość 2. Współczynnik InfoGain dla obu atrybutów wynosi 1, nie preferuje więc atrybutu a2, którego dziedzina ma mniej  wartości niż dziedzina atrybutu a1. Inaczej jest w przypadku współczynnika GainRatio:  preferuje on atrybuty o mniejszych dziedzinach. Współczynnik ten wynosi $ 1/2  $ dla atrybutu a1 i $ 1 $ dla atrybytu a2, co za tym idzie w drzewie zbudowanym przy jego pomocy brany jest pod uwagę atrybut a2. Jak widać wpływa to pozytywnie na rozmiar drzewa a co za tym idzie jego prostotę i łatwość interpretacji.
+
+	
 \end{itemize}
 
 \subsection{Grupowanie wartości atrybutów}
 
 \begin{itemize}
 \item Wygeneruj drzewo dla zbioru \emph{testgain}, zaznaczając opcję \emph{Subsetting}.
+	\begin{verbatim}
+	a1 in {1,2}: A (4.0)
+	a1 in {3,4}: B (4.0)
+	\end{verbatim}
+Jak widać grupowanie wpłynęło pozytywnie na wielkość generowanego drzewa.
+
 \item Analogicznie dla \emph{CRX}: opisać problem (przyznawanie kard kretytowych), obejrzeć zbiór (atrybuty \emph{A4}, \emph{A6} i~\emph{A7} mają wiele wartości); wygenerować drzewo bez i~z~grupowaniem.
+\\Ponieważ dane dotyczące tego problemu zawierały poufne dane etykiety atrybutów zostały zmienione na nie nieznaczące symbole.
+\\W problemie tym występują dwie klasy decyzyjne: "+" i "-". W zbiorze uczącym mogą mieć one interpretację klientów, którzy odpowiednio: spłacali lub niespłacali zaciągniętych kredytów w terminie spłaty. Przy klasyfikacji mogą mieć one interpretację: pozytywne lub negatywne rozpatrzenie wniosku o przyznanie karty kredytowej.
+Każdy klient opisany jest za pomocą 15 atrybutóW, w tym 6 atrybutów przyjmujących wartości ciągłe i 9 atrybutów przyjmujących wartości ze znanych 2 do 14 elementowych zbiorów.
+
+
+
 \item Obejrzeć macierz pomyłek dla zbioru uczącego i~testującego; czy w~tym zastosowaniu przydałaby się macierz kosztów pomyłek?
+\\Dla drzewa bez grupowania procent błędnych klasyfikacji w zbiorze trenującym wynosi $ 6,5\% $, w zbiorze testowym $20,5\%$.
+\\Dla drzewa z grupowaniem wartości te wynoszą odpowiednio $6,7\%$ i $17,5\%$. Na podstawie tych wartości można się domyślać, że występuje zjawisko przeuczenia: dla większego drzewa 
+(bez grupowania) różnica w trafność klasyfikacji przykładów ze zbioru uczącego i testowego jest większa niż dla mniejszego drzewa.
+\\To czy warto wprowadzić macierz kosztów pomyłek zależy od analiz ekonomicznych banku - może okazać się, że mniejszą stratę przynosi wydanie karty "złemu" klientowi niż niewydanie karty "dobremu" klientowi - np. klient niespłącający w terminie może być wbrew pozorom zjawiskiem korzystnym, ponieważ jeśli w końcu zapłaci karne odsetki to mogą one stanowić dla banku dodatkowy zysk, większy niż koszty obsługi kredytu. Zgodnie z wiedzą banku macierz kosztów pomyłek powinna być skonstruowana tak, żeby minimalizować błędy pierwszego (false positive) lub drugiego (false negative) rodzaju, w zależności od tego które z nich są dla banku bardziej kosztowne.
+
 \end{itemize}
 
 \subsection{Poszukiwanie optymalnej wielkości drzewa uproszczonego}
