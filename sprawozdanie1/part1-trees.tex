@@ -126,18 +126,35 @@ Każdy klient opisany jest za pomocą 15 atrybutóW, w tym 6 atrybutów przyjmuj
 \item Poszukiwanie optymalnej wielkości drzewa uproszczonego przez dobór poziomu ufności procedury upraszczającej (\emph{Pruning confidence level}); przeprowadź serię eksperymentów \emph{10-fold cross-validation} dla zbioru \emph{Monk2}, ze~zmieniającym się poziomem ufności od~0.05 do~0.5, z~krokiem co najwyżej 0.05. Sporządź wykres zależności:
 
 \begin{itemize}
-\item średniego (po \emph{cross-validation}) rozmiaru drzewa uproszczonego,
-\\ \includegraphics[scale=0.7]{figures/part1/task5/rozmiar.pdf} 
-\item średniej trafności klasyfikowania drzewa uproszczonego na~zbiorze testującym,
-\\ \includegraphics[scale=0.7]{figures/part1/task5/trafnosc.pdf}
-\item średniej estymaty błędu dla drzewa uproszczonego
-\\ \includegraphics[scale=0.7]{figures/part1/task5/estymata.pdf}
+	\item średniego (po \emph{cross-validation}) rozmiaru drzewa uproszczonego,  
+	\item średniej trafności klasyfikowania drzewa uproszczonego na~zbiorze testującym,
+	\item średniej estymaty błędu dla drzewa uproszczonego...
+	\\w funkcji poziomu ufności (odnieś te wyniki do średniej charakterystyki drzewa oryginalnego, nieuproszczonego).
 \end{itemize}
 
-...w funkcji poziomu ufności (odnieś te wyniki do średniej charakterystyki drzewa oryginalnego, nieuproszczonego).
+Zgodnie z dokumentacją programu c4.5, im mniejsza wartość parametru "Pruning confidence level" tym mniejszy rozmiar drzewa po pruningu. Widać to n wykresie \ref{p1t5-rozmiar}. Dla porównania, średnia wielkość drzewa przed pruningiem wynosiła $ 63.3 $.
 
+Wraz ze zmniejszaniem wielkości drzewa róśnie estymata błędu klasyfikacji. Jest to zrozumiałe, ponieważ estymata jest obliczana na podstawie zbioru uczącego, a oryginalne drzewo jest do niego najlepiej dopasowane. Inaczej jest w przypadku zbioru testowego: trafność klasyfikacji przykładów z tego zbioru jext najwyższa dla Pruning confidence level = 0.2. Dla mniejszych drzew trafność maleje ponieważ są one zbyt uproszczone, dla większych, ponieważ są one przeuczone (dopasowane za bardzo do zbioru uczącego). Trafność dla drzewa nieprzyciętego jest dla wszystkich badanych rozmiarów drzewa mniejsza niż dla drzewa przyciętego - uwidacznia to przeuczenie drzewa.
 
+Analizując otrzymane wyniki można stwierdzić, że optymalna wielkość drzewa uproszczonego to ta, którą osiąga ono dla Pruning confidence level = 0.2, czyli 17.5. Dla tej wartości trafność klasyfikacji na zbiorze testowym jest największa, jednocześnie jest to małe drzewo, niemal czterokrotnie mniejsze od drzewa oryginalnego.
 
+\begin{figure}	
+	\includegraphics[scale=0.7]{figures/part1/task5/rozmiar.pdf}
+	\label{p1t5-rozmiar}
+	\caption{Wykres zależności średniego (po \emph{cross-validation}) rozmiaru drzewa uproszczonego w funkcji poziomu ufności. Rozmiar drzewa nieprzyciętego pokazano dla porównania, jest on niezależny od parametru "Pruning confidence level"}
+\end{figure}
+
+\begin{figure}	
+	\includegraphics[scale=0.7]{figures/part1/task5/trafnosc.pdf}
+	\label{p1t5-trafnosc}
+	\caption{Wykres zależności średniej (po \emph{cross-validation}) trafności klasyfikacji dla drzewa uproszczonego na zbiorze tesującym w funkcji poziomu ufności. Trafność dla drzewa nieprzyciętego pokazano dla porównania, jest ona niezależna od parametru "Pruning confidence level" }
+\end{figure}
+
+\begin{figure}	
+	\includegraphics[scale=0.7]{figures/part1/task5/estymata.pdf}
+	\label{p1t5-estymata}
+	\caption{Wykres zależności średniej (po \emph{cross-validation}) estymaty błędu dla drzewa uproszczonego w funkcji poziomu ufności}
+\end{figure}
 
 \item Poszukiwanie optymalnej wielkości drzewa uproszczonego poprzez prepruning, tj.~manewrowanie minimalną licznością węzła (\emph{Minimum objects}). Dla zbioru \emph{CRX} przebadać przedział od~2 do~10.
 \item Analiza wygenerowanego drzewa: poszukiwanie słabych punktów (liści o~małym wsparciu, poddrzew które generują szczególnie dużo błędów, etc.).
