@@ -132,31 +132,51 @@ Każdy klient opisany jest za pomocą 15 atrybutóW, w tym 6 atrybutów przyjmuj
 	\\w funkcji poziomu ufności (odnieś te wyniki do średniej charakterystyki drzewa oryginalnego, nieuproszczonego).
 \end{itemize}
 
-Zgodnie z dokumentacją programu c4.5, im mniejsza wartość parametru "Pruning confidence level" tym mniejszy rozmiar drzewa po pruningu. Widać to n wykresie \ref{p1t5-rozmiar}. Dla porównania, średnia wielkość drzewa przed pruningiem wynosiła $ 63.3 $.
+Zgodnie z dokumentacją programu c4.5, im mniejsza wartość parametru "Pruning confidence level" tym mniejszy rozmiar drzewa po pruningu. Widać to n wykresie \ref{p1t5a-rozmiar}. Dla porównania, średnia wielkość drzewa przed pruningiem wynosiła $ 63.3 $.
 
 Wraz ze zmniejszaniem wielkości drzewa róśnie estymata błędu klasyfikacji. Jest to zrozumiałe, ponieważ estymata jest obliczana na podstawie zbioru uczącego, a oryginalne drzewo jest do niego najlepiej dopasowane. Inaczej jest w przypadku zbioru testowego: trafność klasyfikacji przykładów z tego zbioru jext najwyższa dla Pruning confidence level = 0.2. Dla mniejszych drzew trafność maleje ponieważ są one zbyt uproszczone, dla większych, ponieważ są one przeuczone (dopasowane za bardzo do zbioru uczącego). Trafność dla drzewa nieprzyciętego jest dla wszystkich badanych rozmiarów drzewa mniejsza niż dla drzewa przyciętego - uwidacznia to przeuczenie drzewa.
 
 Analizując otrzymane wyniki można stwierdzić, że optymalna wielkość drzewa uproszczonego to ta, którą osiąga ono dla Pruning confidence level = 0.2, czyli 17.5. Dla tej wartości trafność klasyfikacji na zbiorze testowym jest największa, jednocześnie jest to małe drzewo, niemal czterokrotnie mniejsze od drzewa oryginalnego.
 
 \begin{figure}	
-	\includegraphics[scale=0.7]{figures/part1/task5/rozmiar.pdf}
-	\label{p1t5-rozmiar}
+	\includegraphics[scale=0.7]{figures/part1/task5a/rozmiar.pdf}
 	\caption{Wykres zależności średniego (po \emph{cross-validation}) rozmiaru drzewa uproszczonego w funkcji poziomu ufności. Rozmiar drzewa nieprzyciętego pokazano dla porównania, jest on niezależny od parametru "Pruning confidence level"}
+	\label{p1t5a-rozmiar}
 \end{figure}
 
 \begin{figure}	
-	\includegraphics[scale=0.7]{figures/part1/task5/trafnosc.pdf}
-	\label{p1t5-trafnosc}
+	\includegraphics[scale=0.7]{figures/part1/task5a/trafnosc.pdf}
 	\caption{Wykres zależności średniej (po \emph{cross-validation}) trafności klasyfikacji dla drzewa uproszczonego na zbiorze tesującym w funkcji poziomu ufności. Trafność dla drzewa nieprzyciętego pokazano dla porównania, jest ona niezależna od parametru "Pruning confidence level" }
+	\label{p1t5a-trafnosc}
 \end{figure}
 
 \begin{figure}	
-	\includegraphics[scale=0.7]{figures/part1/task5/estymata.pdf}
-	\label{p1t5-estymata}
+	\includegraphics[scale=0.7]{figures/part1/task5a/estymata.pdf}
 	\caption{Wykres zależności średniej (po \emph{cross-validation}) estymaty błędu dla drzewa uproszczonego w funkcji poziomu ufności}
+	\label{p1t5a-estymata}
 \end{figure}
+
+
 
 \item Poszukiwanie optymalnej wielkości drzewa uproszczonego poprzez prepruning, tj.~manewrowanie minimalną licznością węzła (\emph{Minimum objects}). Dla zbioru \emph{CRX} przebadać przedział od~2 do~10.
+
+Jak widać na rysunku \ref{p1t5b-rozmiar} rozmiar drzewa maleje wraz ze wzrostem minimalnej wielkości węzła, przy czym powyżej wielkości węzła 6 dynamika spadku wielkości drzewa znacząco maleje. Jednocześnie z wykresu \ref{p1t5b-trafnosc} wynika, że dla minimalnej wielkości węzłą 7 drzewo osiąda najyższą trafność klasyfikacji. W związku z tym optymalną wielkością drzewa uproszczonego przez preprouning jest wielkość 38, która jest osiągana dla minimalnej liczności węzła równej 7.
+
+\begin{figure}	
+	\includegraphics[scale=0.7]{figures/part1/task5b/rozmiar.pdf}
+	\caption{Wykres zależności średniego (po \emph{cross-validation}) rozmiaru drzewa w funkcji minimalnej liczności węzła."}
+	\label{p1t5b-rozmiar}
+\end{figure}
+
+\begin{figure}	
+	\includegraphics[scale=0.7]{figures/part1/task5b/trafnosc.pdf}
+	\caption{Wykres zależności średniej (po \emph{cross-validation}) trafności klasyfikacji na zbiorze tesującym w funkcji minimalnej liczności węzła.}
+	\label{p1t5b-trafnosc}
+\end{figure}
+
+
+
+
 \item Analiza wygenerowanego drzewa: poszukiwanie słabych punktów (liści o~małym wsparciu, poddrzew które generują szczególnie dużo błędów, etc.).
 
 
