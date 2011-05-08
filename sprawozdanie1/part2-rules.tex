@@ -6,6 +6,7 @@
 \begin{itemize}
 \item \textbf{Wygeneruj reguły dla zbioru \emph{GOLF} za~pomocą programu \emph{C4.5 for Windows}.}
 
+
 \input{figures/part2/task1/rules}
 	\\Wyniki pokazane są na Rys.~\ref{p2t1-rules}.
 
@@ -14,6 +15,7 @@
 \input{figures/part2/task1/trees}
 
 	\\Wyjściowe drzewo zostało przedstawione na Rys.~\ref{p2t1-tree}. Drzewo to nie może być odtworzone przy użyciu samych tylko uzyskanych reguł (Rys.~\ref{p2t1-rules}). Jest tak, ponieważ nie pokrywają one wszystkich możliwych ścieżek od~korzenia do liścia -- brakuje reguły dla \texttt{outlook = sunny AND humidity <= 75}. Ponieważ jednak w~wyniku zawarta jest również klasa domyślna, w~tym wypadku \texttt{Play}, możemy ją wykorzystać jako liść dla ścieżek w~drzewie odpowiadającym brakującym regułom. W~ten sposób, w~tym konkretnym przypadku, możliwe jest zrekonstruowanie drzewa. Stąd reguły odzwierciedlają drzewo w~sposób precyzyjny.
+
 \end{itemize}
 
 \subsection{Porównanie klasyfikowania za pomocą drzew decyzyjnych i~reguł decyzyjnych (\emph{C4.5rules})}
@@ -24,6 +26,7 @@
 \input{figures/part2/task2/golf-rules-cv}
 \input{figures/part2/task2/vote-trees-cv}
 \input{figures/part2/task2/vote-rules-cv}
+
 	\\Wyniki uzyskane z~programu \emph{C4.5 for windows} zostały przedstawione następująco: dla zbioru \emph{golf} w~Tab.~\ref{p2t2-golf-trees-cv} oraz Tab.~\ref{p2t2-golf-rules-cv}, dla zbioru \emph{vote} w~Tab.~\ref{p2t2-vote-trees-cv} oraz Tab.~\ref{p2t2-vote-rules-cv}.
 
 \item \textbf{Porównaj wyniki pod kątem trafności klasyfikowania na zbiorze testującym oraz rozmiaru opisu.}
