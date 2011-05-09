@@ -29,13 +29,13 @@
 \item \textbf{Porównaj wyniki pod kątem trafności klasyfikowania na zbiorze testującym oraz rozmiaru opisu.}
 	
 	\input{figures/part2/task2/compare-errors}
-	\\Na rysunku \ref{p2t2-compare-errors} przedstawiono zależność między trafnością klasyfikowania a~typem reprezentacji (drzewa, reguły). Dla wszystkich zbiorów danych z~wyjątkiem \emph{golf} reprezentacja regułowa daje lepszą klasyfikację niż drzewa. (Drobne różnice między drzewem po pruningu a~regułami dla zbioru \emph{vote} pomijamy.)
+	\\Na Rys.~\ref{p2t2-compare-errors} przedstawiono zależność między trafnością klasyfikowania a~typem reprezentacji (drzewa, reguły). Dla wszystkich zbiorów danych z~wyjątkiem \emph{golf} reprezentacja regułowa daje lepszą klasyfikację niż drzewa. (Drobne różnice między drzewem po pruningu a~regułami dla zbioru \emph{vote} pomijamy.)
 	\\Odmienną zależność dla zbioru \emph{golf} możemy tłumaczyć małą liczbą przypadków uczących w~tym zbiorze -- zaledwie 14~przykładów -- przez co zbiory testowe zawierają 1-2~przypadków testowych. W~tej sytuacji pojedynczy błąd ma istotny wpływ na końcową jakość klasyfikacji.
 	
 	\input{figures/part2/task2/compare-sizes}
-	\\todo
+	\\Na Rys.~\ref{p2t2-compare-sizes} dokonano porównania rozmiarów różnych reprezentacji wiedzy dla kilku wybranych zbiorów danych. Jako jednostkę przyjęto w~przypadku drzew pojedynczy liść, zaś w~przypadku reguł pojedynczą regułę. Widać znaczną redukcję rozmiaru przy przejściu od drzew bez pruningu przez drzewa z~pruningiem do reguł.
 	
-\item Przeprowadzając kilka eksperymentów uczenia i~testowania przeanalizuj wpływ parametrów \emph{Confidence Level} i~\emph{Redundancy Factor} na~otrzymywany zbiór reguł.
+\item \textbf{Przeprowadzając kilka eksperymentów uczenia i~testowania przeanalizuj wpływ parametrów \emph{Confidence Level} i~\emph{Redundancy Factor} na~otrzymywany zbiór reguł.}
 \end{itemize}
 
 \subsection{Generowanie reguł z~użyciem algorytmu \emph{LEM}}
