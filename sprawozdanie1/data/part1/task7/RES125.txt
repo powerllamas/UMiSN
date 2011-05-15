@@ -1,0 +1,51 @@
+Unpruned decision tree:
+
+physician fee freeze = n: democrat (73.0/1.0)
+physician fee freeze = u: republican (3.0/1.0)
+physician fee freeze = y:
+|   synfuels corporation cutback = n: republican (40.0)
+|   synfuels corporation cutback = u: republican (1.0)
+|   synfuels corporation cutback = y:
+|   |   export administration act south africa = n: republican (5.0/2.0)
+|   |   export administration act south africa = y: republican (2.0)
+|   |   export administration act south africa = u: democrat (1.0)
+
+
+
+Pruned decision tree:
+
+physician fee freeze = n: democrat (73.0/2.6)
+physician fee freeze = y: republican (49.0/5.0)
+physician fee freeze = u: republican (3.0/2.1)
+
+
+
+Confusion matrix (training set):
+
+
+	  (a)  (b)	<-classified as
+	 ---- ----
+	   72    4	(a): class democrat
+	    1   48	(b): class republican
+
+
+
+Confusion matrix (test set):
+
+
+	  (a)  (b)	<-classified as
+	 ---- ----
+	   78    5	(a): class democrat
+	    1   51	(b): class republican
+
+
+
+Results:
+
+|---------------------------------------------------------------------------------------|
+| Before pruning                       | After pruning                                  |
+|---------------------------------------------------------------------------------------|
+| Size | Errors        | Errors (test) | Size | Errors        | Errors (test) | Estimate|
+|=======================================================================================|
+|   10 |    4 (  3.2%) |    6 (  4.4%) |    4 |    5 (  4.0%) |    6 (  4.4%) |   7.7%  |
+|---------------------------------------------------------------------------------------|

@@ -1,0 +1,57 @@
+Unpruned decision tree:
+
+physician fee freeze = n: democrat (87.0/1.0)
+physician fee freeze = y:
+|   synfuels corporation cutback = n: republican (48.0)
+|   synfuels corporation cutback = u: republican (2.0)
+|   synfuels corporation cutback = y:
+|   |   adoption of the budget resolution = n: republican (6.0/1.0)
+|   |   adoption of the budget resolution = y: democrat (3.0/1.0)
+|   |   adoption of the budget resolution = u: republican (0.0)
+physician fee freeze = u:
+|   water project cost sharing = n: democrat (0.0)
+|   water project cost sharing = y: democrat (2.0)
+|   water project cost sharing = u: republican (2.0)
+
+
+
+Pruned decision tree:
+
+physician fee freeze = n: democrat (87.0/2.6)
+physician fee freeze = y: republican (59.0/5.0)
+physician fee freeze = u:
+|   water project cost sharing = n: democrat (0.0)
+|   water project cost sharing = y: democrat (2.0/1.0)
+|   water project cost sharing = u: republican (2.0/1.0)
+
+
+
+Confusion matrix (training set):
+
+
+	  (a)  (b)	<-classified as
+	 ---- ----
+	   88    3	(a): class democrat
+	    1   58	(b): class republican
+
+
+
+Confusion matrix (test set):
+
+
+	  (a)  (b)	<-classified as
+	 ---- ----
+	   79    4	(a): class democrat
+	    1   51	(b): class republican
+
+
+
+Results:
+
+|---------------------------------------------------------------------------------------|
+| Before pruning                       | After pruning                                  |
+|---------------------------------------------------------------------------------------|
+| Size | Errors        | Errors (test) | Size | Errors        | Errors (test) | Estimate|
+|=======================================================================================|
+|   13 |    3 (  2.0%) |    3 (  2.2%) |    7 |    4 (  2.7%) |    5 (  3.7%) |   6.4%  |
+|---------------------------------------------------------------------------------------|

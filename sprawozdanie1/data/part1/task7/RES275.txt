@@ -1,0 +1,72 @@
+Unpruned decision tree:
+
+physician fee freeze = n: democrat (154.0/1.0)
+physician fee freeze = y:
+|   synfuels corporation cutback = u: republican (4.0)
+|   synfuels corporation cutback = n:
+|   |   duty free exports = n: republican (75.0/1.0)
+|   |   duty free exports = u: republican (5.0)
+|   |   duty free exports = y:
+|   |   |   anti satellite test ban = n: democrat (3.0/1.0)
+|   |   |   anti satellite test ban = y: republican (5.0)
+|   |   |   anti satellite test ban = u: republican (0.0)
+|   synfuels corporation cutback = y:
+|   |   education spending = n: democrat (5.0/1.0)
+|   |   education spending = u: democrat (2.0/1.0)
+|   |   education spending = y:
+|   |   |   export administration act south africa = y: republican (4.0)
+|   |   |   export administration act south africa = u: democrat (2.0/1.0)
+|   |   |   export administration act south africa = n:
+|   |   |   |   handicapped infants = y: republican (2.0)
+|   |   |   |   handicapped infants = u: republican (0.0)
+|   |   |   |   handicapped infants = n:
+|   |   |   |   |   immigration = n: democrat (3.0/1.0)
+|   |   |   |   |   immigration = y: republican (2.0)
+|   |   |   |   |   immigration = u: republican (0.0)
+physician fee freeze = u:
+|   mx missile = n: democrat (3.0)
+|   mx missile = y: democrat (4.0/1.0)
+|   mx missile = u: republican (2.0)
+
+
+
+Pruned decision tree:
+
+physician fee freeze = n: democrat (154.0/2.6)
+physician fee freeze = y: republican (112.0/13.9)
+physician fee freeze = u:
+|   mx missile = n: democrat (3.0/1.1)
+|   mx missile = y: democrat (4.0/2.2)
+|   mx missile = u: republican (2.0/1.0)
+
+
+
+Confusion matrix (training set):
+
+
+	  (a)  (b)	<-classified as
+	 ---- ----
+	  159   11	(a): class democrat
+	    2  103	(b): class republican
+
+
+
+Confusion matrix (test set):
+
+
+	  (a)  (b)	<-classified as
+	 ---- ----
+	   80    3	(a): class democrat
+	    1   51	(b): class republican
+
+
+
+Results:
+
+|---------------------------------------------------------------------------------------|
+| Before pruning                       | After pruning                                  |
+|---------------------------------------------------------------------------------------|
+| Size | Errors        | Errors (test) | Size | Errors        | Errors (test) | Estimate|
+|=======================================================================================|
+|   28 |    8 (  2.9%) |    5 (  3.7%) |    7 |   13 (  4.7%) |    4 (  3.0%) |   7.6%  |
+|---------------------------------------------------------------------------------------|

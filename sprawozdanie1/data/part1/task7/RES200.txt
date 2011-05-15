@@ -1,0 +1,57 @@
+Unpruned decision tree:
+
+physician fee freeze = n: democrat (119.0/1.0)
+physician fee freeze = y:
+|   synfuels corporation cutback = n: republican (61.0)
+|   synfuels corporation cutback = u: republican (2.0)
+|   synfuels corporation cutback = y:
+|   |   duty free exports = y: democrat (2.0)
+|   |   duty free exports = u: republican (1.0)
+|   |   duty free exports = n:
+|   |   |   education spending = n: democrat (3.0/1.0)
+|   |   |   education spending = y: republican (6.0/1.0)
+|   |   |   education spending = u: republican (0.0)
+physician fee freeze = u:
+|   mx missile = n: democrat (2.0)
+|   mx missile = y: democrat (3.0/1.0)
+|   mx missile = u: republican (1.0)
+
+
+
+Pruned decision tree:
+
+physician fee freeze = n: democrat (119.0/2.6)
+physician fee freeze = y: republican (75.0/7.3)
+physician fee freeze = u: democrat (6.0/3.3)
+
+
+
+Confusion matrix (training set):
+
+
+	  (a)  (b)	<-classified as
+	 ---- ----
+	  122    5	(a): class democrat
+	    3   70	(b): class republican
+
+
+
+Confusion matrix (test set):
+
+
+	  (a)  (b)	<-classified as
+	 ---- ----
+	   80    3	(a): class democrat
+	    1   51	(b): class republican
+
+
+
+Results:
+
+|---------------------------------------------------------------------------------------|
+| Before pruning                       | After pruning                                  |
+|---------------------------------------------------------------------------------------|
+| Size | Errors        | Errors (test) | Size | Errors        | Errors (test) | Estimate|
+|=======================================================================================|
+|   16 |    4 (  2.0%) |    7 (  5.2%) |    4 |    8 (  4.0%) |    4 (  3.0%) |   6.6%  |
+|---------------------------------------------------------------------------------------|

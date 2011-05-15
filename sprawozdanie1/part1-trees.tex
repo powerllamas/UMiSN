@@ -132,11 +132,11 @@ Każdy klient opisany jest za pomocą 15 atrybutóW, w tym 6 atrybutów przyjmuj
 	\\w funkcji poziomu ufności (odnieś te wyniki do średniej charakterystyki drzewa oryginalnego, nieuproszczonego).
 \end{itemize}
 
-Zgodnie z dokumentacją programu c4.5, im mniejsza wartość parametru "Pruning confidence level" tym mniejszy rozmiar drzewa po pruningu. Widać to n wykresie \ref{p1t5a-rozmiar}. Dla porównania, średnia wielkość drzewa przed pruningiem wynosiła $ 63.3 $.
+Zgodnie z dokumentacją programu c4.5, im mniejsza wartość parametru "Pruning confidence level" tym mniejszy rozmiar drzewa po pruningu. Widać to n wykresie \ref{p1t5a-rozmiar}. Dla porównania, średnia wielkość drzewa przed pruningiem wynosiła $ 63.3 $ .
 
-Wraz ze zmniejszaniem wielkości drzewa róśnie estymata błędu klasyfikacji. Jest to zrozumiałe, ponieważ estymata jest obliczana na podstawie zbioru uczącego, a oryginalne drzewo jest do niego najlepiej dopasowane. Inaczej jest w przypadku zbioru testowego: trafność klasyfikacji przykładów z tego zbioru jext najwyższa dla Pruning confidence level = 0.2. Dla mniejszych drzew trafność maleje ponieważ są one zbyt uproszczone, dla większych, ponieważ są one przeuczone (dopasowane za bardzo do zbioru uczącego). Trafność dla drzewa nieprzyciętego jest dla wszystkich badanych rozmiarów drzewa mniejsza niż dla drzewa przyciętego - uwidacznia to przeuczenie drzewa.
+Wraz ze zmniejszaniem wielkości drzewa róśnie estymata błędu klasyfikacji (rys. \ref{p1t5a-estymata}). Jest to zrozumiałe, ponieważ estymata jest obliczana na podstawie zbioru uczącego, a oryginalne drzewo jest do niego najlepiej dopasowane. Inaczej jest w przypadku zbioru testowego: trafność klasyfikacji przykładów z tego zbioru jext najwyższa dla Pruning confidence level = 0.2. Dla mniejszych drzew trafność maleje ponieważ są one zbyt uproszczone, dla większych, ponieważ są one przeuczone (dopasowane za bardzo do zbioru uczącego). Trafność dla drzewa nieprzyciętego jest dla wszystkich badanych rozmiarów drzewa mniejsza niż dla drzewa przyciętego - uwidacznia to przeuczenie drzewa.
 
-Analizując otrzymane wyniki można stwierdzić, że optymalna wielkość drzewa uproszczonego to ta, którą osiąga ono dla Pruning confidence level = 0.2, czyli 17.5. Dla tej wartości trafność klasyfikacji na zbiorze testowym jest największa, jednocześnie jest to małe drzewo, niemal czterokrotnie mniejsze od drzewa oryginalnego.
+Analizując otrzymane wyniki można stwierdzić, że optymalna wielkość drzewa uproszczonego to ta, którą osiąga ono dla Pruning confidence level = 0.2, czyli 17.5. Dla tej wartości trafność klasyfikacji na zbiorze testowym jest największa, jednocześnie jest to małe drzewo, niemal czterokrotnie mniejsze od drzewa oryginalnego. Oczywiście to, którą wielkość uznamy za najlepszą zależy od przyjętej miary i tego w jakim stopniu minimalizuje ona wilekość drzewa a w jakim stopniu zachowuje jego trafność.
 
 \begin{figure}	
 	\includegraphics[scale=0.7]{figures/part1/task5a/rozmiar.pdf}
@@ -160,7 +160,7 @@ Analizując otrzymane wyniki można stwierdzić, że optymalna wielkość drzewa
 
 \item Poszukiwanie optymalnej wielkości drzewa uproszczonego poprzez prepruning, tj.~manewrowanie minimalną licznością węzła (\emph{Minimum objects}). Dla zbioru \emph{CRX} przebadać przedział od~2 do~10.
 
-Jak widać na rysunku \ref{p1t5b-rozmiar} rozmiar drzewa maleje wraz ze wzrostem minimalnej wielkości węzła, przy czym powyżej wielkości węzła 6 dynamika spadku wielkości drzewa znacząco maleje. Jednocześnie z wykresu \ref{p1t5b-trafnosc} wynika, że dla minimalnej wielkości węzłą 7 drzewo osiąda najyższą trafność klasyfikacji. W związku z tym optymalną wielkością drzewa uproszczonego przez preprouning jest wielkość 38, która jest osiągana dla minimalnej liczności węzła równej 7.
+Jak widać na rysunku \ref{p1t5b-rozmiar} rozmiar drzewa maleje wraz ze wzrostem minimalnej wielkości węzła, przy czym powyżej wielkości węzła 6 dynamika spadku wielkości drzewa znacząco maleje. Jednocześnie z wykresu \ref{p1t5b-trafnosc} wynika, że dla minimalnej wielkości węzłą 7 drzewo osiąda najwyższą trafność klasyfikacji. W związku z tym optymalną wielkością drzewa uproszczonego przez preprouning jest wielkość 38, która jest osiągana dla minimalnej liczności węzła równej 7.
 
 \begin{figure}	
 	\includegraphics[scale=0.7]{figures/part1/task5b/rozmiar.pdf}
@@ -186,7 +186,10 @@ Jak widać na rysunku \ref{p1t5b-rozmiar} rozmiar drzewa maleje wraz ze wzrostem
 
 \begin{itemize}
 \item Wyjaśnić zasadę i~opcje: \emph{Trials}, \emph{Initial window size}, \emph{Window increment}.
-\item Analiza wyników (\emph{CRX}).
+\\Technika "okien" ("Windowing") polega na konstruowaniu drzewa na podstawie podzbioru zbioru uczącego zwanego oknem. Początkowa wielkość okna ustalana jest za pomocą parametru "Initial window size". Po skonstruowania drzewa w oparciu o aktualne okno pozostałe przykłądy ze zbioru uczącego są za jego pomocą klasyfikowane. Część z błednie sklasyfikowanych przykładów trafia do nowego "okna". Ich liczbę określa parametr "Window Increment". Na podstawie nowego okna drzewo jest aktualizowane.
+\\Ponieważ początkowe okno jest losowane, to takich okien, a co za tym idzie powstających z nich drzew może być wiele. Ilość generowanych okien ustala parametr "Trials". P otworzeniu wszystkich okien wybierane jest najlepsze z nich.
+\item Analiza wyników (\emph{CRX})
+\\Wśród 10 wygenerowanych drzew (Trials = 10) ( z wielkościami parametrów Initital window size i window increment dobieranymi przez program) większość okazała się mniejsza od drzewa wygenerowanego bez użycia techniki windowing (Normalne drzewo - wielkość 72, drzewa wygenerowane przy użyciu okien - średnio 67,8; minimalnie 62, maksymalnie 75). Trafność klasyfikacji drzew konstruowanych przy pomocy okien nie różniła się znacząco od drzewa konstruowanego tradycyjnie: różnice wynosiły maksymalnie ok $ \pm 1\% $ . Ogólnie wydaje się, że w testowanym zbiorze technika okien nie przyniosła znacznych korzyści. Może być ona jednak przydatna jeżeli ostotne są ograniczenia pamięciowe.
 \end{itemize}
 
 \subsection{Generowanie krzywej uczenia}

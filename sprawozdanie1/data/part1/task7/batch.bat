@@ -1,0 +1,1 @@
+for /l %%X in (25,25,300) do cp VOTE.TST VOTE%%X.TST

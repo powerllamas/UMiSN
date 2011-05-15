@@ -1,0 +1,45 @@
+Unpruned decision tree:
+
+physician fee freeze = n: democrat (32.0)
+physician fee freeze = y: republican (18.0)
+physician fee freeze = u: democrat (0.0)
+
+
+
+Pruned decision tree:
+
+physician fee freeze = n: democrat (32.0/1.4)
+physician fee freeze = y: republican (18.0/1.3)
+physician fee freeze = u: democrat (0.0)
+
+
+
+Confusion matrix (training set):
+
+
+	  (a)  (b)	<-classified as
+	 ---- ----
+	   32     	(a): class democrat
+	        18	(b): class republican
+
+
+
+Confusion matrix (test set):
+
+
+	  (a)  (b)	<-classified as
+	 ---- ----
+	   80    3	(a): class democrat
+	    1   51	(b): class republican
+
+
+
+Results:
+
+|---------------------------------------------------------------------------------------|
+| Before pruning                       | After pruning                                  |
+|---------------------------------------------------------------------------------------|
+| Size | Errors        | Errors (test) | Size | Errors        | Errors (test) | Estimate|
+|=======================================================================================|
+|    4 |    0 (  0.0%) |    4 (  3.0%) |    4 |    0 (  0.0%) |    4 (  3.0%) |   5.4%  |
+|---------------------------------------------------------------------------------------|
