@@ -198,6 +198,22 @@ Jak widać na rysunku \ref{p1t5b-rozmiar} rozmiar drzewa maleje wraz ze wzrostem
 \item Dla zbioru \emph{vote} przygotować kilka[naście] zbiorów uczących o~liczności $n$ zmieniającej się od~50 do~300, ze~skokiem np.~50 przypadków, poprzez wybieranie pierwszych $n$ ze~zbioru \emph{vote.dat}.
 \item Wykreślić jako funkcję $n$ rozmiar drzewa uproszczonego oraz trafność klasyfikowania drzewa uproszczonego na zbiorze testującym.
 
+\\Jak widać na wykresie \ref{p1t7-rozmiar} rozmiar generowanego drzewa rośnie wraz z wielkością zbioru uczącego, aż do wielkości 300 kiedy zaczyna maleć. Po analizie drzew wygenerowanych na podstawie zbiorów o liczności 275 i 300 można zauważyć, że drzewo wygenerowane dla większego zbioru jest mniejsze, ponieważ rozkład klas w węźle jest w nim na tyle mało równomierny (3 / 94 przypadki w porównaniu z 3 / 85 przypadków dla mniejszego zbioru), że entropia w tym węźle jest zbyt mała by opłacało się dokonywać dalszego podziału.
+
+\\
+
+\begin{figure}	
+	\includegraphics[scale=0.7]{figures/part1/task7/accuracy.pdf}
+	\caption{Wykres zależności trafności klasyfikacji na zbiorze tesującym w funkcji wielkości zbioru uczącego.}
+	\label{p1t7-trafnosc}
+\end{figure}
+
+\begin{figure}	
+	\includegraphics[scale=0.7]{figures/part1/task7/size.pdf}
+	\caption{Wykres zależności rozmiaru generowanego drzewa w funkcji wielkości zbioru uczącego.}
+	\label{p1t7-rozmiar}
+\end{figure}
+
 \end{itemize}
 
 \subsection{Maksymalizacja trafności}
