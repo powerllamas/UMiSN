@@ -1,6 +1,6 @@
 from random import random
 
-def generate(layers, neuron_type):
+def generate(neuron_type, layers):        
     print "X"
     inputs_no = 0
     first_input = 0
@@ -19,4 +19,4 @@ def generate(layers, neuron_type):
 if __name__ == '__main__':
     layers = [3, 4, 3]
     neuron_type = "N"
-    generate(layers, neuron_type)
+    generate(neuron_type, layers)
