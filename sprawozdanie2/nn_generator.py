@@ -1,5 +1,9 @@
 from random import random
 
+'''
+Simple NN generator - given number of neurons in each layer it generates feed-forward network in f1 notation, with random weights.
+First layer is input layer: ale neurons in this layer have no inputs, therefore number of neurons in the first layer is equal to number of inputs of the network.
+'''
 def generate(neuron_type, layers):        
     print "X"
     inputs_no = 0
