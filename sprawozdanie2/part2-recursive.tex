@@ -1,0 +1,55 @@
+%%%%%%%%%%%%%%%%%% Część II %%%%%%%%%%%%%%%%%
+
+\section{Rekurencyjne sieci neuronowe}
+
+\subsection{ Kodowanie sieci neuronowych o dowolnej topologii}
+
+\begin{itemize}
+\item \textbf{
+Napisz w dowolnym języku/narzędziu sparametryzowany generator warstwowych-sieci-feed-forward albo każdy-z-każdym dla f0 lub f1.}	
+\end{itemize}
+
+\subsection{ Optymalizacja wag i topologii }
+
+\begin{enumerate}
+\item \textbf{Mutacja.}
+	\begin{itemize}
+		\item Ustaw parametry mutacji (Experiment->Genetics) w f0 i f1 tak, żeby dotyczyły tylko dodawania/usuwania neuronów i dodawania/usuwania połączeń. Ustaw "Neurons to add" na jeden rodzaj neuronu – Nu.
+		\item Stwórz kilkanaście razy sekwencję 200 mutantów zaczynając od sieci z jednym neuronem. Co można powiedzieć o tych sekwencjach? Pomocniczo zrób wykresy liczby neuronów i połączeń neuronowych w funkcji n. 
+W konsoli:
+		\begin{verbatim}
+		//make mutant sequence.
+//ensure there is one genotype in the gene pool! 
+var n,ile=200;
+GenePools.group=0; //select first group
+for(n=1;n<=ile;n++)
+{
+   GenePools.genotype=n-1; //select n-th genotype as ancestor
+   GenePools.mutateSelected();
+   Genotype.name="mutant "+n; //set its name to consecutive number
+   GenePools.copySelected(0);
+   //Simulator.print(""+n+" "+Genotype.nnsiz);
+}
+		\end{verbatim}
+		
+	\end{itemize}
+\item \textbf{Krzyżowanie}
+	\begin{itemize}
+		\item Wybierz jedną z reprezentacji: f0 lub f1.
+		\item Stwórz dwie sieci neuronowe o tej samej topologii, różniące się tylko wagami.
+		\item Dokonaj ich krzyżowania. Czy rezultat spełnia postulaty dobrego krzyżowania podane w poprzednim ćwiczeniu? 
+		\\W konsoli:
+				\begin{verbatim}
+//cross over two neural networks.
+//ensure there are two genotypes in the gene pool! 
+GenePools.group=0; //select first group
+GenePools.genotype=0; //select first genotype
+GenePools.crossoverSelected(1); //cross over with the second genotype
+Genotype.name="child"; //set descendant's name
+GenePools.copySelected(0);
+}
+		\end{verbatim}
+		\item Powtórz tę operację. Czy krzyżowanie jest deterministyczne?
+		\item Powtórz to zadanie (krzyżowanie) dla pary sieci neuronowych o bardzo różnych topologiach.
+	\end{itemize}
+\end{enumerate}
