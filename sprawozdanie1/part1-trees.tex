@@ -43,14 +43,14 @@ outlook = rain:
 	\\Wygenerowane drzewo ma 3 węzły decyzyjne i 5 liści.
 
 \item \textbf{ Prześledź ścieżkę od korzenia do wybranego liścia.}
-		\\W korzeniu znajduje się test związany z atrybutem outlook. Jeśli dla klasyfikowanego przykładu wartość atrybutu outlook wynosi "sunny", to następny węzeł na ścieżce to ten związany z atrybutem humidity. Zakłądając, że dla omawianego przykładu wilgotność jest większ niż $ 75\% $ , liściem w analizowanej ścieżce będzie liść odnoszący się decyzji "Don't Play".
-		\\Inaczej mówiąc, ścieżk ta klasyfikuje wszystkie dni w które jest słoneczna pogoda i wilgotność większa niż $ 75\% $ jako dni, w które nie gra się w golfa.
+		\\W korzeniu znajduje się test związany z atrybutem outlook. Jeśli dla klasyfikowanego przykładu wartość atrybutu outlook wynosi "sunny", to następny węzeł na ścieżce to ten związany z atrybutem humidity. Zakładając, że dla omawianego przykładu wilgotność jest większa niż $ 75\% $ , liściem w analizowanej ścieżce będzie liść odnoszący się decyzji "Don't Play".
+		\\Inaczej mówiąc, ścieżka ta klasyfikuje wszystkie dni w które jest słoneczna pogoda i~wilgotność większa niż $ 75\% $ jako dni, w które nie gra się w golfa.
 		
 \item \textbf{Porównaj estymaty błędu dla drzewa oryginalnego (\emph{Unpruned}) i~uproszczonego (\emph{Pruned}).}
 	\\Estymata błędu dla oryginalnego drzewa wynosi  $ 0\% $ a dla uproszczonego $ 38,5\% $ .
 
 \item \textbf{Obejrzyj macierz pomyłek.}
-	\\Ponieważ drzewo oryginalne nie generuje błędów dla zbioru uczącego, to też jedyne co można z niego odczytać, to właśnie, że żadne obiekty nie są błędnie klasyfikowane, oraz że w przypadku 9 przykładów drzewo poprawnie zaklasyfikowało przykłady do klasy "Play" a w 5 przypadkach do klasy "Don't Play".
+	\\Ponieważ drzewo oryginalne nie generuje błędów dla zbioru uczącego, to też jedyne co można z niego odczytać, to właśnie, że żadne obiekty nie są błędnie klasyfikowane, oraz że w przypadku 9 przykładów drzewo poprawnie zaklasyfikowało przykłady do klasy "Play" a w 5 przypadkach do klasy ,,Don't Play''.
 
 \end{itemize}
 
@@ -219,5 +219,22 @@ Jak widać na rysunku \ref{p1t5b-rozmiar} rozmiar drzewa maleje wraz ze wzrostem
 \subsection{Maksymalizacja trafności}
 
 \begin{itemize}
-\item Uzyskaj jak najwyższą trafność klasyfikowania ze~zbioru \emph{GERMAN} w~eksperymencie \emph{10-fold CV}. Jakimi parametrami i~mechanizmami można manipulować, by~szukać najwyższej trafności? Kiedy można ufać tak uzyskanej trafności, a~kiedy można mówić o~nadużyciu?
+\item \textbf{Uzyskaj jak najwyższą trafność klasyfikowania ze~zbioru \emph{GERMAN} w~eksperymencie \emph{10-fold CV}. Jakimi parametrami i~mechanizmami można manipulować, by~szukać najwyższej trafności? Kiedy można ufać tak uzyskanej trafności, a~kiedy można mówić o~nadużyciu?}
+
+\\Opcje dostępne w~menu programu \emph{C4.5 for Windows}:
+\begin{itemize}
+\item \textbf{Criterion} 
+Kryterium oceny wyboru atrybutu na którym ma nastąpić podział w~danym węźle drzewa. Dostępne opcje to InfoGain oraz GainRatio, przy czym InfoGain faworyzuje atrybuty dyskretne z~dużą liczbą wartości. Wady tej pozbawiony jest GainRatio.
+
+\item \textbf{Subseting} 
+W~sytuacji gdy występują atrybuty dyskretne z~dużą liczbą wartości, subseting prowadzi do prób połączenia kilku wartości w~jedną grupę. Im więcej bowiem różnych wartości atrybutu, tym większe prawdopodobieństwo, że uzyskane podzbiory będą do siebie podobne -- może to doprowadzić do \emph{fragmentacji}, tzn. powstawania w~drzewie wielu bardzo podobnych poddrzew. \emph{Subseting} pozwala na zażegnanie tego problemu i~uproszczenie drzewa.
+
+\item \textbf{Probabilistic thresholds} 
+
+\item \textbf{Pruning confidence level} 
+
+
+\item \textbf{Minimum objects} 
+
+\end{itemize}
 \end{itemize}
