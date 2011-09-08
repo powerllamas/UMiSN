@@ -1,5 +1,6 @@
 /.metadata
 /.settings
+nppBackup/
 */*.class
 *.tex~
 *.*~
@@ -19,10 +20,6 @@ dna_computer/.metadata
 *.o
 *.so
 sprawozdanie.pdf
-praca.pdf
-praca.bbl
-praca.toc
-praca.blg
 *.out
 *.log
 *.aux

@@ -1,1 +1,0 @@
-for %%i in (pdflatex,bibtex,pdflatex,pdflatex) do %%i sprawozd
