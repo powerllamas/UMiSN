@@ -17,10 +17,69 @@ Wyobraź sobie (narysuj) pożądaną funkcję odpowiedzi sieci (trójwymiarowy w
 \item \textbf{
 Skonstruuj liniową sieć jednowarstwową o architekturze 2-1 (File|New|Network, Type=Linear, przycisk Advise). Uaktywnij okno wykresu błędu średniokwadratowego (Statistics|Training graph). Naucz sieć na problemie AND (Train|Multilayer perceptron|Back propagation). Obejrzyj funkcję odpowiedzi sieci (Run|Responce surface) i błędy dla poszczególnych przypadków (Statistics|Case errors).}
 
+\begin{figure}[h]
+\centering
+\includegraphics[scale=1.0]{dane/part1/zad2/response}
+\caption{Funkcja odpowiedzi sieci.}
+\label{fig:response_nonlinear}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\textwidth]{dane/part1/zad2/error}
+\caption{Błąd średniokwadratowy.}
+\label{fig:error_nonlinear}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\textwidth]{dane/part1/zad2/error_case}
+\caption{Błąd dla poszczególnych przypadków.}
+\label{fig:error_nonlinear}
+\end{figure}
+\paragraph{Jak widać sieć nie radzi sobie z zadaniem - przez swą linoiwą naturę zawsze średnia wartość funkcji w punktach (0,1) i (1,0)  będzie równa średniej wartości w punktach (0,0) i (1,1) przez co wagi mogą jedynie zmienić rozłożenie błędu między poszczególne przypadki uczące, ale zawsze zmniejszanine błędu w punktach (0,0), (0,1) i (1,0) będzie powodowało wzrost błędu w punkcie (1,1) i na odwrót. Przy zmniejszeniu prędkości uczenia błąd sieci można zredukować do ok 0.2.}
+
 \item \textbf{
-Spróbuj utworzyć sieć liniową dla problemu AND o liczbie warstw większej niż 2.
-Przerób sieć na nieliniową sieć jednowarstwową (ustawiając Act fn w Edit|Network na Logistic) i naucz ją na tym samym problemie.
+Spróbuj utworzyć sieć liniową dla problemu AND o liczbie warstw większej niż 2.}
+\paragraph{Porgram nie pozwala na utworzenie takiej sieci, ponieważ nie ma to sensu - po dodaniu dodatkowych warstw końcowa funkcja aktywacji będzie tylko kombinacją liniową funkcji poszczególnych neuronów. Dodatkowe warstwy są redundantne, ponieważ dla każdej liniowej sieci 3 i więcej warstwowej istnieje odpowiadająca jej sieć 2 warstwowa, której zachowanie jest identyczne.}
+\item \textbf{
+Przerób sieć na nieliniową sieć jednowarstwową (ustawiając Act fn w Edit|Network na Logistic) i naucz ją na tym samym problemie.}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=1.0]{dane/part1/zad2/response_nonlinear}
+\caption{Funkcja odpowiedzi sieci.}
+\label{fig:response_nonlinear}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\textwidth]{dane/part1/zad2/error_nonlinear}
+\caption{Błąd średniokwadratowy.}
+\label{fig:error_nonlinear}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\textwidth]{dane/part1/zad2/error_case_nonlinear}
+\caption{Błąd dla poszczególnych przypadków.}
+\label{fig:error_nonlinear}
+\end{figure}
+
+\paragraph{Sieć nielinowa poradziła sobie z problemem znacznie lepiej - błędy klasyfikacji bliskie zeru. W przeciwieństwie do sieci liniowej widać, że proces uczenia jest zbieżny - wraz z uczeniem błąd asymptotycznie maleje.
+}
+\item \textbf{
 Wejdź do edytora sieci (Network|Edit) i przypatrz się wagom neuronu wyjściowego. Wykreśl w przestrzeni wejść prostą, którą definiuje neuron wyjściowy i oceń, czy i jak realizuje ona separację klas decyzyjnych. }
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{dane/part1/zad2/oska}
+\caption{Prosta separująca klasy decyzyjne.}
+\label{fig:prosta_separujaca}
+\end{figure}
+
+\paragraph{Prosta dobrze realizuje separację klas decyzyjnych - oddziela 3 przypadki o wartości 0 od przypadku o wartości 1}
 
 \item \textbf{
 Skonstruuj zbiór przykładów definiujący dwuargumentową funkcję XOR i zachowaj go. Wszystkie 4 przykłady mają stanowić zbiór uczący.}
