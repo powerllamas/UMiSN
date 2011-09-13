@@ -233,7 +233,7 @@ W~sytuacji gdy występują atrybuty dyskretne z~dużą liczbą wartości, subset
 Wybór tej opcji pozwala na uwzględnienie przy wyborze progów dla atrybutów ciągłych rozkładu prawdopodobieństwa danego atrybutu; powstałe w~ten sposób progi charakteryzują się tym, że~prawdopodobieństwo przypisania wartości do danego przedziału jest takie samo dla wszystkich przedziałów.
 
 \item \textbf{Pruning confidence level} 
-Wartość sterująca obcinaniem gałęzi w procesie postpruning. Im niższa wartość, tym większa redukcja rozmiaru drzewa.
+Poziom istotności testu statystycznego wykorzystywanego w~postpruningu. Węzeł zastępowany jest liściem, jeżeli zależność między rozkładem klas decyzyjnych i~wynikiem przeprowadzonego w~węźle testu \emph{nie jest} istotna statystycznie. Im niższa wartość, tym większa redukcja rozmiaru drzewa.
 
 \item \textbf{Minimum objects}
 Minimalna liczba obiektów, z~których można utworzyć liść. Podanie wartości większej niż 1 zapobiega powstawaniu bardzo wyspecjalizowanych ścieżek w~drzewie opisujących pojedyncze obiekty.
