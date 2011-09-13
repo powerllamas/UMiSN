@@ -229,12 +229,16 @@ Kryterium oceny wyboru atrybutu na którym ma nastąpić podział w~danym węźl
 \item \textbf{Subseting} 
 W~sytuacji gdy występują atrybuty dyskretne z~dużą liczbą wartości, subseting prowadzi do prób połączenia kilku wartości w~jedną grupę. Im więcej bowiem różnych wartości atrybutu, tym większe prawdopodobieństwo, że uzyskane podzbiory będą do siebie podobne -- może to doprowadzić do \emph{fragmentacji}, tzn. powstawania w~drzewie wielu bardzo podobnych poddrzew. \emph{Subseting} pozwala na zażegnanie tego problemu i~uproszczenie drzewa.
 
-\item \textbf{Probabilistic thresholds} 
+\item \textbf{Probabilistic thresholds}
+Wybór tej opcji pozwala na uwzględnienie przy wyborze progów dla atrybutów ciągłych rozkładu prawdopodobieństwa danego atrybutu; powstałe w~ten sposób progi charakteryzują się tym, że~prawdopodobieństwo przypisania wartości do danego przedziału jest takie samo dla wszystkich przedziałów.
 
 \item \textbf{Pruning confidence level} 
+Wartość sterująca obcinaniem gałęzi w procesie postpruning. Im niższa wartość, tym większa redukcja rozmiaru drzewa.
 
-
-\item \textbf{Minimum objects} 
-
+\item \textbf{Minimum objects}
+Minimalna liczba obiektów, z~których można utworzyć liść. Podanie wartości większej niż 1 zapobiega powstawaniu bardzo wyspecjalizowanych ścieżek w~drzewie opisujących pojedyncze obiekty.
 \end{itemize}
+
+
+
 \end{itemize}
