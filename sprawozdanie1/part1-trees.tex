@@ -239,6 +239,14 @@ Poziom istotności testu statystycznego wykorzystywanego w~postpruningu. Węzeł
 Minimalna liczba obiektów, z~których można utworzyć liść. Podanie wartości większej niż 1 zapobiega powstawaniu bardzo wyspecjalizowanych ścieżek w~drzewie opisujących pojedyncze obiekty.
 \end{itemize}
 
-Uzyskanej w~skutek manipulowania powyższymi parametrami trafności możemy ufać tylko wtedy, gdy nie istnieje podejrzenie \emph{przespecjalizowania} drzewa. Mechanizm \emph{10-fold~CV} zapobiega przespecjalizowaniu poprzez wielokrotne budowanie drzewa dla różnych podzbiorów zbioru uczącego, nie daje nam to jednak gwarancji trafności na ,,nie widzianych'' wcześniej przez drzewo przypadkach.
+
+
+\\Uzyskanej w~skutek manipulowania powyższymi parametrami trafności możemy ufać tylko wtedy, gdy nie istnieje podejrzenie \emph{przespecjalizowania} drzewa. Mechanizm \emph{10-fold~CV} zapobiega przespecjalizowaniu poprzez wielokrotne budowanie drzewa dla różnych podzbiorów zbioru uczącego, nie daje nam to jednak gwarancji uzyskania wysokiej trafności na ,,nie widzianych'' wcześniej przez drzewo przypadkach.
+
+Dla domyślnych parametrów (wykorzystanie \emph{Info Gain}, bez użycia mechanizmów \emph{subsetting} i~\emph{probabilistic thresholds}, wartość \emph{minimum objects} ustawiona na~2) średni estymowany błąd wynosi $27.3 \%$.
+
+Pierwszym krokiem ku poprawieniu jakości klasyfikacji jest zmiana metody wyboru atrybutu na \emph{Gain Ratio}. Przy takich ustawieniach średni estymowany błąd wynosi $23.5 \%$, co stanowi istotną poprawę.
+
+Ponieważ w~zbiorze atrybutów występują atrybuty ciągłe, postanawiamy wykorzystać dodatkowo mechanizmy \emph{subsetting} i~\emph{probabilistic thresholds}. Udaje nam się uzyskać zmniejszenie wartości średniego estymowanego błędu do $20.8 \%$.
 
 \end{itemize}
