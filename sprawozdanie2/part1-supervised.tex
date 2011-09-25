@@ -10,8 +10,7 @@ Skonstruuj zbiór przykładów definiujący dwuargumentową funkcję ("bramkę")
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.75]{dane/part1/zad2/dataset_and}
-\label{fig:dataset_and}
-\caption{Zbiór uczący funkcji "AND"}
+\caption{Zbiór uczący funkcji "AND"\label{fig:dataset_and}}
 \end{figure}
 
 \item \textbf{
@@ -26,148 +25,138 @@ Skonstruuj liniową sieć jednowarstwową o architekturze 2-1 (File|New|Network,
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.75]{dane/part1/zad2/response}
-\label{fig:response_linear}
-\caption{Funkcja odpowiedzi sieci liniowej. Problem "AND".}
+\caption{Funkcja odpowiedzi sieci liniowej. Problem "AND".\label{fig:response_linear}}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.6\textwidth]{dane/part1/zad2/error}
-\label{fig:error_linear}
-\caption{Błąd średniokwadratowy dla sieci liniowej. Problem "AND".}
+\caption{Błąd średniokwadratowy dla sieci liniowej. Problem "AND".\label{fig:error_linear}}
 \end{figure}
+%
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=0.6\textwidth]{dane/part1/zad2/error_case}
+%\label{fig:error_linear_case}
+%\caption{Błąd dla poszczególnych przypadków dla sieci liniowej. Problem "AND".}
+%\end{figure}
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.6\textwidth]{dane/part1/zad2/error_case}
-\label{fig:error_linear_case}
-\caption{Błąd dla poszczególnych przypadków dla sieci liniowej. Problem "AND".}
-\end{figure}
-Funkcję odpowiedzi sieci i błędy przez nią popełniane pokazano na rys. \ref{fig:response_linear}, \ref{fig:error_linear} i \ref{fig:error_linear_case}. Sieć nie radzi sobie z zadaniem - przez swą linoiwą naturę zawsze średnia wartość funkcji w punktach (0,1) i (1,0)  będzie równa średniej wartości w punktach (0,0) i (1,1) przez co wagi mogą jedynie zmienić rozłożenie błędu między poszczególne przypadki uczące, ale zawsze zmniejszanine błędu w punktach (0,0), (0,1) i (1,0) będzie powodowało wzrost błędu w punkcie (1,1) i na odwrót. Przy zmniejszeniu prędkości uczenia błąd sieci można zredukować do ok 0.2.
+Funkcję odpowiedzi sieci i błąd przez nią popełniany pokazano na rys. \ref{fig:response_linear} i \ref{fig:error_linear}. Sieć nie radzi sobie z zadaniem - przez swą liniową naturę zawsze średnia wartość funkcji w punktach (0,1) i (1,0)  będzie równa średniej wartości w punktach (0,0) i (1,1) przez co wagi mogą jedynie zmienić rozłożenie błędu między poszczególne przypadki uczące, ale zawsze zmniejszanine błędu w punktach (0,0), (0,1) i (1,0) będzie powodowało wzrost błędu w punkcie (1,1) i na odwrót. Przy zmniejszeniu prędkości uczenia błąd sieci można zredukować do ok 0.2.
 
 \item \textbf{
 Spróbuj utworzyć sieć liniową dla problemu AND o liczbie warstw większej niż 2.}
 \\Porgram nie pozwala na utworzenie takiej sieci, ponieważ nie ma to sensu - po dodaniu dodatkowych warstw końcowa funkcja aktywacji będzie tylko kombinacją liniową funkcji poszczególnych neuronów. Dodatkowe warstwy są redundantne, ponieważ dla każdej liniowej sieci 3 i więcej warstwowej istnieje odpowiadająca jej sieć 2 warstwowa, której zachowanie jest identyczne.
+
 \item \textbf{
 Przerób sieć na nieliniową sieć jednowarstwową (ustawiając Act fn w Edit|Network na Logistic) i naucz ją na tym samym problemie.}
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=1.0]{dane/part1/zad2/response_nonlinear}
-\label{fig:response_nonlinear}
-\caption{Funkcja odpowiedzi sieci nieliniowej jednowarstwowej. Problem "AND".}
+\caption{Funkcja odpowiedzi sieci nieliniowej jednowarstwowej. Problem "AND".\label{fig:response_nonlinear}}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.6\textwidth]{dane/part1/zad2/error_nonlinear}
-\label{fig:error_nonlinear}
-\caption{Błąd średniokwadratowy dla sieci nieliniowej jednowarstwowej. Problem "AND".}
+\caption{Błąd średniokwadratowy dla sieci nieliniowej jednowarstwowej. Problem "AND".\label{fig:error_nonlinear}}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.6\textwidth]{dane/part1/zad2/error_case_nonlinear}
-\label{fig:error_nonlinear_case}
-\caption{Błąd dla poszczególnych przypadków dla sieci nieliniowej jednowarstwowej. Problem "AND".}
+\caption{Błąd dla poszczególnych przypadków dla sieci nieliniowej jednowarstwowej. Problem "AND".\label{fig:error_nonlinear_case}}
 \end{figure}
 
-Sieć nielinowa poradziła sobie z problemem znacznie lepiej - błędy klasyfikacji bliskie zeru. W przeciwieństwie do sieci liniowej widać, że proces uczenia jest zbieżny - wraz z uczeniem błąd asymptotycznie maleje.
+Sieć nielinowa poradziła sobie z problemem znacznie lepiej - błędy klasyfikacji bliskie zeru. W przeciwieństwie do sieci liniowej proces uczenia jest zbieżny - wraz z uczeniem błąd asymptotycznie maleje. Widać to na rysunku \ref{fig:error_nonlinear}.
+
 \item \textbf{
 Wejdź do edytora sieci (Network|Edit) i przypatrz się wagom neuronu wyjściowego. Wykreśl w przestrzeni wejść prostą, którą definiuje neuron wyjściowy i oceń, czy i jak realizuje ona separację klas decyzyjnych. }
-\\Prosta ta jest przedstawiona na rys. \ref{fig:prosta_separujaca}. Separuje ona prawidłowo punkty należące do klas 0 i 1. Jeśli za kryterium oceny separacji uznać maksymalizację minimalnej odleglości prostej od separowanych punktów, to trzeba uznać, że realizuje ją dobrze, ponieważ odległość ta jest taka sama dla punktów (0,1), (1,0) i (1,1). Zmiana jakichkolwiek parametrów prostej, po której prosta ta wciąż separowałaby klasy, wiązałaby się ze zmniejszeniem minimalnej odległości punktów od prostej, więc ze względu na to kryterium prosta separująca jest optymalna.
-
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{dane/part1/zad2/separacja_and}
-\label{fig:prosta_separujaca}
-\caption{Prosta separująca klasy decyzyjne dla problemu "AND".}
+\caption{Prosta separująca klasy decyzyjne dla problemu "AND".\label{fig:prosta_separujaca}}
 \end{figure}
-
-Prosta dobrze realizuje separację klas decyzyjnych - oddziela 3 przypadki o wartości 0 od przypadku o wartości 1
+\\Prosta ta jest przedstawiona na rys. \ref{fig:prosta_separujaca}. Separuje ona prawidłowo punkty należące do klas 0 i 1. Jeśli za kryterium oceny separacji uznać maksymalizację minimalnej odleglości prostej od separowanych punktów, to trzeba uznać, że realizuje ją dobrze, ponieważ odległość ta jest taka sama dla punktów (0,1), (1,0) i (1,1). Zmiana jakichkolwiek parametrów prostej, po której prosta ta wciąż separowałaby klasy, wiązałaby się ze zmniejszeniem minimalnej odległości punktów od prostej, więc ze względu na to kryterium prosta separująca jest optymalna.
 
 \item \textbf{
 Skonstruuj zbiór przykładów definiujący dwuargumentową funkcję XOR i zachowaj go. Wszystkie 4 przykłady mają stanowić zbiór uczący.}
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.75]{dane/part1/zad2/dataset_xor}
-\label{fig:dataset_xor}
-\caption{Zbiór uczący funkcji "XOR"}
+\caption{Zbiór uczący funkcji "XOR"\label{fig:dataset_xor}}
 \end{figure}
+\\Zbiór uczący dla funkcji XOR pokazano na rys. \ref{fig:dataset_xor}. 
 
 \item \textbf{
 Wyobraź sobie (narysuj) pożądaną funkcję odpowiedzi sieci.}
 
 \item \textbf{
 Skonstruuj liniową sieć jednowarstwową o architekturze 2-1 i naucz ją na problemie XOR.}
-\\Jak widać na rysunkach \ref{fig:response_nonlinear_xor}, \ref{fig:error_nonlinear_xor} i \ref{fig:error_case_nonlinear_xor} sieć 
 
 \item \textbf{ Obejrzyj funkcję odpowiedzi sieci i błędy dla poszczególnych przypadków.}
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.75]{dane/part1/zad2/response_xor}
-\label{fig:response_linear_xor}
-\caption{Funkcja odpowiedzi sieci liniowej dla problemu "XOR"}
+\caption{Funkcja odpowiedzi sieci liniowej dla problemu "XOR"\label{fig:response_linear_xor}}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.6\textwidth]{dane/part1/zad2/error_xor}
-\label{fig:error_linear_xor}
-\caption{Błąd średniokwadratowy sieci liniowej dla problemu "XOR".}
+\caption{Błąd średniokwadratowy sieci liniowej dla problemu "XOR".\label{fig:error_linear_xor}}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.6\textwidth]{dane/part1/zad2/error_case_xor}
-\label{fig:error_case_nonlinear_xor}
-\caption{Błąd sieci liniowej dla problemu "XOR" dla poszczególnych przypadków .}
+\caption{Błąd sieci liniowej dla problemu "XOR" dla poszczególnych przypadków .\label{fig:error_case_linear_xor}}
 \end{figure}
+
+Jak widać na rysunkach \ref{fig:response_linear_xor}, \ref{fig:error_linear_xor} i \ref{fig:error_case_linear_xor} sieć liniowa nie radzi sobie z zadaniem.
 
 
 
 \item \textbf{
 Przerób sieć na nieliniową sieć jednowarstwową i naucz ją na tym samym problemie (zwróć uwagę, jak sieć stara się minimalizować błąd). Obejrzyj, jak zmienia się rozkład wag podczas procesu uczenia (Statistics|Weight distribution).}
-
+\\Błąd średniokwadratowy i funkcję odpowiedzi sieci nieliniowej jednowarstwowej dla problemu "XOR" przedstawiono na rysunkach \ref{fig:error_nonlinear_xor} i \ref{fig:response_nonlinear_xor}.
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.75]{dane/part1/zad2/response_nonlinear_xor}
-\label{fig:response_nonlinear_xor}
-\caption{Funkcja odpowiedzi sieci nieliniowej jednowarstwowej dla problemu "XOR".}
+\caption{Funkcja odpowiedzi sieci nieliniowej jednowarstwowej dla problemu "XOR".\label{fig:response_nonlinear_xor}}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.6\textwidth]{dane/part1/zad2/error_nonlinear_xor}
-\label{fig:error_nonlinear_xor}
-\caption{Błąd średniokwadratowy sieci nieliniowej jednowarstwowej dla problemu "XOR".}
+\caption{Błąd średniokwadratowy sieci nieliniowej jednowarstwowej dla problemu "XOR".\label{fig:error_nonlinear_xor}}
 \end{figure}
 
 \item \textbf{
 Skonstruuj nieliniową sieć dwuwarstwową o architekturze 2-2-1 (File|New|Network, Type=Multilayer perceptron) i naucz ją na problemie XOR. Obejrzyj funkcję odpowiedzi.}
+\\Funkcję odpowiedzi i błąd średniokwadratowy przedstawiono na rys. \ref{fig:response_221_xor} i \ref{fig:error_221_xor}
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.75]{dane/part1/zad2/response_221_xor}
-\label{fig:response_221_xor}
-\caption{Funkcja odpowiedzi sieci nieliniowej 2-2-1 dla problemu "XOR".}
+\caption{Funkcja odpowiedzi sieci nieliniowej 2-2-1 dla problemu "XOR".\label{fig:response_221_xor}}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.6\textwidth]{dane/part1/zad2/error_221_xor}
-\label{fig:error_221_xor}
-\caption{Błąd średniokwadratowy sieci nieliniowej 2-2-1 dla problemu "XOR"..}
+\caption{Błąd średniokwadratowy sieci nieliniowej 2-2-1 dla problemu "XOR"..\label{fig:error_221_xor}}
 \end{figure}
 
 
 \item \textbf{
 Obejrzyj wagi sieci w edytorze sieci (Edit|Network). Jakie proste definiują neurony w warstwie ukrytej (spróbuj je narysować w przestrzeni wejść) ? Jak można interpretować działanie neuronu wyjściowego ?}
+\\Proste definiowane przez neurony w warstwie ukrytej pokazano na rys. \ref{fig:prosta_separujaca_xor}. Ponieważ wagi neuronu wyjściowego są zbliżone do wartości progu tego neuronu, to jego działanie można interpretować jako sumę logiczną: jeśli na jednym z wejść wartość jest bliska 1 lub większa, to na wyjściu neuronu wyjściowego również wartość będzie zbliżona do 1. Dzięki temu akumulowane są wyniki działania neuronów z warstwy ukrytej i zarówno dla wartości wejściowych (0,1) jak i (1,0) sieć daje prawidłową odpowiedź: 1.
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{dane/part1/zad2/separacja_xor_ukryta}
-\label{fig:prosta_separujaca_xor}
-\caption{Proste separująca klasy decyzyjne dla problemu "XOR". Neurony warstwy ukrytej.}
+\caption{Proste separująca klasy decyzyjne dla problemu "XOR". Neurony warstwy ukrytej.\label{fig:prosta_separujaca_xor}}
 \end{figure}
 
 
@@ -180,6 +169,8 @@ Obejrzyj, jak zmienia się rozkład wag podczas procesu uczenia. Jaka jest przyc
 \subsection{Obserwacja zjawiska przeuczenia na przykładzie zbioru PIMA.}
 \begin{enumerate}
 \item \textbf{ Zapoznaj się z pochodzeniem zbiorów PIMA i BUPA (wyszukaj: "PIMA dataset", "BUPA dataset").}
+\\Zbiór PIMA zawiera dane dotyczące cukrzycy wśród indian Pima. Jest to zbiór o charakterze diagnostycznym: zawiera ogólne dane medyczne (8 atrbutów) i jeden bnarny atrybut decyzyjny (chory/zdrowy). Zbiór zawiera ukryte brakujące dane (nierzeczywiste wartości pewnych parametrów, np. ciśnienie krwi równe 0 )
+\\Zbiór BUPA zawiera wyniki testów krwi które mogą wskazywać choroby wątroby, atrybut określający ilość sporzywanego dziennie alkoholu oraz jeden atrybut decyzyjny. Zbiór nie posiada brakujących wartości.
 
 \item \textbf{
 Wczytaj zbiór PIMA i skonstruuj dla niego dwuwarstwową sieć nieliniową o architekturze 8-4-1.}
