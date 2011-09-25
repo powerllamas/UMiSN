@@ -183,6 +183,13 @@ Wyłącz "inkrementacyjne" warunki stopu ustawiając np. zero lub dużą wartoś
 
 \item \textbf{
 Przeprowadź uczenie algorytmem wstecznej propagacji błędu (może być bardzo długie, np. 20 000 epok); obserwuj przebieg błędu dla zbioru uczącego i weryfikującego.}
+\\Błąd pokazano na rys. \ref{fig:PIMA_error}. Jak widać po krótkim czasie następuje zjawisko przeuczenia: błąd dla zbioru weryfikującego jest większy od błędu dla zbioru uczącego.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{dane/part1/zad3/error}
+\caption{Błąd średniokwadratowy dla zbioru uczącego (kolor niebieski) i weryfikującego (kolor czerwony) dla przykłądu PIMA\label{fig:PIMA_error}}
+\end{figure}
 \end{enumerate}
 
 \subsection{Dobór liczby neuronów w warstwie ukrytej na przykładzie zbioru IRIS.}
@@ -191,9 +198,16 @@ Przeprowadź uczenie algorytmem wstecznej propagacji błędu (może być bardzo 
 
 \item \textbf{
 Przedstaw w gnuplocie na jednym wykresie przebieg błędu uczenia dla kolejnych wartości n.}
+\\Przebieg błędu uczenia przedstawiono na rys. \ref{fig:errors4n3}.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{dane/part1/zad4/errors4n3}
+\caption{Błąd średniokwadratowy popełniany przez sieć dla różnych szerokości warstwy ukrytej.\label{fig:errors4n3}}
+\end{figure}
 
 \item \textbf{
 Czy istnieje jednoznaczna zależność pomiędzy n a przebiegiem błędu średniokwadratowego? Czy biorąc pod uwagę tylko przebeg błędu dla zbioru uczącego można ustalić optymalną liczbę neuronów w warstwie ukrytej? Jeśli tak, to ile ona wynosi dla tego zbioru przykładów?}
+\\Nie, nie isrtnieje taka jednoznaczna zależność. Wielkości błędu dla różnych ilości neuronów w warstwie ukrytej są bardzo zbliżone. Jedynie dla n równego 3, 5, lub 9 błąd jest nieznacznie mniejszy, jednak ze względu na brak monotoniczności funkcji błędu względem ilości neuronów, wydaje się, że jest to przypadkowa różnica. Na podstawie samego przebiegu błędu nie można ustalić optymalnej ilości neuronów w warstwie ukrytej.
 \end{enumerate}
 
 \subsection{Sterowanie rozmiarem obszaru niepewnych odpowiedzi (braku odpowiedzi) sieci na granicach klas decyzyjnych (podczas testowania sieci)}

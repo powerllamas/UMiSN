@@ -1,11 +1,8 @@
-/.metadata
-/.settings
 nppBackup/
 */*.class
 *.tex~
 *.*~
 *.bak
-dna_computer/.metadata
 
 .classpath
 .project
@@ -19,11 +16,12 @@ dna_computer/.metadata
 *.exe
 *.o
 *.so
-sprawozdanie.pdf
 *.out
 *.log
 *.aux
 *.dvi
+sprawozdanie.pdf
+sprawozd.pdf
 
 # Packages #
 ############
