@@ -220,12 +220,14 @@ Przeprowadź klasyfikowanie przykładów ze zbioru testującego (okno Statistics
 \item \textbf{
 Otwórz okno Edit|Pre-Post Processing. Pola Accept i Reject definiują, jakie wartości muszą mieć neurony w warstwie wyjściowej, aby móc zinterpretować ich stan jako decyzję o przypisaniu przykładu do odpowiedniej klasy decyzyjnej. Choć nie jest to kontrolowane przez program, powinno zachodzić Accept >= Reject}
 
-\item \textbf{
+\item \label{zad:7}\textbf{
 Przy użyciu gnuplota sporządź wykres (trzy przebiegi na jednym wykresie) zależności procentu przypadków z jednego ze zbiorów (uczącego / weryfikującego / testującego):
-– poprawnie zaklasyfikowanych (do wszystkich klas decyzyjnych razem),
-– niepoprawnie zaklasyfikowanych,
-– niezaklasyfikowanych
+\begin{itemize}
+\item poprawnie zaklasyfikowanych (do wszystkich klas decyzyjnych razem),
+\item niepoprawnie zaklasyfikowanych,
+\item niezaklasyfikowanych
 w funkcji progu Accept, dla następujących wartości Accept i Reject:
+\end{itemize}
 \begin{tabular}{|c|c|}
 \hline Accept & Reject \\ 
 \hline 0.5 & 0.5 \\ 
@@ -237,9 +239,16 @@ w funkcji progu Accept, dla następujących wartości Accept i Reject:
 \hline 
 \end{tabular} 
 }
+\\Wykres do zadania z pkt.\ref{zad:7} pokazano na rys. \ref{fig:confusionTrain}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{dane/part1/zad7/train}
+\caption{Zależność procentowej ilości przypadków zaklasyfikowanych poprawnie, błędni i niezaklasyfikowanych od progu akceptacji, dla zbioru uczącego.\label{fig:confusionTrain}}
+\end{figure}
 
 \item \textbf{
 Czy na podstawie otrzymanego wykresu można zasugerować jakąś optymalną wartość obu progów dla tego zbioru przykładów i tej sieci?}
+\\Tak, ale zależy to od specyfiki zadania klasyfikacji, dokładnie od kosztów pomyłek. Decydent musi zdecydować jakie jest maksymalne akceptowalne przez niego prawdopodobieństwo błędnej klasyfikacji i tak wyznaczyć próg akceptacji, żeby procent przypadków klasyfikowanych błędnie, odczytany z wykresu \ref{fig:confusionTrain} był nie większy od tego maksymalnego akceptowalnego prawdopodobieństwa. Jeszcze lepiej byłoby rozważyć ilość błędów false-positive i false-negative i dobrać próg akceptacji zgodnie z kosztami tych pomyłek.
 
 \end{enumerate}
 
