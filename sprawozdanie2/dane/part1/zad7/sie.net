@@ -1,0 +1,88 @@
+# Trajan v1.0 Network
+
+type MLP
+error_fn "Sum-squared"
+no_layers 3
+
+layer 1
+no_units 8
+width 1
+act_fn "Linear"
+psp_fn "Linear"
+0.697388
+-0.265076
+0.149292
+0.682739
+-0.223694
+-0.682617
+-0.932129
+0.828308
+
+layer 2
+no_units 4
+width 1
+act_fn "Logistic"
+psp_fn "Linear"
+0.21706
+-6.3575
+-2.49969
+0.646263
+weights 1
+-0.459784	-1.39145	0.21113	-0.0571007	0.336743	-1.53984	-0.073432	-0.835373	
+-1.04532	-5.36608	0.249796	0.605786	-2.8887	-5.58609	-3.92005	3.47393	
+-0.509578	-4.94416	1.84354	1.45069	2.55945	-1.94714	-2.47886	-5.58826	
+1.42919	2.83924	-1.11426	0.443687	-2.81396	2.1159	-1.77099	4.3809	
+
+layer 3
+no_units 1
+width 1
+act_fn "Logistic"
+psp_fn "Linear"
+0.317718
+weights 2
+-0.87751	-4.07802	-4.5144	3.16062	
+
+normalisation
+classify_by confidence
+accept 0.4
+reject 0.6
+steps 1
+lookahead 0
+input_normalisation "None"
+output_normalisation "None"
+no_inputs 8
+no_outputs 1
+no_normed_inputs 8
+no_normed_outputs 1
+attributes
+ATR1
+ATR2
+ATR3
+ATR4
+ATR5
+ATR6
+ATR7
+ATR8
+DECYZJA={v1,v2}
+factors
+Minimax	Mean	0	1	0	0.0714286
+Minimax	Mean	0	1	0	0.00502513
+Minimax	Mean	0	1	0	0.00819672
+Minimax	Mean	0	1	0	0.010101
+Minimax	Mean	0	1	0	0.00118203
+Minimax	Mean	0	1	0	0.0149031
+Minimax	Mean	0	1	-0.0333049	0.426985
+Minimax	Mean	0	1	-0.35	0.0166667
+Two-state	Mean	0	1	0	1
+missing values
+3.90675
+121.199
+68.6511
+20.3971
+78.9871
+31.9441
+0.471543
+33.2058
+0
+
+

@@ -210,6 +210,7 @@ Czy istnieje jednoznaczna zależność pomiędzy n a przebiegiem błędu średni
 \\Nie, nie isrtnieje taka jednoznaczna zależność. Wielkości błędu dla różnych ilości neuronów w warstwie ukrytej są bardzo zbliżone. Jedynie dla n równego 3, 5, lub 9 błąd jest nieznacznie mniejszy, jednak ze względu na brak monotoniczności funkcji błędu względem ilości neuronów, wydaje się, że jest to przypadkowa różnica. Na podstawie samego przebiegu błędu nie można ustalić optymalnej ilości neuronów w warstwie ukrytej.
 \end{enumerate}
 
+
 \subsection{Sterowanie rozmiarem obszaru niepewnych odpowiedzi (braku odpowiedzi) sieci na granicach klas decyzyjnych (podczas testowania sieci)}
 \begin{enumerate}
 \item \textbf{Utwórz i naucz sieć na zbiorze PIMA (architektura 8-4-1).}
@@ -218,7 +219,7 @@ Czy istnieje jednoznaczna zależność pomiędzy n a przebiegiem błędu średni
 Przeprowadź klasyfikowanie przykładów ze zbioru testującego (okno Statistics|Classification). Znajdź w tym oknie macierz pomyłek (ang. confusion matrix).}
 
 \item \textbf{
-Otwórz okno Edit|Pre-Post Processing. Pola Accept i Reject definiują, jakie wartości muszą mieć neurony w warstwie wyjściowej, aby móc zinterpretować ich stan jako decyzję o przypisaniu przykładu do odpowiedniej klasy decyzyjnej. Choć nie jest to kontrolowane przez program, powinno zachodzić Accept >= Reject}
+Otwórz okno Edit|Pre-Post Processing. Pola Accept i Reject definiują, jakie wartości muszą mieć neurony w warstwie wyjściowej, aby móc zinterpretować ich stan jako decyzję o przypisaniu przykładu do odpowiedniej klasy decyzyjnej. Choć nie jest to kontrolowane przez program, powinno zachodzić Accept $ >= $ Reject}
 
 \item \label{zad:7}\textbf{
 Przy użyciu gnuplota sporządź wykres (trzy przebiegi na jednym wykresie) zależności procentu przypadków z jednego ze zbiorów (uczącego / weryfikującego / testującego):
@@ -227,19 +228,23 @@ Przy użyciu gnuplota sporządź wykres (trzy przebiegi na jednym wykresie) zale
 \item niepoprawnie zaklasyfikowanych,
 \item niezaklasyfikowanych
 w funkcji progu Accept, dla następujących wartości Accept i Reject:
-\end{itemize}
-\begin{tabular}{|c|c|}
-\hline Accept & Reject \\ 
-\hline 0.5 & 0.5 \\ 
-\hline 0.6 & 0.4 \\ 
-\hline 0.7 & 0.3 \\ 
-\hline 0.8 & 0.2 \\ 
-\hline 0.9 & 0.1 \\ 
-\hline 1.0 & 0.0 \\ 
-\hline 
-\end{tabular} 
-}
-\\Wykres do zadania z pkt.\ref{zad:7} pokazano na rys. \ref{fig:confusionTrain}
+\end{itemize}}
+
+\begin{table}[h]
+	\centering
+		\caption{Wartości parametrów Accept i Reject w zadaniu \ref{zad:7}\label{tab:accept}}
+	\begin{tabular}{|c|c|}
+		\hline Accept & Reject \\ 
+		\hline 0.5 & 0.5 \\ 
+		\hline 0.6 & 0.4 \\ 
+		\hline 0.7 & 0.3 \\ 
+		\hline 0.8 & 0.2 \\ 
+		\hline 0.9 & 0.1 \\ 
+		\hline 1.0 & 0.0 \\ 
+		\hline 
+	\end{tabular}
+\end{table}
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{dane/part1/zad7/train}
@@ -248,10 +253,12 @@ w funkcji progu Accept, dla następujących wartości Accept i Reject:
 
 \item \textbf{
 Czy na podstawie otrzymanego wykresu można zasugerować jakąś optymalną wartość obu progów dla tego zbioru przykładów i tej sieci?}
-\\Tak, ale zależy to od specyfiki zadania klasyfikacji, dokładnie od kosztów pomyłek. Decydent musi zdecydować jakie jest maksymalne akceptowalne przez niego prawdopodobieństwo błędnej klasyfikacji i tak wyznaczyć próg akceptacji, żeby procent przypadków klasyfikowanych błędnie, odczytany z wykresu \ref{fig:confusionTrain} był nie większy od tego maksymalnego akceptowalnego prawdopodobieństwa. Jeszcze lepiej byłoby rozważyć ilość błędów false-positive i false-negative i dobrać próg akceptacji zgodnie z kosztami tych pomyłek.
+\\\\Tak, na podstawie wykresu (rys. \ref{fig:confusionTrain}) można zasugerować optymalną wartość, ale w ogólności zależy ona od specyfiki zadania klasyfikacji. Decydent musi zdecydować jakie jest maksymalne akceptowalne przez niego prawdopodobieństwo błędnej klasyfikacji i tak wyznaczyć próg akceptacji, żeby procent przypadków klasyfikowanych błędnie, odczytany z wykresu \ref{fig:confusionTrain} był nie większy od tego maksymalnego akceptowalnego prawdopodobieństwa pojawienia się takich błędów. Jeszcze lepiej byłoby rozważyć ilość błędów false-positive i false-negative i dobrać próg akceptacji zgodnie z kosztami tych pomyłek.
+\\W przypadku zbioru PIMA koszt pomyłki wydaje się niewielki. Dla progu accept równego 0.5 otrzymujemy aż 80\% trafnych klasyfikacji i tyklo 20\% błędnych. Podwyższanie progu powoduje delikatny spadek liczby błędnych klasyfikacji przy gwałtownym spadku liczby klasyfikacji prawidłowych i gwałtownym wzroście liczby przypadków niesklasyfikowanych. Dlatego wydaje się, że optymalną wartością będzie tutaj 0.5.
 
 \end{enumerate}
 
+%TODO: continue from this point
 \subsection{Badanie odporności sieci na uszkodzenia}
 \begin{enumerate}
 \item \textbf{Skonstruuj sieć dwuwarstwową o architekturze 4-3-3 dla problemu IRIS i naucz ją.}
@@ -264,15 +271,43 @@ Otwórz edytor sieci (Edit|Network). Wyszukaj (w obu warstwach: ukrytej i wyjśc
 
 \item \textbf{
 Kroki z punku 3 powtórz ok. 10 razy, kolejno usuwając coraz większe wagi i notując trafność klasyfikowania. Sporządź wykres zależności trafności klasyfikowania w funkcji ilości usuniętych (najmniejszych) wag.}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{dane/part1/zad8/damages}
+\caption{Wpływ uszkodzeń sieci na trafność klasyfikacji.\label{fig:damages}}
+\end{figure}
 
 \item \textbf{
 Czy odporność sieci na uszkodzenia (usunięcia wag) jest wysoka?}
+\\Tak. Widać to na rysunku \ref{fig:damages}. Bez żadnej szkody dla trafności klasyfikacji można wyzerować pierwsze 5 najmniejszych wag - ich wartości byłY bliskie zeru. Po zerowaniu kolejnych wag trafność spada, by nagle, po usunięciu wagi 11 znów wzrosnąć.
 
 \item \textbf{
 Czy jesteś w stanie na podstawie tak “zredukowanej” sieci powiedzieć coś o ważności poszczególnych atrybutów opisujących przykłady?}
 
+\begin{table}[ch]
+	\centering
+	\caption{Wagi neuronów po wyzerowaniu 11 z nich.\label{tab:zeroweights}}
+	\begin{tabular}{|c|c|c|c|c|c|c|}
+		\hline  & h1\# 01 & h1\#02 & h1\#03 & Set & Ver & Vir \\
+		\hline Threshold & -1.931 & 8.862 & 1.698 & -2.993 & 1.659 & 4.573 \\
+		\hline SLENGTH & 0 & 0 & 0 &  &  & \\
+		\hline SWIDTH & 0 & -3.083 & -3.994 &  &  &  \\
+		\hline PLENGTH & 0 & 7.648 & 5.271 &  &  &  \\
+		\hline PWIDTH & 0 & 10.05 & 4.444 &  &  &  \\
+		\hline h1\#01 &  &  &  & 0 & 0 & 0\\
+		\hline h1\#02 &  &  &  & 0 & -8.377 & 8.924 \\
+		\hline h1\#03 &  &  &  & -7.039 & 7.538 & 0 \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+Tak, w przypadku sieci (pokazanej w tabeli \ref{tab:zeroweights}), w której wyzerowano 11 z 21 wag i która osiąga trafność klasyfikacji tylko ok 10\% gorszą od pełnej sieci wyzerowane zostały wszystkie wagi związane z atrybutem \emph{"slength"}. To sugeruje, że atrybut ten nie niesie wiele informacji z punktu widzenia przeprowadzanej klasyfikacji.
+
 \item \textbf{
-Czy w konsekwencji “przerzedzenia” sieci można usunąć niektóre neurony? Jak należy to zrobić? (przemyśl dokładnie).}
+Czy w konsekwencji “przerzedzenia” sieci można usunąć niektóre neurony? Jak należy to zrobić?
+ (przemyśl dokładnie).}
+ \\Wagi pierwszego neuron z pierwszej warstwy ukrytej (h1\#01) zostały całkowicie wyzerowane (zarówno wagi na jego wejściach jak i wszystkie wagi na wejściach następnej warstwy, do których jest on podłączony), co widać w tabeli \ref{tab:zeroweights}. Dlatego wydaje się, że możnaby go usunąć bez wpływu na działanie sieci. Jednak, ponieważ w analizowanej sieci używana była nieliniowa (sigmoidalna) funkcja przenosząca (w terminologii SNN: activation function. W \ref{} mianem "funkcja aktywacji" określa się tę funkcję, która w SNN jest nazywana PSP (Post Synaptic Potential function), to wspomniany neuron można "bezkarnie" usunąć jedynie, jeśli wyzerowane są wszystkie wagi wejść, do których jest on połączony - wyzerowanie jedynie wejść tego neuronu nie wystarcza, ponieważ wartość funkcji aktywacji $ f(0) = \frac{1}{1 + e^{-0}} = \frac{1}{2} \neq 0 $ , a właśnie wartość 0 pojawiłaby się na odpowiednich wejściach neuronów z 3 warstwy gdyby usunąć całkowicie neuron h1\#01.
 \end{enumerate}
 
 \subsection{ Eksperymentalny dobór rozmiaru zbioru weryfikującego}

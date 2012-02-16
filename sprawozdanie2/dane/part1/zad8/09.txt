@@ -1,0 +1,7 @@
+27	26	27	23	24	23
+27	2	27	22	6	23
+Wrong	0	3	0	0	3	0
+Unknown	0	21	0	1	15	0
+Setosa	27	0	0	22	0	0
+Versicol	0	2	0	0	6	0
+Virginic	0	3	27	0	3	23
