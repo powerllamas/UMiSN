@@ -1,0 +1,8 @@
+	Setosa	Versicol	Virginic	Setosa	Versicol	Virginic
+Total	48	41	46	2	9	4
+Correct	48	39	45	2	7	4
+Wrong	0	1	1	0	2	0
+Unknown	0	1	0	0	0	0
+Setosa	48	0	0	2	0	0
+Versicol	0	39	1	0	7	0
+Virginic	0	1	45	0	2	4
