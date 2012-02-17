@@ -1,0 +1,4 @@
+﻿n	Epochs	Eror	Algorithm
+1	39	0.3925	"Back Propagation"
+2	68	0.4956	"Quick Propagation"
+3	20	0.6000	"Delta Bar Delta"

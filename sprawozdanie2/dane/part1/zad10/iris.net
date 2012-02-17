@@ -1,0 +1,76 @@
+# Trajan v1.0 Network
+
+type MLP
+error_fn "Sum-squared"
+no_layers 3
+
+layer 1
+no_units 4
+width 1
+act_fn "Linear"
+psp_fn "Linear"
+-0.776367
+0.612061
+-0.391052
+-0.682678
+
+layer 2
+no_units 3
+width 1
+act_fn "Logistic"
+psp_fn "Linear"
+1.22496
+-0.848617
+2.26376
+weights 1
+1.94898	-14.7478	14.2984	16.5604	
+0.364492	1.43828	-1.04559	-2.99915	
+0.0830977	0.0450954	0.185687	2.70445	
+
+layer 3
+no_units 3
+width 1
+act_fn "Logistic"
+psp_fn "Linear"
+0.174265
+2.16482
+-2.40107
+weights 2
+-8.64794	9.25574	-2.27573	
+8.82116	1.52359	-15.6612	
+0.149206	-30.1672	10.6346	
+
+normalisation
+classify_by confidence
+accept 0.5
+reject 0.5
+steps 1
+lookahead 0
+input_normalisation "None"
+output_normalisation "None"
+no_inputs 4
+no_outputs 1
+no_normed_inputs 4
+no_normed_outputs 3
+attributes
+SLENGTH
+SWIDTH
+PLENGTH
+PWIDTH
+FLOWER={Setosa,Versicol,Virginic}
+factors
+Minimax	Mean	0	1	-1.26471	0.294118
+Minimax	Mean	0	1	-1	0.5
+Minimax	Mean	0	1	-0.189655	0.172414
+Minimax	Mean	0	1	-0.0454545	0.454545
+One-of-N	Mean	0	1	0	1
+missing values
+5.70154
+3.04308
+3.52308
+1.07385
+0.4
+0.292308
+0.307692
+
+

@@ -307,7 +307,7 @@ Tak, w przypadku sieci (pokazanej w tabeli \ref{tab:zeroweights}), w której wyz
 \item \textbf{
 Czy w konsekwencji “przerzedzenia” sieci można usunąć niektóre neurony? Jak należy to zrobić?
  (przemyśl dokładnie).}
- \\Wagi pierwszego neuron z pierwszej warstwy ukrytej (h1\#01) zostały całkowicie wyzerowane (zarówno wagi na jego wejściach jak i wszystkie wagi na wejściach następnej warstwy, do których jest on podłączony), co widać w tabeli \ref{tab:zeroweights}. Dlatego wydaje się, że możnaby go usunąć bez wpływu na działanie sieci. Jednak, ponieważ w analizowanej sieci używana była nieliniowa (sigmoidalna) funkcja przenosząca (w terminologii SNN: activation function. W \ref{} mianem "funkcja aktywacji" określa się tę funkcję, która w SNN jest nazywana PSP (Post Synaptic Potential function), to wspomniany neuron można "bezkarnie" usunąć jedynie, jeśli wyzerowane są wszystkie wagi wejść, do których jest on połączony - wyzerowanie jedynie wejść tego neuronu nie wystarcza, ponieważ wartość funkcji aktywacji $ f(0) = \frac{1}{1 + e^{-0}} = \frac{1}{2} \neq 0 $ , a właśnie wartość 0 pojawiłaby się na odpowiednich wejściach neuronów z 3 warstwy gdyby usunąć całkowicie neuron h1\#01.
+ \\Wagi pierwszego neuron z pierwszej warstwy ukrytej (h1\#01) zostały całkowicie wyzerowane (zarówno wagi na jego wejściach jak i wszystkie wagi na wejściach następnej warstwy, do których jest on podłączony), co widać w tabeli \ref{tab:zeroweights}. Dlatego wydaje się, że możnaby go usunąć bez wpływu na działanie sieci. Jednak, ponieważ w analizowanej sieci używana była nieliniowa (sigmoidalna) funkcja przenosząca (w terminologii SNN: activation function. W \cite{umisn} mianem "funkcja aktywacji" określa się tę funkcję, która w SNN jest nazywana PSP (Post Synaptic Potential function), to wspomniany neuron można "bezkarnie" usunąć jedynie, jeśli wyzerowane są wszystkie wagi wejść, do których jest on połączony - wyzerowanie jedynie wejść tego neuronu nie wystarcza, ponieważ wartość funkcji aktywacji $ f(0) = \frac{1}{1 + e^{-0}} = \frac{1}{2} \neq 0 $ , a właśnie wartość 0 pojawiłaby się na odpowiednich wejściach neuronów z 3 warstwy gdyby usunąć całkowicie neuron h1\#01.
 \end{enumerate}
 
 \subsection{ Eksperymentalny dobór rozmiaru zbioru weryfikującego}
@@ -316,7 +316,7 @@ Dla zbioru IRIS, PIMA lub BUPA przeprowadź eksperyment uczenia i testowania, zm
 \item \textbf{Zacznij od następujących proporcji zbioru uczącego, weryfikującego i testującego 8:1:1.}
 
 \item \textbf{
-Przeprowadź uczenie (liczba epok >=300). Przetestuj sieć, zapisz trafność klasyfikowania, błąd klasyfikowania i procent przykładów niezaklasyfikowanych.}
+Przeprowadź uczenie (liczba epok $ >= $ 300). Przetestuj sieć, zapisz trafność klasyfikowania, błąd klasyfikowania i procent przykładów niezaklasyfikowanych.}
 
 \item \textbf{
 Sukcesywnie zwiększaj rozmiar zbioru weryfikującego, zmniejszając rozmiar uczącego (pole Training w oknie Edit|Data set), do proporcji 1:8:1 włącznie.}
@@ -324,19 +324,40 @@ Sukcesywnie zwiększaj rozmiar zbioru weryfikującego, zmniejszając rozmiar ucz
 \item \textbf{
 Sporządź wykres zależności trafności klasyfikowania, błędu klasyfikowania i procentu przykładów niezaklasyfikowanych w funkcji proporcji rozmiaru zbioru weryfikującego do liczby przykładów, jakie mamy do dyspozycji podczas uczenia (czyli rozmiar zbioru uczącego + rozmiar zbioru weryfikującego). Czy można znaleźć jakąś wielkość optymalną?
 }
+\\Na podstawie wykresu z rysunku \ref{fig:verify} można przypuszczać, że optymalny stosunek wielkości zbioru trenującego i weryfikującego to 1:1 - wtedy jest najmniej klasyfikacji nietrafnych i niepewnych a najwięcej  poprawnych. Dla skrajnego przypadku stosunek zbioru trenującego do weryfikującego 8:1 - sieć jest tak samo   dobra i wydaje się, że taka wielkość będzie bardziej odpowiednia dla małych zbiorów uczących, w których    przydzielenie większej liczby przykładów do zbioru weryfikującego spowodowałoby zbytnie zredukowanie zbioru     uczącego.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{dane/part1/zad9/verify}
-\caption{Częstość klsyfikacji poprawnych, błędnych i niezaklasyfikowanych w funkcji proporcji rozmiaru zbioru weryfikującego do rozmiaru zbioru użytego podczas uczenia .\label{fig:verify}}
+\caption{Częstość klasyfikacji poprawnych, błędnych i niezaklasyfikowanych w funkcji proporcji rozmiaru zbioru weryfikującego do rozmiaru zbioru użytego podczas uczenia (zbiór \emph {IRIS}).\label{fig:verify}}
 \end{figure}
+
 
 \end{enumerate}
 
 \subsection{Porównanie ‘vanilla’ backpropagation z bardziej wyrafinowanymi algorytmami uczenia nadzorowanego sieci warstwowych}
 \textbf{Dla zbioru PIMA lub BUPA przeprowadź eksperyment uczenia i testowania, używając poza standardowym (vanilla) algorytmem backpropagation innych algorytmów uczenia (np. QuickPropagation, Delta-bar-Delta). Dla zapewnienia porównywalności wyników, w poszczególnych eksperymentach zachowaj tą samą konfigurację sieci i warunki stopu. W miarę możliwości uśrednij wyniki z kilku przebiegów dla każdego algorytmu. Czy któryś z algorytmów jest wyraźnie lepszy? Porównaj liczbę epok uczenia.
 \\
-Uwaga. Algorytmy QuickProp i DeltaBarDelta mogą okazać się trochę niestabilne (w ogólności łatwiej niż backprop wpadają w minima lokalne). W takim przypadku trzeba się trochę pobawić parametrami.}
+Uwaga. Algorytmy QuickProp i DeltaBarDelta mogą okazać się trochę niestabilne (w ogólności łatwiej niż backprop wpadają w minima lokalne). W takim przypadku trzeba się trochę pobawić parametrami.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{dane/part1/zad10/epochs-iris}
+\caption{Średni czas uczenia (w epokach) sieci aż do osiągnięcia kryterium stopu dla różnych algorytmów uczenia. (zbiór \emph {IRIS}).\label{fig:epochs-iris}}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{dane/part1/zad10/epochs-pima}
+\caption{Średni czas uczenia (w epokach) sieci aż do osiągnięcia kryterium stopu dla różnych algorytmów uczenia. (zbiór \emph {PIMA}).\label{fig:epochs-pima}}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{dane/part1/zad10/errors-pima}
+\caption{Średni błąd średniokwadratowy po osiągnięciu warunku stopu dla różnych algorytmów uczenia. (zbiór \emph {PIMA}).\label{fig:errors-pima}}
+\end{figure}
+
 
 \subsection{Inne sieci warstwowe – sieci z jednostkami o symetrii kołowej (RBF)}
 \begin{enumerate}
@@ -371,3 +392,5 @@ Manipulując:
 spróbuj uzyskać jak największą trafność klasyfikowania na zbiorze testującym dla zbioru PIMA lub BUPA.
 \\Jeśli możesz, porównaj uzyskany wynik z trafnością otrzymaną przy użyciu drzew decyzyjnych.
 \\Aby zapewnić porównywalność wyników i powtarzalność eksperymentu, nie zmieniaj oryginalnego przyporządkowania przykładów do zbiorów uczącego, weryfikującego i testującego.
+
+
