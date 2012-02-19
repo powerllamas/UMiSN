@@ -4,9 +4,10 @@
 \usepackage[OT4]{fontenc} 
 \usepackage{graphicx,color} %include pdf's (and png's for raster graphics... avoid raster graphics!) 
 \usepackage{url} 
-\usepackage{cite}
+%\usepackage{cite}
+\usepackage{biblatex}
 \usepackage[pdftex,hyperfootnotes=true,pdfborder={0 0 0}]{hyperref} %za wszystkimi pakietami; pdfborder nie wszedzie tak samo zaimplementowane bo specyfikacja nieprecyzyjna; pod miktex'em po prostu nie widac wtedy ramek
-
+\bibliography{sprawozdanie}
 
 \input{_ustawienia.tex}
 
@@ -22,9 +23,9 @@
 
 %%%%%%%%%%%%%%%% literatura %%%%%%%%%%%%%%%%
 
-\bibliographystyle{plalpha}
-\bibliography{sprawozdanie}
+%\bibliographystyle{plalpha}
 
 
+\printbibliography
 \end{document}
 

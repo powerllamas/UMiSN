@@ -340,6 +340,9 @@ Sporządź wykres zależności trafności klasyfikowania, błędu klasyfikowania
 \\
 Uwaga. Algorytmy QuickProp i DeltaBarDelta mogą okazać się trochę niestabilne (w ogólności łatwiej niż backprop wpadają w minima lokalne). W takim przypadku trzeba się trochę pobawić parametrami.}
 
+Dlatestowanych zbiorów danych najlepszym algorytmem okazał się zwykły \emph{\textit{Vanilla} Back Propagation} (rysunki \ref{fig:epochs-iris} i \ref{fig:epochs-pima}. Co prawda \emph{Delta-Bar-Delta} kończył działanie szybciej, ale osiągał znacznie gorsze wyniki, co widać na rysunku \ref{fig:errors-pima}.
+
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{dane/part1/zad10/epochs-iris}
@@ -363,21 +366,53 @@ Uwaga. Algorytmy QuickProp i DeltaBarDelta mogą okazać się trochę niestabiln
 \begin{enumerate}
 \item \textbf{Zbuduj sieć RBF dla problemu IRIS.
 Otwórz edytor sieci (Edit|Network). Zwróć uwagę na różnice w polach Act fn i PSP in w porównaniu z perceptronami.}
+Funkcja \textit{Act} to funkcja wykładnicza (w perceptronach: f. logistyczna) a funkcja \textit{PSP} to funkcja \textit{RBF}.  
 
 \item \textbf{
 Naucz sieć. Uczenie składa się z trzech etapów: ustalania centrów poszczególnych neuronów, ustalenia promieni (deviation), które decydują o stopniu “spłaszczenia” funkcji Gaussowskich, oraz obliczenia wag neuronu wyjściowego. Zwróć uwagę na czas uczenia.}
+\\Podczas uczenia użyto grupowania k-means w celu ustalenia centrów neuronów, heurystyki k-nearest z k=14 w celu wyznaczenia promieni. Wagi neuronów wyjściowych zostały obliczone za pomocą pseudoinwersji.
 
 \item \textbf{
 Obejrzyj funkcję odpowiedzi wybranych neuronów w warstwie ukrytej i neuronów w warstwie wyjściowej (Run|Response Surface). Możesz zmieniać też zmienne niezależne (atrybuty). Zauważ różnice w stosunku do sieci z jednostkami logistycznymi.}
+\\Funckję odpowiedzi dla jednego z neuronów warstwy ukrytej pokazano na rys. \ref{fig:rbf-response-hidden} a z warstwy wyjściowej na rys. \ref{fig:rbf-response-out}.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{dane/part1/zad11/rbf-response-hidden}
+\caption{Funkcja odpowiedzi neuronu z warstwy ukrytej.\label{fig:rbf-response-hidden}}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{dane/part1/zad11/rbf-response-out}
+\caption{Funkcja odpowiedzi neuronu z warstwy ukrytej.\label{fig:rbf-response-out}}
+\end{figure}
 
 \item \textbf{
 Zastanów się, jakie konsekwencje ma niewłaściwy dobór promieni. Co będzie się działo, gdy promienie będą za duże? Co, gdy za małe? (związek z generalizacją).}
+\\Im szerszy promień tym więcej przykładów obejmuje swoim zasięgiem każdy z neuronów w warstwie ukrytej i z tym mniejszą rozdzielczością odróżnia od siebie różne przykłady. Jeśli promień będzie  duży, to zdolność sieci do generalizacji (klasyfikacji nieznanych przykładów) będzie większa, ale jednocześnie sieć będzie mniej szczegółowa - mniejsza będzie różnica w odpowiedzi dla dwóch różnych przykładów. W skrajnym przypadku każde z centrów będzie odpowiadać na każdy z przykładów i ich odpowiedzi będą bardzo podobne - wtedy warstwa ukryta sieci praktycznie nie działa i taką sieć możnaby zastąpić 2 warstwową sięcią liniową.
+\\Jeśli promienie będą małe, to funkcje gausowskie będą bardziej szpiczaste i sieć może utracić zdolność do generalizacji - nowe przykłady mogą nie pasować do żadnego z centrów i w rezultacie nie będą rozróżnialne - nie zostaną przydzielone do żadnej z klas.
 
 \item \textbf{
 Przetestuj sieć dla różnych metod uczenia, tj. dla różnych inicjalizacji centrów (Sample, K-means) i różnych sposobów ustalania odchyleń (Explicit, Isotropic, K-nearest). Najlepiej miej otwarty edytor sieci; obserwuj jakie konsekwencje ma wybranie poszczególnych sposobów uczenia.}
+\\Inicjalizacja centrów wpływa na wektory wag neuronów RBF. Inicjalizacja przez losowe próbkowanie (sample) sprawia, że algorytm staje się niedeterministyczny w tym sensie, że po każdym uczeniu sieci otrzymujemy inną sieć. Zjawisko to nie występuje w przypadku wybrania centrów używając grupowania k-means.
+\\Sposób ustalania odchyleń wpływa na wagi w warstwie wyjściowej oraz na progi w warstwie ukrytej - im większy promień tym mniejszy próg - zgodnie z tym co napisano w dopowiedzi na poprzednie zadanie - tym więcej przykładów obejmie swoim zasięgiem (da dla nich niezerową odpowiedź) każdy z neuronów RBF.
 
 \item \textbf{
 Porównaj sieć RBF z siecią typu Multilayer Perceptron na trudniejszym zbiorze przykładów (PIMA lub BUPA).}
+\\Porównanie sieci RBF i MLP na przykładzie zbioru PIMA, widoczne na rys. \ref{fig:rbf-mlp}, pokazuje że klasyczna sieć neuronowa (MLP) radzi sobie nieco lepiej niż sieć RBF, jednak różnice te nie są znaczące. W przypdku zbioru BUPA (rys. \ref{fig:bupa-rbf-mlp}) lepsza okazała się sieć RDF, przy czym różnica w trafności klasyfikacji była podobna jak w przypadku zbioru PIMA.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{dane/part1/zad11/rbf-mlp}
+\caption{Trafność klasyfikacji zbioru PIMA przez sieć Multilayer perceptron (MLP) i sieć RDF.\label{fig:rbf-mlp}}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{dane/part1/zad11/bupa-rbf-mlp}
+\caption{Trafność klasyfikacji zbioru BUPA przez sieci Multilayer perceptron (MLP) i sieć RDF.\label{fig:bupa-rbf-mlp}}
+\end{figure}
+
 \end{enumerate}
 
 \subsection{ Uzyskiwanie jak najwyższej trafności}
@@ -392,5 +427,10 @@ Manipulując:
 spróbuj uzyskać jak największą trafność klasyfikowania na zbiorze testującym dla zbioru PIMA lub BUPA.
 \\Jeśli możesz, porównaj uzyskany wynik z trafnością otrzymaną przy użyciu drzew decyzyjnych.
 \\Aby zapewnić porównywalność wyników i powtarzalność eksperymentu, nie zmieniaj oryginalnego przyporządkowania przykładów do zbiorów uczącego, weryfikującego i testującego.
-
+\\Największą trafność klasyfikacji zbioru PIMA - 0.76  - udało się otrzymać stosując zwykły algorytm Back Propagation o parametrach: prędkość uczenia: 0.1, moment: 0.33. Nie jest to wynik średni, lecz najlepszy uzyskany w kilku próbach. Jest on porównywalny z wynikami klasyfikacji PIMA raportowanymi w \cite{duch10}.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{dane/part1/zad12/compare}
+\caption{Trafność klasyfikacji zbioru PIMA przez sieć RDF oraz sieci MLP uczone algorytmami Back Propagation (BP) i Quick Propagation (QP).\label{fig:compare}}
+\end{figure}
 
