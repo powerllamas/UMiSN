@@ -21,8 +21,12 @@ def generate(neuron_type, layers):
             
 
 if __name__ == '__main__':
-    layers = [int(c) for c in sys.argv[1:]]
-    print layers
-    neuron_type = "Nu"
-    for i in range(0,2):
-        generate(neuron_type, layers)
+    if sys.argv[1] == '-h' or sys.argv[1] == '--help':
+        print "usage: nn_generator.py N a b c\nwhere:\n\tN - number of genotypes to generate\n\ta - number of neurons in first layer\n\tb-number of neurons in 2 layer\n\tc...\nExample:\n\tnn_generator.py 5 3 4 1\nwill generate 5 genotypes, each with neural network of architecture 3-4-3."
+    else:
+        N = sys.argv[1]
+        layers = [int(c) for c in sys.argv[2:]]
+        print layers
+        neuron_type = "Nu"
+        for i in range(0,int(N)):
+            generate(neuron_type, layers)

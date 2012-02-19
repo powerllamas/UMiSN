@@ -1,0 +1,12 @@
+﻿//make mutant sequence.
+//ensure there is one genotype in the gene pool! 
+var n,ile=200;
+GenePools.group=0; //select first group
+for(n=1;n<=ile;n++)
+{
+   GenePools.genotype=n-1; //select n-th genotype as ancestor
+   GenePools.mutateSelected();
+   Genotype.name="mutant "+n; //set its name to consecutive number
+   GenePools.copySelected(0);
+   //Simulator.print(""+n+" "+Genotype.nnsiz);
+}
