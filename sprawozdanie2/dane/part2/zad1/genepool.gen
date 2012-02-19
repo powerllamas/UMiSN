@@ -1,0 +1,13744 @@
+# created Sun Feb 19 17:06:34 2012
+# by Framsticks 3.2rc2+
+org:
+name:Anonymous framstick
+genotype:X[Nu]
+info:(manually created)
+num:1
+gnum:0
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2621
+
+org:
+name:mutant 1
+genotype:X[Nu,0:1]
+info:80.00% mutation of 'Anonymous framstick'
+num:2
+gnum:1
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2622
+
+org:
+name:mutant 2
+genotype:X[Nu,0:2.09]
+info:44.44% mutation of 'mutant 1'
+num:3
+gnum:2
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2623
+
+org:
+name:mutant 3
+genotype:X[Nu,0:2.09,fo:0.04]
+info:66.67% mutation of 'mutant 2'
+num:4
+gnum:3
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2624
+
+org:
+name:mutant 4
+genotype:X[Nu,fo:0.04]
+info:35.00% mutation of 'mutant 3'
+num:5
+gnum:4
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2625
+
+org:
+name:mutant 5
+genotype:X[Nu,fo:0.04,0:1]
+info:30.77% mutation of 'mutant 4'
+num:6
+gnum:5
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2626
+
+org:
+name:mutant 6
+genotype:X[Nu,fo:0.04,0:2.859]
+info:29.41% mutation of 'mutant 5'
+num:7
+gnum:6
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2627
+
+org:
+name:mutant 7
+genotype:X[Nu,fo:0.04,0:2.859,fo:0.04]
+info:38.10% mutation of 'mutant 6'
+num:8
+gnum:7
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2628
+
+org:
+name:mutant 8
+genotype:X[Nu,fo:0.04,0:0.724,fo:0.04]
+info:17.24% mutation of 'mutant 7'
+num:9
+gnum:8
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2629
+
+org:
+name:mutant 9
+genotype:X[Nu,fo:0.04,0:0.724]
+info:27.59% mutation of 'mutant 8'
+num:10
+gnum:9
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2630
+
+org:
+name:mutant 10
+genotype:X
+info:95.24% mutation of 'mutant 9'
+num:11
+gnum:10
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2631
+
+org:
+name:mutant 11
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 10'
+num:12
+gnum:11
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2632
+
+org:
+name:mutant 12
+genotype:X[Nu,fo:0.04]
+info:160.00% mutation of 'mutant 11'
+num:13
+gnum:12
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2633
+
+org:
+name:mutant 13
+genotype:X[Nu,fo:0.04,fo:0.04]
+info:61.54% mutation of 'mutant 12'
+num:14
+gnum:13
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2634
+
+org:
+name:mutant 14
+genotype:X[Nu,fo:0.04,fo:0.569192]
+info:38.10% mutation of 'mutant 13'
+num:15
+gnum:14
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2635
+
+org:
+name:mutant 15
+genotype:X[Nu,fo:0.04]
+info:48.00% mutation of 'mutant 14'
+num:16
+gnum:15
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2636
+
+org:
+name:mutant 16
+genotype:X
+info:92.31% mutation of 'mutant 15'
+num:17
+gnum:16
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2637
+
+org:
+name:mutant 17
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 16'
+num:18
+gnum:17
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2638
+
+org:
+name:mutant 18
+genotype:X[Nu,fo:0.04]
+info:160.00% mutation of 'mutant 17'
+num:19
+gnum:18
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2639
+
+org:
+name:mutant 19
+genotype:X[Nu,fo:0.04,0:1]
+info:30.77% mutation of 'mutant 18'
+num:20
+gnum:19
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2640
+
+org:
+name:mutant 20
+genotype:X[Nu,fo:0.04,0:4.848]
+info:29.41% mutation of 'mutant 19'
+num:21
+gnum:20
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2641
+
+org:
+name:mutant 21
+genotype:X[Nu,fo:0.04,0:7.124]
+info:23.81% mutation of 'mutant 20'
+num:22
+gnum:21
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2642
+
+org:
+name:mutant 22
+genotype:X[Nu,fo:0.04,0:7.124,si:2]
+info:23.81% mutation of 'mutant 21'
+num:23
+gnum:22
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2643
+
+org:
+name:mutant 23
+genotype:X[Nu,fo:0.04,0:4.051,si:2]
+info:19.23% mutation of 'mutant 22'
+num:24
+gnum:23
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2644
+
+org:
+name:mutant 24
+genotype:X[Nu,fo:0.04,0:3.128,si:2]
+info:19.23% mutation of 'mutant 23'
+num:25
+gnum:24
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2645
+
+org:
+name:mutant 25
+genotype:X[Nu,fo:0.04,0:3.931,si:2]
+info:19.23% mutation of 'mutant 24'
+num:26
+gnum:25
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2646
+
+org:
+name:mutant 26
+genotype:X[Nu,fo:0.04,0:-0.11,si:2]
+info:19.23% mutation of 'mutant 25'
+num:27
+gnum:26
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2647
+
+org:
+name:mutant 27
+genotype:X[Nu,fo:0.04,0:0.648,si:2]
+info:19.23% mutation of 'mutant 26'
+num:28
+gnum:27
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2648
+
+org:
+name:mutant 28
+genotype:X[Nu,fo:0.04,0:0.648,si:3.06508]
+info:26.92% mutation of 'mutant 27'
+num:29
+gnum:28
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2649
+
+org:
+name:mutant 29
+genotype:X[Nu,fo:0.04,0:-0.876,si:3.06508]
+info:18.75% mutation of 'mutant 28'
+num:30
+gnum:29
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2650
+
+org:
+name:mutant 30
+genotype:X[Nu,fo:0.04,0:1.379,si:3.06508]
+info:18.18% mutation of 'mutant 29'
+num:31
+gnum:30
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2651
+
+org:
+name:mutant 31
+genotype:X[Nu,fo:0.04,0:-1.018,si:3.06508]
+info:18.75% mutation of 'mutant 30'
+num:32
+gnum:31
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2652
+
+org:
+name:mutant 32
+genotype:X[Nu,fo:0.04,0:-2.705,si:3.06508]
+info:18.18% mutation of 'mutant 31'
+num:33
+gnum:32
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2653
+
+org:
+name:mutant 33
+genotype:X[Nu,fo:0.04,0:-3.558,si:3.06508]
+info:18.18% mutation of 'mutant 32'
+num:34
+gnum:33
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2654
+
+org:
+name:mutant 34
+genotype:X[Nu,fo:0.04,0:-3.486,si:3.06508]
+info:18.18% mutation of 'mutant 33'
+num:35
+gnum:34
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2655
+
+org:
+name:mutant 35
+genotype:X[Nu,fo:0.04,0:-2.966,si:3.06508]
+info:18.18% mutation of 'mutant 34'
+num:36
+gnum:35
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2656
+
+org:
+name:mutant 36
+genotype:X[Nu,fo:0.04,0:-2.955,si:3.06508]
+info:18.18% mutation of 'mutant 35'
+num:37
+gnum:36
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2657
+
+org:
+name:mutant 37
+genotype:X[Nu,fo:0.04,0:-2.984,si:3.06508]
+info:18.18% mutation of 'mutant 36'
+num:38
+gnum:37
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2658
+
+org:
+name:mutant 38
+genotype:X[Nu,fo:0.04,0:0.374,si:3.06508]
+info:18.18% mutation of 'mutant 37'
+num:39
+gnum:38
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2659
+
+org:
+name:mutant 39
+genotype:X[Nu,fo:0.04,0:0.895,si:3.06508]
+info:15.62% mutation of 'mutant 38'
+num:40
+gnum:39
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2660
+
+org:
+name:mutant 40
+genotype:X[Nu,fo:0.04,0:0.553,si:3.06508]
+info:15.62% mutation of 'mutant 39'
+num:41
+gnum:40
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2661
+
+org:
+name:mutant 41
+genotype:X[Nu,1:1][Nu,fo:0.04,0:0.553,si:3.06508]
+info:25.00% mutation of 'mutant 40'
+num:42
+gnum:41
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2662
+
+org:
+name:mutant 42
+genotype:X[Nu,1:1][Nu,fo:0.04,si:3.06508]
+info:20.00% mutation of 'mutant 41'
+num:43
+gnum:42
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2663
+
+org:
+name:mutant 43
+genotype:X[Nu,1:1,0:1][Nu,fo:0.04,si:3.06508]
+info:12.50% mutation of 'mutant 42'
+num:44
+gnum:43
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2664
+
+org:
+name:mutant 44
+genotype:X[Nu,1:1,0:1.821][Nu,fo:0.04,si:3.06508]
+info:13.89% mutation of 'mutant 43'
+num:45
+gnum:44
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2665
+
+org:
+name:mutant 45
+genotype:X[Nu,1:2.068,0:1.821][Nu,fo:0.04,si:3.06508]
+info:12.50% mutation of 'mutant 44'
+num:46
+gnum:45
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2666
+
+org:
+name:mutant 46
+genotype:X[Nu,1:2.068,0:4.14][Nu,fo:0.04,si:3.06508]
+info:11.36% mutation of 'mutant 45'
+num:47
+gnum:46
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2667
+
+org:
+name:mutant 47
+genotype:X[Nu,1:3.399,0:4.14][Nu,fo:0.04,si:3.06508]
+info:11.63% mutation of 'mutant 46'
+num:48
+gnum:47
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2668
+
+org:
+name:mutant 48
+genotype:X[Nu,1:4.817,0:4.14][Nu,fo:0.04,si:3.06508]
+info:11.63% mutation of 'mutant 47'
+num:49
+gnum:48
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2669
+
+org:
+name:mutant 49
+genotype:X[Nu,1:4.817][Nu,fo:0.04,si:3.06508]
+info:16.28% mutation of 'mutant 48'
+num:50
+gnum:49
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2670
+
+org:
+name:mutant 50
+genotype:X[Nu,1:6.801][Nu,fo:0.04,si:3.06508]
+info:13.89% mutation of 'mutant 49'
+num:51
+gnum:50
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2671
+
+org:
+name:mutant 51
+genotype:X[Nu,1:6.801,fo:0.04][Nu,fo:0.04,si:3.06508]
+info:22.22% mutation of 'mutant 50'
+num:52
+gnum:51
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2672
+
+org:
+name:mutant 52
+genotype:X[Nu,fo:0.04]
+info:52.27% mutation of 'mutant 51'
+num:53
+gnum:52
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2673
+
+org:
+name:mutant 53
+genotype:X[Nu,fo:0.04,0:1]
+info:30.77% mutation of 'mutant 52'
+num:54
+gnum:53
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2674
+
+org:
+name:mutant 54
+genotype:X[Nu,1:1][Nu,fo:0.04,0:1]
+info:47.06% mutation of 'mutant 53'
+num:55
+gnum:54
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2675
+
+org:
+name:mutant 55
+genotype:X[Nu,fo:0.04,0:1]
+info:32.00% mutation of 'mutant 54'
+num:56
+gnum:55
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2676
+
+org:
+name:mutant 56
+genotype:X[Nu,fo:0.04,0:3.641]
+info:29.41% mutation of 'mutant 55'
+num:57
+gnum:56
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2677
+
+org:
+name:mutant 57
+genotype:X
+info:95.24% mutation of 'mutant 56'
+num:58
+gnum:57
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2678
+
+org:
+name:mutant 58
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 57'
+num:59
+gnum:58
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2679
+
+org:
+name:mutant 59
+genotype:X[Nu,0:1]
+info:80.00% mutation of 'mutant 58'
+num:60
+gnum:59
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2680
+
+org:
+name:mutant 60
+genotype:X[Nu,0:4.21]
+info:44.44% mutation of 'mutant 59'
+num:61
+gnum:60
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2681
+
+org:
+name:mutant 61
+genotype:X[Nu,0:9.794]
+info:41.67% mutation of 'mutant 60'
+num:62
+gnum:61
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2682
+
+org:
+name:mutant 62
+genotype:X[Nu,0:11.506]
+info:46.15% mutation of 'mutant 61'
+num:63
+gnum:62
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2683
+
+org:
+name:mutant 63
+genotype:X[Nu,0:11.575]
+info:42.86% mutation of 'mutant 62'
+num:64
+gnum:63
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2684
+
+org:
+name:mutant 64
+genotype:X[Nu,0:11.634]
+info:42.86% mutation of 'mutant 63'
+num:65
+gnum:64
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2685
+
+org:
+name:mutant 65
+genotype:X[Nu,0:11.634,si:2]
+info:35.71% mutation of 'mutant 64'
+num:66
+gnum:65
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2686
+
+org:
+name:mutant 66
+genotype:X[Nu,0:8.931,si:2]
+info:31.58% mutation of 'mutant 65'
+num:67
+gnum:66
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2687
+
+org:
+name:mutant 67
+genotype:X[Nu,0:8.931]
+info:27.78% mutation of 'mutant 66'
+num:68
+gnum:67
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2688
+
+org:
+name:mutant 68
+genotype:X[Nu,0:15.541]
+info:46.15% mutation of 'mutant 67'
+num:69
+gnum:68
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2689
+
+org:
+name:mutant 69
+genotype:X
+info:92.86% mutation of 'mutant 68'
+num:70
+gnum:69
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2690
+
+org:
+name:mutant 70
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 69'
+num:71
+gnum:70
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2691
+
+org:
+name:mutant 71
+genotype:X
+info:80.00% mutation of 'mutant 70'
+num:72
+gnum:71
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2692
+
+org:
+name:mutant 72
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 71'
+num:73
+gnum:72
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2693
+
+org:
+name:mutant 73
+genotype:X
+info:80.00% mutation of 'mutant 72'
+num:74
+gnum:73
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2694
+
+org:
+name:mutant 74
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 73'
+num:75
+gnum:74
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2695
+
+org:
+name:mutant 75
+genotype:X[Nu,0:1]
+info:80.00% mutation of 'mutant 74'
+num:76
+gnum:75
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2696
+
+org:
+name:mutant 76
+genotype:X[Nu,0:1.4]
+info:33.33% mutation of 'mutant 75'
+num:77
+gnum:76
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2697
+
+org:
+name:mutant 77
+genotype:X[Nu,0:-1.395]
+info:54.55% mutation of 'mutant 76'
+num:78
+gnum:77
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2698
+
+org:
+name:mutant 78
+genotype:X[Nu,0:-3.148]
+info:42.86% mutation of 'mutant 77'
+num:79
+gnum:78
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2699
+
+org:
+name:mutant 79
+genotype:X[Nu,0:-1.455]
+info:42.86% mutation of 'mutant 78'
+num:80
+gnum:79
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2700
+
+org:
+name:mutant 80
+genotype:X[Nu,0:-2.153]
+info:42.86% mutation of 'mutant 79'
+num:81
+gnum:80
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2701
+
+org:
+name:mutant 81
+genotype:X[Nu,0:-2.86]
+info:42.86% mutation of 'mutant 80'
+num:82
+gnum:81
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2702
+
+org:
+name:mutant 82
+genotype:X[Nu,0:-2.607]
+info:46.15% mutation of 'mutant 81'
+num:83
+gnum:82
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2703
+
+org:
+name:mutant 83
+genotype:X[Nu]
+info:64.29% mutation of 'mutant 82'
+num:84
+gnum:83
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2704
+
+org:
+name:mutant 84
+genotype:X[Nu,in:0.8]
+info:140.00% mutation of 'mutant 83'
+num:85
+gnum:84
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2705
+
+org:
+name:mutant 85
+genotype:X[Nu,in:0.8,0:1]
+info:33.33% mutation of 'mutant 84'
+num:86
+gnum:85
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2706
+
+org:
+name:mutant 86
+genotype:X[Nu,in:0.8,0:-1.773]
+info:37.50% mutation of 'mutant 85'
+num:87
+gnum:86
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2707
+
+org:
+name:mutant 87
+genotype:X[Nu,in:0.8,0:0.064]
+info:28.57% mutation of 'mutant 86'
+num:88
+gnum:87
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2708
+
+org:
+name:mutant 88
+genotype:X[Nu,in:0.8,0:-0.061]
+info:30.00% mutation of 'mutant 87'
+num:89
+gnum:88
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2709
+
+org:
+name:mutant 89
+genotype:X[Nu,1:1][Nu,in:0.8,0:-0.061]
+info:38.10% mutation of 'mutant 88'
+num:90
+gnum:89
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2710
+
+org:
+name:mutant 90
+genotype:X[Nu,1:1][Nu,in:0.8,0:-0.286]
+info:20.69% mutation of 'mutant 89'
+num:91
+gnum:90
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2711
+
+org:
+name:mutant 91
+genotype:X[Nu,1:1][Nu,in:0.8,0:0.851]
+info:20.69% mutation of 'mutant 90'
+num:92
+gnum:91
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2712
+
+org:
+name:mutant 92
+genotype:X[Nu,1:-0.322][Nu,in:0.8,0:0.851]
+info:21.43% mutation of 'mutant 91'
+num:93
+gnum:92
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2713
+
+org:
+name:mutant 93
+genotype:X[Nu,1:-0.322,fo:0.04][Nu,in:0.8,0:0.851]
+info:24.24% mutation of 'mutant 92'
+num:94
+gnum:93
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2714
+
+org:
+name:mutant 94
+genotype:X[Nu,1:-0.322,fo:0.04][Nu,in:0.8,0:1.913]
+info:12.20% mutation of 'mutant 93'
+num:95
+gnum:94
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2715
+
+org:
+name:mutant 95
+genotype:X[Nu,1:-0.322,fo:0.04][Nu,in:0.8,0:1.425]
+info:12.20% mutation of 'mutant 94'
+num:96
+gnum:95
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2716
+
+org:
+name:mutant 96
+genotype:X[Nu,1:-0.322,fo:0.04][Nu,in:0.8,0:1.012]
+info:12.20% mutation of 'mutant 95'
+num:97
+gnum:96
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2717
+
+org:
+name:mutant 97
+genotype:X[Nu,1:1.423,fo:0.04][Nu,in:0.8,0:1.012]
+info:14.63% mutation of 'mutant 96'
+num:98
+gnum:97
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2718
+
+org:
+name:mutant 98
+genotype:X[Nu,1:1.423,fo:0.04][Nu,in:0.8,0:2.084]
+info:12.50% mutation of 'mutant 97'
+num:99
+gnum:98
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2719
+
+org:
+name:mutant 99
+genotype:X[Nu,1:2.597,fo:0.04][Nu,in:0.8,0:2.084]
+info:12.50% mutation of 'mutant 98'
+num:100
+gnum:99
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2720
+
+org:
+name:mutant 100
+genotype:X[Nu,1:2.597,fo:0.04][Nu,in:0.8,0:2.084,fo:0.04]
+info:20.00% mutation of 'mutant 99'
+num:101
+gnum:100
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2721
+
+org:
+name:mutant 101
+genotype:X[Nu,1:2.597,fo:0.04][Nu,in:0.8,0:2.393,fo:0.04]
+info:10.42% mutation of 'mutant 100'
+num:102
+gnum:101
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2722
+
+org:
+name:mutant 102
+genotype:X[Nu,1:2.597,fo:0.04][Nu,in:0.8,0:1.712,fo:0.04]
+info:10.42% mutation of 'mutant 101'
+num:103
+gnum:102
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2723
+
+org:
+name:mutant 103
+genotype:X[Nu,1:2.597,fo:0.04][Nu,in:0.8,0:3.68,fo:0.04]
+info:10.42% mutation of 'mutant 102'
+num:104
+gnum:103
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2724
+
+org:
+name:mutant 104
+genotype:X[Nu,1:2.039,fo:0.04][Nu,in:0.8,0:3.68,fo:0.04]
+info:10.64% mutation of 'mutant 103'
+num:105
+gnum:104
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2725
+
+org:
+name:mutant 105
+genotype:~
+X[Nu,1:2.039,fo:0.04][Nu,in:0.8,0:3.68,fo:0.04,in:0.8]~
+info:14.89% mutation of 'mutant 104'
+num:106
+gnum:105
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2726
+
+org:
+name:mutant 106
+genotype:~
+X[Nu,1:3.201,fo:0.04][Nu,in:0.8,0:3.68,fo:0.04,in:0.8]~
+info:9.26% mutation of 'mutant 105'
+num:107
+gnum:106
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2727
+
+org:
+name:mutant 107
+genotype:X[Nu,1:3.201,fo:0.04][Nu,in:0.8,0:3.68,fo:0.04]
+info:12.96% mutation of 'mutant 106'
+num:108
+gnum:107
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2728
+
+org:
+name:mutant 108
+genotype:X[Nu,1:3.201,fo:0.04][Nu,in:0.8,0:3.982,fo:0.04]
+info:10.64% mutation of 'mutant 107'
+num:109
+gnum:108
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2729
+
+org:
+name:mutant 109
+genotype:X[Nu,1:3.201,fo:0.04][Nu,in:0.8,0:8.898,fo:0.04]
+info:10.42% mutation of 'mutant 108'
+num:110
+gnum:109
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2730
+
+org:
+name:mutant 110
+genotype:X[Nu,1:3.201,fo:0.04][Nu,in:0.8,0:10.485,fo:0.04]
+info:12.50% mutation of 'mutant 109'
+num:111
+gnum:110
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2731
+
+org:
+name:mutant 111
+genotype:X[Nu,1:4.716,fo:0.04][Nu,in:0.8,0:10.485,fo:0.04]
+info:10.20% mutation of 'mutant 110'
+num:112
+gnum:111
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2732
+
+org:
+name:mutant 112
+genotype:~
+X[Nu,1:1][Nu,1:4.716,fo:0.04][Nu,in:0.8,0:10.485,fo:0.04]~
+info:16.33% mutation of 'mutant 111'
+num:113
+gnum:112
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2733
+
+org:
+name:mutant 113
+genotype:~
+X[Nu,1:1][Nu,1:4.716,fo:0.04][Nu,in:0.8,0:10.485,fo:0.04,0:1]~
+info:7.02% mutation of 'mutant 112'
+num:114
+gnum:113
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2734
+
+org:
+name:mutant 114
+genotype:~
+X[Nu,1:1][Nu,1:7.688,fo:0.04][Nu,in:0.8,0:10.485,fo:0.04,0:1]~
+info:8.20% mutation of 'mutant 113'
+num:115
+gnum:114
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2735
+
+org:
+name:mutant 115
+genotype:~
+X[Nu,1:1][Nu,1:8.298,fo:0.04][Nu,in:0.8,0:10.485,fo:0.04,0:1]~
+info:8.20% mutation of 'mutant 114'
+num:116
+gnum:115
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2736
+
+org:
+name:mutant 116
+genotype:~
+X[Nu,1:1][Nu,1:8.298,fo:0.04][Nu,in:0.8,0:10.485,fo:0.04,0:1,-2:1]~
+info:8.20% mutation of 'mutant 115'
+num:117
+gnum:116
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2737
+
+org:
+name:mutant 117
+genotype:~
+X[Nu,1:1][Nu,1:8.298,fo:0.04][Nu,in:0.8,0:10.485,fo:0.04,0:1.378,-2:1]~
+info:7.58% mutation of 'mutant 116'
+num:118
+gnum:117
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2738
+
+org:
+name:mutant 118
+genotype:~
+X[Nu,1:1][Nu,fo:0.04][Nu,in:0.8,0:10.485,fo:0.04,0:1.378,-2:1]~
+info:11.43% mutation of 'mutant 117'
+num:119
+gnum:118
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2739
+
+org:
+name:mutant 119
+genotype:~
+X[Nu,1:1][Nu,fo:0.04][Nu,in:0.8,0:10.485,fo:0.04,-2:1]~
+info:12.90% mutation of 'mutant 118'
+num:120
+gnum:119
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2740
+
+org:
+name:mutant 120
+genotype:X[Nu,1:1][Nu][Nu,in:0.8,0:10.485,fo:0.04,-2:1]
+info:14.81% mutation of 'mutant 119'
+num:121
+gnum:120
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2741
+
+org:
+name:mutant 121
+genotype:~
+X[Nu,3:1][Nu,1:1][Nu][Nu,in:0.8,0:10.485,fo:0.04,-2:1]~
+info:17.39% mutation of 'mutant 120'
+num:122
+gnum:121
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2742
+
+org:
+name:mutant 122
+genotype:~
+X[Nu,3:1][Nu,1:1][Nu][Nu,in:0.8,0:9.565,fo:0.04,-2:1]~
+info:11.11% mutation of 'mutant 121'
+num:123
+gnum:122
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2743
+
+org:
+name:mutant 123
+genotype:X[Nu,3:1][Nu,1:1][Nu][Nu,in:0.8,0:9.565,fo:0.04]
+info:9.43% mutation of 'mutant 122'
+num:124
+gnum:123
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2744
+
+org:
+name:mutant 124
+genotype:~
+X[Nu,3:1,in:0.8][Nu,1:1][Nu][Nu,in:0.8,0:9.565,fo:0.04]~
+info:14.58% mutation of 'mutant 123'
+num:125
+gnum:124
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2745
+
+org:
+name:mutant 125
+genotype:X[Nu,1:1][Nu][Nu,in:0.8,0:9.565,fo:0.04]
+info:27.27% mutation of 'mutant 124'
+num:126
+gnum:125
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2746
+
+org:
+name:mutant 126
+genotype:X[Nu][Nu,in:0.8,0:9.565,fo:0.04]
+info:10.00% mutation of 'mutant 125'
+num:127
+gnum:126
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2747
+
+org:
+name:mutant 127
+genotype:X[Nu][Nu,in:0.8,fo:0.04]
+info:25.00% mutation of 'mutant 126'
+num:128
+gnum:127
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2748
+
+org:
+name:mutant 128
+genotype:X[Nu][Nu,in:0.8]
+info:33.33% mutation of 'mutant 127'
+num:129
+gnum:128
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2749
+
+org:
+name:mutant 129
+genotype:X[Nu][Nu,in:0.8,si:2]
+info:31.25% mutation of 'mutant 128'
+num:130
+gnum:129
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2750
+
+org:
+name:mutant 130
+genotype:X[Nu,1:1][Nu][Nu,in:0.8,si:2]
+info:38.10% mutation of 'mutant 129'
+num:131
+gnum:130
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2751
+
+org:
+name:mutant 131
+genotype:X[Nu,1:1.846][Nu][Nu,in:0.8,si:2]
+info:17.24% mutation of 'mutant 130'
+num:132
+gnum:131
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2752
+
+org:
+name:mutant 132
+genotype:X[Nu,1:3.425][Nu][Nu,in:0.8,si:2]
+info:15.15% mutation of 'mutant 131'
+num:133
+gnum:132
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2753
+
+org:
+name:mutant 133
+genotype:X[Nu,1:3.716][Nu][Nu,in:0.8,si:2]
+info:15.15% mutation of 'mutant 132'
+num:134
+gnum:133
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2754
+
+org:
+name:mutant 134
+genotype:X[Nu][Nu,in:0.8,si:2]
+info:36.36% mutation of 'mutant 133'
+num:135
+gnum:134
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2755
+
+org:
+name:mutant 135
+genotype:X[Nu,1:1][Nu,in:0.8,si:2]
+info:19.05% mutation of 'mutant 134'
+num:136
+gnum:135
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2756
+
+org:
+name:mutant 136
+genotype:X[Nu,1:1.04][Nu,in:0.8,si:2]
+info:16.00% mutation of 'mutant 135'
+num:137
+gnum:136
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2757
+
+org:
+name:mutant 137
+genotype:X[Nu][Nu,in:0.8,si:2]
+info:25.00% mutation of 'mutant 136'
+num:138
+gnum:137
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2758
+
+org:
+name:mutant 138
+genotype:X[Nu,0:1][Nu,in:0.8,si:2]
+info:19.05% mutation of 'mutant 137'
+num:139
+gnum:138
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2759
+
+org:
+name:mutant 139
+genotype:X[Nu,0:1]
+info:64.00% mutation of 'mutant 138'
+num:140
+gnum:139
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2760
+
+org:
+name:mutant 140
+genotype:X[Nu,0:1.325]
+info:55.56% mutation of 'mutant 139'
+num:141
+gnum:140
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2761
+
+org:
+name:mutant 141
+genotype:X
+info:92.31% mutation of 'mutant 140'
+num:142
+gnum:141
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2762
+
+org:
+name:mutant 142
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 141'
+num:143
+gnum:142
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2763
+
+org:
+name:mutant 143
+genotype:X[Nu,fo:0.04]
+info:160.00% mutation of 'mutant 142'
+num:144
+gnum:143
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2764
+
+org:
+name:mutant 144
+genotype:X[Nu,fo:1]
+info:30.77% mutation of 'mutant 143'
+num:145
+gnum:144
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2765
+
+org:
+name:mutant 145
+genotype:X[Nu,fo:1,in:0.8]
+info:70.00% mutation of 'mutant 144'
+num:146
+gnum:145
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2766
+
+org:
+name:mutant 146
+genotype:X[Nu,fo:1,in:0.8,si:2]
+info:29.41% mutation of 'mutant 145'
+num:147
+gnum:146
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2767
+
+org:
+name:mutant 147
+genotype:X[Nu,fo:1,in:0.8,si:2,0:1]
+info:18.18% mutation of 'mutant 146'
+num:148
+gnum:147
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2768
+
+org:
+name:mutant 148
+genotype:X[Nu,fo:1,in:0.8,si:2,0:-0.685]
+info:23.08% mutation of 'mutant 147'
+num:149
+gnum:148
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2769
+
+org:
+name:mutant 149
+genotype:X
+info:96.77% mutation of 'mutant 148'
+num:150
+gnum:149
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2770
+
+org:
+name:mutant 150
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 149'
+num:151
+gnum:150
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2771
+
+org:
+name:mutant 151
+genotype:X[Nu,s:0]
+info:80.00% mutation of 'mutant 150'
+num:152
+gnum:151
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2772
+
+org:
+name:mutant 152
+genotype:X[Nu,s:0,0:1]
+info:44.44% mutation of 'mutant 151'
+num:153
+gnum:152
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2773
+
+org:
+name:mutant 153
+genotype:X[Nu,s:0,0:1.291]
+info:38.46% mutation of 'mutant 152'
+num:154
+gnum:153
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2774
+
+org:
+name:mutant 154
+genotype:X[Nu,s:0,0:0.291]
+info:29.41% mutation of 'mutant 153'
+num:155
+gnum:154
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2775
+
+org:
+name:mutant 155
+genotype:X[Nu,s:0,0:2.967]
+info:29.41% mutation of 'mutant 154'
+num:156
+gnum:155
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2776
+
+org:
+name:mutant 156
+genotype:X[Nu,s:0,0:4.713]
+info:29.41% mutation of 'mutant 155'
+num:157
+gnum:156
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2777
+
+org:
+name:mutant 157
+genotype:X[Nu,s:0,0:4.041]
+info:29.41% mutation of 'mutant 156'
+num:158
+gnum:157
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2778
+
+org:
+name:mutant 158
+genotype:X[Nu,s:0,0:3.333]
+info:29.41% mutation of 'mutant 157'
+num:159
+gnum:158
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2779
+
+org:
+name:mutant 159
+genotype:X[Nu,s:0,0:3.646]
+info:29.41% mutation of 'mutant 158'
+num:160
+gnum:159
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2780
+
+org:
+name:mutant 160
+genotype:X[Nu,s:0,0:3.646,0:1]
+info:23.53% mutation of 'mutant 159'
+num:161
+gnum:160
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2781
+
+org:
+name:mutant 161
+genotype:X[Nu,s:0,0:6.008,0:1]
+info:23.81% mutation of 'mutant 160'
+num:162
+gnum:161
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2782
+
+org:
+name:mutant 162
+genotype:X[Nu,s:0,0:6.384,0:1]
+info:23.81% mutation of 'mutant 161'
+num:163
+gnum:162
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2783
+
+org:
+name:mutant 163
+genotype:X[Nu,s:0,0:4.342,0:1]
+info:23.81% mutation of 'mutant 162'
+num:164
+gnum:163
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2784
+
+org:
+name:mutant 164
+genotype:X[Nu,1:1][Nu,s:0,0:4.342,0:1]
+info:38.10% mutation of 'mutant 163'
+num:165
+gnum:164
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2785
+
+org:
+name:mutant 165
+genotype:X[Nu,1:1][Nu,s:0,0:4.342,0:1,0:1]
+info:13.79% mutation of 'mutant 164'
+num:166
+gnum:165
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2786
+
+org:
+name:mutant 166
+genotype:X[Nu,1:1][Nu,s:0,0:4.342,0:1,0:0.874]
+info:15.15% mutation of 'mutant 165'
+num:167
+gnum:166
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2787
+
+org:
+name:mutant 167
+genotype:X[Nu,1:1,in:0.8][Nu,s:0,0:4.342,0:1,0:0.874]
+info:18.92% mutation of 'mutant 166'
+num:168
+gnum:167
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2788
+
+org:
+name:mutant 168
+genotype:X[Nu,s:0,0:4.342,0:1,0:0.874]
+info:34.09% mutation of 'mutant 167'
+num:169
+gnum:168
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2789
+
+org:
+name:mutant 169
+genotype:X[Nu,s:0,0:4.342,0:1,0:2.019]
+info:17.24% mutation of 'mutant 168'
+num:170
+gnum:169
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2790
+
+org:
+name:mutant 170
+genotype:X[Nu,s:0.064,0:4.342,0:1,0:2.019]
+info:17.24% mutation of 'mutant 169'
+num:171
+gnum:170
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2791
+
+org:
+name:mutant 171
+genotype:X[Nu,s:0.064,0:4.342,0:1,0:1.819]
+info:15.15% mutation of 'mutant 170'
+num:172
+gnum:171
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2792
+
+org:
+name:mutant 172
+genotype:X[Nu,s:0.064,0:4.342,0:1,0:1.819,in:0.8]
+info:21.21% mutation of 'mutant 171'
+num:173
+gnum:172
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2793
+
+org:
+name:mutant 173
+genotype:X[Nu,s:0.064,0:4.342,0:0.044,0:1.819,in:0.8]
+info:12.50% mutation of 'mutant 172'
+num:174
+gnum:173
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2794
+
+org:
+name:mutant 174
+genotype:X[Nu,s:0.064,0:4.342,0:0.044,in:0.8]
+info:18.18% mutation of 'mutant 173'
+num:175
+gnum:174
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2795
+
+org:
+name:mutant 175
+genotype:X[Nu,s:0.064,0:4.342,0:3.483,in:0.8]
+info:13.89% mutation of 'mutant 174'
+num:176
+gnum:175
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2796
+
+org:
+name:mutant 176
+genotype:X[Nu,s:0.064,0:5.261,0:3.483,in:0.8]
+info:13.89% mutation of 'mutant 175'
+num:177
+gnum:176
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2797
+
+org:
+name:mutant 177
+genotype:X[Nu,s:0.064,0:4.537,0:3.483,in:0.8]
+info:13.89% mutation of 'mutant 176'
+num:178
+gnum:177
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2798
+
+org:
+name:mutant 178
+genotype:X[Nu,s:0.064,0:4.537,in:0.8]
+info:22.22% mutation of 'mutant 177'
+num:179
+gnum:178
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2799
+
+org:
+name:mutant 179
+genotype:X[Nu,0:4.537,in:0.8]
+info:28.57% mutation of 'mutant 178'
+num:180
+gnum:179
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2800
+
+org:
+name:mutant 180
+genotype:X[Nu,0:2.013,in:0.8]
+info:25.00% mutation of 'mutant 179'
+num:181
+gnum:180
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2801
+
+org:
+name:mutant 181
+genotype:X[Nu,0:2.013,in:0.8,0:1]
+info:20.00% mutation of 'mutant 180'
+num:182
+gnum:181
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2802
+
+org:
+name:mutant 182
+genotype:X[Nu,0:-0.737,in:0.8,0:1]
+info:25.00% mutation of 'mutant 181'
+num:183
+gnum:182
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2803
+
+org:
+name:mutant 183
+genotype:X[Nu,0:-0.737,in:0.8,0:1,0:1]
+info:16.00% mutation of 'mutant 182'
+num:184
+gnum:183
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2804
+
+org:
+name:mutant 184
+genotype:X[Nu,0:-0.737,in:0.8,0:-0.444,0:1]
+info:20.69% mutation of 'mutant 183'
+num:185
+gnum:184
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2805
+
+org:
+name:mutant 185
+genotype:X
+info:97.06% mutation of 'mutant 184'
+num:186
+gnum:185
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2806
+
+org:
+name:mutant 186
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 185'
+num:187
+gnum:186
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2807
+
+org:
+name:mutant 187
+genotype:X
+info:80.00% mutation of 'mutant 186'
+num:188
+gnum:187
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2808
+
+org:
+name:mutant 188
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 187'
+num:189
+gnum:188
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2809
+
+org:
+name:mutant 189
+genotype:X[Nu,in:0.8]
+info:140.00% mutation of 'mutant 188'
+num:190
+gnum:189
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2810
+
+org:
+name:mutant 190
+genotype:X[Nu,in:0.700472]
+info:66.67% mutation of 'mutant 189'
+num:191
+gnum:190
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2811
+
+org:
+name:mutant 191
+genotype:X
+info:94.12% mutation of 'mutant 190'
+num:192
+gnum:191
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2812
+
+org:
+name:mutant 192
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 191'
+num:193
+gnum:192
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2813
+
+org:
+name:mutant 193
+genotype:X[Nu,1:1][Nu]
+info:160.00% mutation of 'mutant 192'
+num:194
+gnum:193
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2814
+
+org:
+name:mutant 194
+genotype:X[Nu,1:1][Nu,0:1]
+info:30.77% mutation of 'mutant 193'
+num:195
+gnum:194
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2815
+
+org:
+name:mutant 195
+genotype:X[Nu,1:-3.839][Nu,0:1]
+info:35.29% mutation of 'mutant 194'
+num:196
+gnum:195
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2816
+
+org:
+name:mutant 196
+genotype:X[Nu,1:-3.839][Nu,0:-0.589]
+info:27.27% mutation of 'mutant 195'
+num:197
+gnum:196
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2817
+
+org:
+name:mutant 197
+genotype:X[Nu,1:-3.839][Nu,0:-2.517]
+info:22.22% mutation of 'mutant 196'
+num:198
+gnum:197
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2818
+
+org:
+name:mutant 198
+genotype:X[Nu,1:-8.79][Nu,0:-2.517]
+info:22.22% mutation of 'mutant 197'
+num:199
+gnum:198
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2819
+
+org:
+name:mutant 199
+genotype:X[Nu,1:-8.79][Nu,0:-4.311]
+info:23.08% mutation of 'mutant 198'
+num:200
+gnum:199
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2820
+
+org:
+name:mutant 200
+genotype:X[Nu,1:-8.79][Nu]
+info:34.62% mutation of 'mutant 199'
+num:201
+gnum:200
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2821
+
+org:
+name:mutant 201
+genotype:X[Nu,1:-11.541][Nu]
+info:41.18% mutation of 'mutant 200'
+num:202
+gnum:201
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2822
+
+org:
+name:mutant 202
+genotype:X[Nu,1:-10.659][Nu]
+info:36.84% mutation of 'mutant 201'
+num:203
+gnum:202
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2823
+
+org:
+name:mutant 203
+genotype:X[Nu,1:-8.218][Nu]
+info:36.84% mutation of 'mutant 202'
+num:204
+gnum:203
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2824
+
+org:
+name:mutant 204
+genotype:X[Nu,1:-7.437][Nu]
+info:33.33% mutation of 'mutant 203'
+num:205
+gnum:204
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2825
+
+org:
+name:mutant 205
+genotype:X[Nu,1:-5.004][Nu]
+info:33.33% mutation of 'mutant 204'
+num:206
+gnum:205
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2826
+
+org:
+name:mutant 206
+genotype:X[Nu,1:-1.724][Nu]
+info:33.33% mutation of 'mutant 205'
+num:207
+gnum:206
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2827
+
+org:
+name:mutant 207
+genotype:X[Nu]
+info:72.22% mutation of 'mutant 206'
+num:208
+gnum:207
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2828
+
+org:
+name:mutant 208
+genotype:X[Nu,0:1]
+info:80.00% mutation of 'mutant 207'
+num:209
+gnum:208
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2829
+
+org:
+name:mutant 209
+genotype:X[Nu,0:-2.155]
+info:66.67% mutation of 'mutant 208'
+num:210
+gnum:209
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2830
+
+org:
+name:mutant 210
+genotype:X[Nu]
+info:64.29% mutation of 'mutant 209'
+num:211
+gnum:210
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2831
+
+org:
+name:mutant 211
+genotype:X[Nu,0:1]
+info:80.00% mutation of 'mutant 210'
+num:212
+gnum:211
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2832
+
+org:
+name:mutant 212
+genotype:X[Nu,0:-4.166]
+info:66.67% mutation of 'mutant 211'
+num:213
+gnum:212
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2833
+
+org:
+name:mutant 213
+genotype:X[Nu,1:1][Nu,0:-4.166]
+info:57.14% mutation of 'mutant 212'
+num:214
+gnum:213
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2834
+
+org:
+name:mutant 214
+genotype:X[Nu,1:1.274][Nu,0:-4.166]
+info:22.73% mutation of 'mutant 213'
+num:215
+gnum:214
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2835
+
+org:
+name:mutant 215
+genotype:X[Nu,1:-1.227][Nu,0:-4.166]
+info:23.08% mutation of 'mutant 214'
+num:216
+gnum:215
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2836
+
+org:
+name:mutant 216
+genotype:X[Nu,1:-3.722][Nu,0:-4.166]
+info:22.22% mutation of 'mutant 215'
+num:217
+gnum:216
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2837
+
+org:
+name:mutant 217
+genotype:X[Nu,1:-3.344][Nu,0:-4.166]
+info:22.22% mutation of 'mutant 216'
+num:218
+gnum:217
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2838
+
+org:
+name:mutant 218
+genotype:X[Nu,1:-3.865][Nu,0:-4.166]
+info:22.22% mutation of 'mutant 217'
+num:219
+gnum:218
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2839
+
+org:
+name:mutant 219
+genotype:X[Nu,1:-5.155][Nu,0:-4.166]
+info:22.22% mutation of 'mutant 218'
+num:220
+gnum:219
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2840
+
+org:
+name:mutant 220
+genotype:X[Nu,1:-5.155][Nu,0:-1.76]
+info:22.22% mutation of 'mutant 219'
+num:221
+gnum:220
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2841
+
+org:
+name:mutant 221
+genotype:X[Nu,1:-5.155,1:1][Nu,0:-1.76]
+info:15.38% mutation of 'mutant 220'
+num:222
+gnum:221
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2842
+
+org:
+name:mutant 222
+genotype:X[Nu,1:1][Nu,1:-5.155,1:1][Nu,0:-1.76]
+info:26.67% mutation of 'mutant 221'
+num:223
+gnum:222
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2843
+
+org:
+name:mutant 223
+genotype:X[Nu,1:1][Nu,1:-5.155,1:-0.799][Nu,0:-1.76]
+info:15.79% mutation of 'mutant 222'
+num:224
+gnum:223
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2844
+
+org:
+name:mutant 224
+genotype:X[Nu][Nu,1:-5.155,1:-0.799][Nu,0:-1.76]
+info:9.30% mutation of 'mutant 223'
+num:225
+gnum:224
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2845
+
+org:
+name:mutant 225
+genotype:X[Nu][Nu,1:-2.5,1:-0.799][Nu,0:-1.76]
+info:15.38% mutation of 'mutant 224'
+num:226
+gnum:225
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2846
+
+org:
+name:mutant 226
+genotype:X[Nu,2:1][Nu][Nu,1:-2.5,1:-0.799][Nu,0:-1.76]
+info:21.62% mutation of 'mutant 225'
+num:227
+gnum:226
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2847
+
+org:
+name:mutant 227
+genotype:X[Nu,1:1][Nu,1:-2.5,1:-0.799][Nu,0:-1.76]
+info:8.89% mutation of 'mutant 226'
+num:228
+gnum:227
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2848
+
+org:
+name:mutant 228
+genotype:X[Nu,1:1][Nu,1:-2.5][Nu,0:-1.76]
+info:21.95% mutation of 'mutant 227'
+num:229
+gnum:228
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2849
+
+org:
+name:mutant 229
+genotype:X[Nu,1:-1.196][Nu,1:-2.5][Nu,0:-1.76]
+info:18.75% mutation of 'mutant 228'
+num:230
+gnum:229
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2850
+
+org:
+name:mutant 230
+genotype:X[Nu,1:-1.196][Nu,1:0.851][Nu,0:-1.76]
+info:13.51% mutation of 'mutant 229'
+num:231
+gnum:230
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2851
+
+org:
+name:mutant 231
+genotype:X[Nu,1:-1.196][Nu][Nu,0:-1.76]
+info:21.05% mutation of 'mutant 230'
+num:232
+gnum:231
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2852
+
+org:
+name:mutant 232
+genotype:X[Nu][Nu,0:-1.76]
+info:43.33% mutation of 'mutant 231'
+num:233
+gnum:232
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2853
+
+org:
+name:mutant 233
+genotype:X[Nu][Nu,0:-1.76,0:1]
+info:23.53% mutation of 'mutant 232'
+num:234
+gnum:233
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2854
+
+org:
+name:mutant 234
+genotype:X[Nu][Nu,0:-1.76,0:1,fo:0.04]
+info:38.10% mutation of 'mutant 233'
+num:235
+gnum:234
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2855
+
+org:
+name:mutant 235
+genotype:X[Nu][Nu,0:-1.76,0:-2.235,fo:0.04]
+info:20.69% mutation of 'mutant 234'
+num:236
+gnum:235
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2856
+
+org:
+name:mutant 236
+genotype:X[Nu][Nu,0:-4.156,0:-2.235,fo:0.04]
+info:17.65% mutation of 'mutant 235'
+num:237
+gnum:236
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2857
+
+org:
+name:mutant 237
+genotype:X[Nu][Nu,0:-6.045,0:-2.235,fo:0.04]
+info:17.14% mutation of 'mutant 236'
+num:238
+gnum:237
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2858
+
+org:
+name:mutant 238
+genotype:X[Nu][Nu,0:-5.953,0:-2.235,fo:0.04]
+info:17.14% mutation of 'mutant 237'
+num:239
+gnum:238
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2859
+
+org:
+name:mutant 239
+genotype:X[Nu][Nu,0:-5.953,0:-2.265,fo:0.04]
+info:17.14% mutation of 'mutant 238'
+num:240
+gnum:239
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2860
+
+org:
+name:mutant 240
+genotype:X[Nu]
+info:85.71% mutation of 'mutant 239'
+num:241
+gnum:240
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2861
+
+org:
+name:mutant 241
+genotype:X[Nu,s:0]
+info:80.00% mutation of 'mutant 240'
+num:242
+gnum:241
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2862
+
+org:
+name:mutant 242
+genotype:X[Nu,s:0,0:1]
+info:44.44% mutation of 'mutant 241'
+num:243
+gnum:242
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2863
+
+org:
+name:mutant 243
+genotype:X[Nu,s:0,0:1,s:0]
+info:30.77% mutation of 'mutant 242'
+num:244
+gnum:243
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2864
+
+org:
+name:mutant 244
+genotype:X[Nu,s:0,s:0]
+info:23.53% mutation of 'mutant 243'
+num:245
+gnum:244
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2865
+
+org:
+name:mutant 245
+genotype:X[Nu,s:0,s:0,0:1]
+info:30.77% mutation of 'mutant 244'
+num:246
+gnum:245
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2866
+
+org:
+name:mutant 246
+genotype:X[Nu,s:0,s:0,0:3.393]
+info:29.41% mutation of 'mutant 245'
+num:247
+gnum:246
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2867
+
+org:
+name:mutant 247
+genotype:X[Nu,s:0,s:0,0:3.215]
+info:23.81% mutation of 'mutant 246'
+num:248
+gnum:247
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2868
+
+org:
+name:mutant 248
+genotype:X[Nu,s:0,s:0,0:0.615]
+info:23.81% mutation of 'mutant 247'
+num:249
+gnum:248
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2869
+
+org:
+name:mutant 249
+genotype:X[Nu,s:0,s:0]
+info:38.10% mutation of 'mutant 248'
+num:250
+gnum:249
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2870
+
+org:
+name:mutant 250
+genotype:X[Nu,1:1][Nu,s:0,s:0]
+info:61.54% mutation of 'mutant 249'
+num:251
+gnum:250
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2871
+
+org:
+name:mutant 251
+genotype:X[Nu,1:1.677][Nu,s:0,s:0]
+info:23.81% mutation of 'mutant 250'
+num:252
+gnum:251
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2872
+
+org:
+name:mutant 252
+genotype:X[Nu,1:4.685][Nu,s:0,s:0]
+info:20.00% mutation of 'mutant 251'
+num:253
+gnum:252
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2873
+
+org:
+name:mutant 253
+genotype:X[Nu,1:2.829][Nu,s:0,s:0]
+info:20.00% mutation of 'mutant 252'
+num:254
+gnum:253
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2874
+
+org:
+name:mutant 254
+genotype:X[Nu,1:2.829][Nu,s:0,s:0,0:1]
+info:16.00% mutation of 'mutant 253'
+num:255
+gnum:254
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2875
+
+org:
+name:mutant 255
+genotype:X[Nu,1:2.829][Nu,s:-0.206,s:0,0:1]
+info:20.69% mutation of 'mutant 254'
+num:256
+gnum:255
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2876
+
+org:
+name:mutant 256
+genotype:X[Nu,1:2.829][Nu,s:-0.206,s:0,0:1,s:0]
+info:11.76% mutation of 'mutant 255'
+num:257
+gnum:256
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2877
+
+org:
+name:mutant 257
+genotype:X[Nu,1:2.062][Nu,s:-0.206,s:0,0:1,s:0]
+info:13.16% mutation of 'mutant 256'
+num:258
+gnum:257
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2878
+
+org:
+name:mutant 258
+genotype:X[Nu,1:2.062][Nu,s:-0.206,s:0,0:-1.015,s:0]
+info:15.79% mutation of 'mutant 257'
+num:259
+gnum:258
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2879
+
+org:
+name:mutant 259
+genotype:X[Nu,1:2.062][Nu,s:-0.206,s:0,s:0]
+info:20.93% mutation of 'mutant 258'
+num:260
+gnum:259
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2880
+
+org:
+name:mutant 260
+genotype:X[Nu,1:1][Nu,1:2.062][Nu,s:-0.206,s:0,s:0]
+info:23.53% mutation of 'mutant 259'
+num:261
+gnum:260
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2881
+
+org:
+name:mutant 261
+genotype:X[Nu,1:1][Nu,1:2.616][Nu,s:-0.206,s:0,s:0]
+info:11.90% mutation of 'mutant 260'
+num:262
+gnum:261
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2882
+
+org:
+name:mutant 262
+genotype:X[Nu,1:0.555][Nu,1:2.616][Nu,s:-0.206,s:0,s:0]
+info:11.90% mutation of 'mutant 261'
+num:263
+gnum:262
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2883
+
+org:
+name:mutant 263
+genotype:X[Nu,1:2.614][Nu,1:2.616][Nu,s:-0.206,s:0,s:0]
+info:10.87% mutation of 'mutant 262'
+num:264
+gnum:263
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2884
+
+org:
+name:mutant 264
+genotype:X[Nu,1:2.614,0:1][Nu,1:2.616][Nu,s:-0.206,s:0,s:0]
+info:8.70% mutation of 'mutant 263'
+num:265
+gnum:264
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2885
+
+org:
+name:mutant 265
+genotype:X[Nu,1:2.614,0:1][Nu,1:2.903][Nu,s:-0.206,s:0,s:0]
+info:10.00% mutation of 'mutant 264'
+num:266
+gnum:265
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2886
+
+org:
+name:mutant 266
+genotype:X[Nu,1:0.083,0:1][Nu,1:2.903][Nu,s:-0.206,s:0,s:0]
+info:10.00% mutation of 'mutant 265'
+num:267
+gnum:266
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2887
+
+org:
+name:mutant 267
+genotype:X[Nu,1:0.083,0:1][Nu]
+info:42.00% mutation of 'mutant 266'
+num:268
+gnum:267
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2888
+
+org:
+name:mutant 268
+genotype:X[Nu,1:0.083,0:1][Nu,-1:1]
+info:23.81% mutation of 'mutant 267'
+num:269
+gnum:268
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2889
+
+org:
+name:mutant 269
+genotype:X[Nu,0:1]
+info:34.62% mutation of 'mutant 268'
+num:270
+gnum:269
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2890
+
+org:
+name:mutant 270
+genotype:X[Nu,0:4.642]
+info:55.56% mutation of 'mutant 269'
+num:271
+gnum:270
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2891
+
+org:
+name:mutant 271
+genotype:X[Nu,0:5.653]
+info:38.46% mutation of 'mutant 270'
+num:272
+gnum:271
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2892
+
+org:
+name:mutant 272
+genotype:X[Nu]
+info:61.54% mutation of 'mutant 271'
+num:273
+gnum:272
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2893
+
+org:
+name:mutant 273
+genotype:X
+info:80.00% mutation of 'mutant 272'
+num:274
+gnum:273
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2894
+
+org:
+name:mutant 274
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 273'
+num:275
+gnum:274
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2895
+
+org:
+name:mutant 275
+genotype:X[Nu,0:1]
+info:80.00% mutation of 'mutant 274'
+num:276
+gnum:275
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2896
+
+org:
+name:mutant 276
+genotype:X[Nu,0:-0.288]
+info:66.67% mutation of 'mutant 275'
+num:277
+gnum:276
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2897
+
+org:
+name:mutant 277
+genotype:X[Nu,1:1][Nu,0:-0.288]
+info:57.14% mutation of 'mutant 276'
+num:278
+gnum:277
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2898
+
+org:
+name:mutant 278
+genotype:X[Nu,1:1][Nu,0:-0.288,fo:0.04]
+info:36.36% mutation of 'mutant 277'
+num:279
+gnum:278
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2899
+
+org:
+name:mutant 279
+genotype:X[Nu,1:4.134][Nu,0:-0.288,fo:0.04]
+info:16.67% mutation of 'mutant 278'
+num:280
+gnum:279
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2900
+
+org:
+name:mutant 280
+genotype:X[Nu,1:4.134][Nu,0:-1.04,fo:0.04]
+info:17.65% mutation of 'mutant 279'
+num:281
+gnum:280
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2901
+
+org:
+name:mutant 281
+genotype:X[Nu,1:3.56][Nu,0:-1.04,fo:0.04]
+info:15.15% mutation of 'mutant 280'
+num:282
+gnum:281
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2902
+
+org:
+name:mutant 282
+genotype:X[Nu,2:1][Nu,1:3.56][Nu,0:-1.04,fo:0.04]
+info:25.00% mutation of 'mutant 281'
+num:283
+gnum:282
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2903
+
+org:
+name:mutant 283
+genotype:X[Nu,2:1][Nu,1:3.633][Nu,0:-1.04,fo:0.04]
+info:12.50% mutation of 'mutant 282'
+num:284
+gnum:283
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2904
+
+org:
+name:mutant 284
+genotype:X[Nu,2:2.862][Nu,1:3.633][Nu,0:-1.04,fo:0.04]
+info:12.20% mutation of 'mutant 283'
+num:285
+gnum:284
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2905
+
+org:
+name:mutant 285
+genotype:X[Nu,2:2.862][Nu,1:5.121][Nu,0:-1.04,fo:0.04]
+info:11.11% mutation of 'mutant 284'
+num:286
+gnum:285
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2906
+
+org:
+name:mutant 286
+genotype:X[Nu,2:2.862][Nu,1:3.303][Nu,0:-1.04,fo:0.04]
+info:11.11% mutation of 'mutant 285'
+num:287
+gnum:286
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2907
+
+org:
+name:mutant 287
+genotype:X[Nu,2:2.862,1:1][Nu,1:3.303][Nu,0:-1.04,fo:0.04]
+info:8.89% mutation of 'mutant 286'
+num:288
+gnum:287
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2908
+
+org:
+name:mutant 288
+genotype:~
+X[Nu,2:2.862,1:1][Nu,1:3.303][Nu,0:-1.04,fo:0.04,-1:1]~
+info:10.20% mutation of 'mutant 287'
+num:289
+gnum:288
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2909
+
+org:
+name:mutant 289
+genotype:~
+X[Nu,2:2.862,1:-0.921][Nu,1:3.303][Nu,0:-1.04,fo:0.04,-1:1]~
+info:11.11% mutation of 'mutant 288'
+num:290
+gnum:289
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2910
+
+org:
+name:mutant 290
+genotype:~
+X[Nu,2:2.862,1:-1.784][Nu,1:3.303][Nu,0:-1.04,fo:0.04,-1:1]~
+info:10.17% mutation of 'mutant 289'
+num:291
+gnum:290
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2911
+
+org:
+name:mutant 291
+genotype:X[Nu,2:2.862][Nu,1:3.303][Nu,0:-1.04,fo:0.04,-1:1]
+info:15.25% mutation of 'mutant 290'
+num:292
+gnum:291
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2912
+
+org:
+name:mutant 292
+genotype:X[Nu,2:0.593][Nu,1:3.303][Nu,0:-1.04,fo:0.04,-1:1]
+info:10.00% mutation of 'mutant 291'
+num:293
+gnum:292
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2913
+
+org:
+name:mutant 293
+genotype:~
+X[Nu,2:0.593][Nu,1:3.303][Nu,0:-2.732,fo:0.04,-1:1]~
+info:12.00% mutation of 'mutant 292'
+num:294
+gnum:293
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2914
+
+org:
+name:mutant 294
+genotype:~
+X[Nu,2:0.593][Nu,1:3.303][Nu,0:-2.732,fo:0.04,-1:0.074]~
+info:9.80% mutation of 'mutant 293'
+num:295
+gnum:294
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2915
+
+org:
+name:mutant 295
+genotype:~
+X[Nu,2:-2.218][Nu,1:3.303][Nu,0:-2.732,fo:0.04,-1:0.074]~
+info:10.91% mutation of 'mutant 294'
+num:296
+gnum:295
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2916
+
+org:
+name:mutant 296
+genotype:~
+X[Nu,2:-2.218][Nu,1:4.579][Nu,0:-2.732,fo:0.04,-1:0.074]~
+info:8.93% mutation of 'mutant 295'
+num:297
+gnum:296
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2917
+
+org:
+name:mutant 297
+genotype:X[Nu,2:-2.218][Nu,1:4.579][Nu,0:-2.732,-1:0.074]
+info:14.29% mutation of 'mutant 296'
+num:298
+gnum:297
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2918
+
+org:
+name:mutant 298
+genotype:X[Nu,2:-2.218][Nu,1:4.579][Nu,0:-2.732,-1:1.78]
+info:10.42% mutation of 'mutant 297'
+num:299
+gnum:298
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2919
+
+org:
+name:mutant 299
+genotype:X[Nu,1:-2.218][Nu,0:-2.732]
+info:25.53% mutation of 'mutant 298'
+num:300
+gnum:299
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2920
+
+org:
+name:mutant 300
+genotype:X[Nu,1:-1.725][Nu,0:-2.732]
+info:22.22% mutation of 'mutant 299'
+num:301
+gnum:300
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2921
+
+org:
+name:mutant 301
+genotype:X[Nu,1:-1.725][Nu,0:-1.561]
+info:22.22% mutation of 'mutant 300'
+num:302
+gnum:301
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2922
+
+org:
+name:mutant 302
+genotype:X[Nu,1:-1.725][Nu,0:0.69]
+info:22.22% mutation of 'mutant 301'
+num:303
+gnum:302
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2923
+
+org:
+name:mutant 303
+genotype:X[Nu,1:-1.725][Nu,0:2.934]
+info:20.00% mutation of 'mutant 302'
+num:304
+gnum:303
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2924
+
+org:
+name:mutant 304
+genotype:X[Nu,1:0.28][Nu,0:2.934]
+info:23.08% mutation of 'mutant 303'
+num:305
+gnum:304
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2925
+
+org:
+name:mutant 305
+genotype:X[Nu,1:2][Nu,0:2.934]
+info:16.67% mutation of 'mutant 304'
+num:306
+gnum:305
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2926
+
+org:
+name:mutant 306
+genotype:X[Nu,1:2][Nu,0:2.934,in:0.8]
+info:33.33% mutation of 'mutant 305'
+num:307
+gnum:306
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2927
+
+org:
+name:mutant 307
+genotype:X[Nu,1:2][Nu,0:2.934]
+info:25.00% mutation of 'mutant 306'
+num:308
+gnum:307
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2928
+
+org:
+name:mutant 308
+genotype:X[Nu,1:2][Nu,0:0.704]
+info:23.81% mutation of 'mutant 307'
+num:309
+gnum:308
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2929
+
+org:
+name:mutant 309
+genotype:X[Nu,1:2,s:0][Nu,0:0.704]
+info:19.05% mutation of 'mutant 308'
+num:310
+gnum:309
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2930
+
+org:
+name:mutant 310
+genotype:X[Nu,1:2,s:0][Nu,0:2.453]
+info:20.00% mutation of 'mutant 309'
+num:311
+gnum:310
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2931
+
+org:
+name:mutant 311
+genotype:X[Nu,1:2,s:0,0:1][Nu,0:2.453]
+info:16.00% mutation of 'mutant 310'
+num:312
+gnum:311
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2932
+
+org:
+name:mutant 312
+genotype:X[Nu,0:2.453]
+info:55.17% mutation of 'mutant 311'
+num:313
+gnum:312
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2933
+
+org:
+name:mutant 313
+genotype:X[Nu]
+info:61.54% mutation of 'mutant 312'
+num:314
+gnum:313
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2934
+
+org:
+name:mutant 314
+genotype:X[Nu,1:1][Nu]
+info:160.00% mutation of 'mutant 313'
+num:315
+gnum:314
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2935
+
+org:
+name:mutant 315
+genotype:X[Nu,1:1,fo:0.04][Nu]
+info:61.54% mutation of 'mutant 314'
+num:316
+gnum:315
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2936
+
+org:
+name:mutant 316
+genotype:X[Nu,1:1,fo:0.698976][Nu]
+info:38.10% mutation of 'mutant 315'
+num:317
+gnum:316
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2937
+
+org:
+name:mutant 317
+genotype:X[Nu,1:1,fo:1][Nu]
+info:32.00% mutation of 'mutant 316'
+num:318
+gnum:317
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2938
+
+org:
+name:mutant 318
+genotype:X[Nu,1:1.734,fo:1][Nu]
+info:27.78% mutation of 'mutant 317'
+num:319
+gnum:318
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2939
+
+org:
+name:mutant 319
+genotype:X[Nu,1:0.652,fo:1][Nu]
+info:22.73% mutation of 'mutant 318'
+num:320
+gnum:319
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2940
+
+org:
+name:mutant 320
+genotype:X[Nu,1:-2.594,fo:1][Nu]
+info:27.27% mutation of 'mutant 319'
+num:321
+gnum:320
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2941
+
+org:
+name:mutant 321
+genotype:X[Nu,1:-1.904,fo:1][Nu]
+info:26.09% mutation of 'mutant 320'
+num:322
+gnum:321
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2942
+
+org:
+name:mutant 322
+genotype:X[Nu,1:-1.904,fo:1][Nu,si:2]
+info:21.74% mutation of 'mutant 321'
+num:323
+gnum:322
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2943
+
+org:
+name:mutant 323
+genotype:X[Nu,1:-1.904,fo:1][Nu,si:2,0:1]
+info:14.29% mutation of 'mutant 322'
+num:324
+gnum:323
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2944
+
+org:
+name:mutant 324
+genotype:X[Nu,1:-1.904,fo:1][Nu,si:2,0:0.042]
+info:15.62% mutation of 'mutant 323'
+num:325
+gnum:324
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2945
+
+org:
+name:mutant 325
+genotype:X[Nu,1:-1.904,fo:1][Nu,si:2,0:4.535]
+info:13.89% mutation of 'mutant 324'
+num:326
+gnum:325
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2946
+
+org:
+name:mutant 326
+genotype:X[Nu,1:-4.02,fo:1][Nu,si:2,0:4.535]
+info:16.67% mutation of 'mutant 325'
+num:327
+gnum:326
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2947
+
+org:
+name:mutant 327
+genotype:X[Nu,fo:1][Nu,si:2,0:4.535]
+info:22.86% mutation of 'mutant 326'
+num:328
+gnum:327
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2948
+
+org:
+name:mutant 328
+genotype:X[Nu,fo:1][Nu,si:2,0:5.757]
+info:18.52% mutation of 'mutant 327'
+num:329
+gnum:328
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2949
+
+org:
+name:mutant 329
+genotype:X[Nu,fo:1][Nu,si:2,0:7.411]
+info:18.52% mutation of 'mutant 328'
+num:330
+gnum:329
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2950
+
+org:
+name:mutant 330
+genotype:X[Nu,fo:1][Nu,si:2,0:4.228]
+info:18.52% mutation of 'mutant 329'
+num:331
+gnum:330
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2951
+
+org:
+name:mutant 331
+genotype:X[Nu,2:1][Nu,fo:1][Nu,si:2,0:4.228]
+info:29.63% mutation of 'mutant 330'
+num:332
+gnum:331
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2952
+
+org:
+name:mutant 332
+genotype:X[Nu,2:1][Nu,fo:1][Nu,si:2,0:4.404]
+info:14.29% mutation of 'mutant 331'
+num:333
+gnum:332
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2953
+
+org:
+name:mutant 333
+genotype:X[Nu,2:1][Nu,fo:1][Nu,si:2,0:6.487]
+info:14.29% mutation of 'mutant 332'
+num:334
+gnum:333
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2954
+
+org:
+name:mutant 334
+genotype:X[Nu,2:1][Nu,fo:1][Nu,0:6.487]
+info:14.29% mutation of 'mutant 333'
+num:335
+gnum:334
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2955
+
+org:
+name:mutant 335
+genotype:X[Nu,2:1][Nu,fo:1,fo:0.04][Nu,0:6.487]
+info:26.67% mutation of 'mutant 334'
+num:336
+gnum:335
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2956
+
+org:
+name:mutant 336
+genotype:X[Nu,2:0.454][Nu,fo:1,fo:0.04][Nu,0:6.487]
+info:13.16% mutation of 'mutant 335'
+num:337
+gnum:336
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2957
+
+org:
+name:mutant 337
+genotype:X[Nu,2:3.061][Nu,fo:1,fo:0.04][Nu,0:6.487]
+info:11.90% mutation of 'mutant 336'
+num:338
+gnum:337
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2958
+
+org:
+name:mutant 338
+genotype:X[Nu,2:1.6][Nu,fo:1,fo:0.04][Nu,0:6.487]
+info:11.90% mutation of 'mutant 337'
+num:339
+gnum:338
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2959
+
+org:
+name:mutant 339
+genotype:X[Nu,2:1.6][Nu,fo:1,fo:0.04][Nu,0:4.714]
+info:12.50% mutation of 'mutant 338'
+num:340
+gnum:339
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2960
+
+org:
+name:mutant 340
+genotype:X[Nu,2:4.093][Nu,fo:1,fo:0.04][Nu,0:4.714]
+info:12.50% mutation of 'mutant 339'
+num:341
+gnum:340
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2961
+
+org:
+name:mutant 341
+genotype:X[Nu,2:4.093][Nu,fo:1,fo:0.04][Nu,0:6.766]
+info:11.90% mutation of 'mutant 340'
+num:342
+gnum:341
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2962
+
+org:
+name:mutant 342
+genotype:X[Nu,2:0.347][Nu,fo:1,fo:0.04][Nu,0:6.766]
+info:11.90% mutation of 'mutant 341'
+num:343
+gnum:342
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2963
+
+org:
+name:mutant 343
+genotype:X[Nu,2:0.347][Nu,fo:1,fo:0.04][Nu,0:5.437]
+info:11.90% mutation of 'mutant 342'
+num:344
+gnum:343
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2964
+
+org:
+name:mutant 344
+genotype:X[Nu,2:0.347][Nu,fo:1,fo:0.04][Nu,0:3.741]
+info:11.90% mutation of 'mutant 343'
+num:345
+gnum:344
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2965
+
+org:
+name:mutant 345
+genotype:X[Nu,2:-1.621][Nu,fo:1,fo:0.04][Nu,0:3.741]
+info:14.29% mutation of 'mutant 344'
+num:346
+gnum:345
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2966
+
+org:
+name:mutant 346
+genotype:X[Nu,2:-1.621][Nu,fo:1,fo:0.04][Nu,0:3.741,-1:1]
+info:11.63% mutation of 'mutant 345'
+num:347
+gnum:346
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2967
+
+org:
+name:mutant 347
+genotype:~
+X[Nu,2:-1.621,s:0][Nu,fo:1,fo:0.04][Nu,0:3.741,-1:1]~
+info:8.33% mutation of 'mutant 346'
+num:348
+gnum:347
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2968
+
+org:
+name:mutant 348
+genotype:~
+X[Nu,2:-2.44,s:0][Nu,fo:1,fo:0.04][Nu,0:3.741,-1:1]~
+info:11.54% mutation of 'mutant 347'
+num:349
+gnum:348
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2969
+
+org:
+name:mutant 349
+genotype:~
+X[Nu,2:-2.44,s:0][Nu,fo:0.175549,fo:0.04][Nu,0:3.741,-1:1]~
+info:15.69% mutation of 'mutant 348'
+num:350
+gnum:349
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2970
+
+org:
+name:mutant 350
+genotype:~
+X[Nu,2:-2.44,s:0][Nu,fo:0.175549,fo:0.04][Nu,0:3.741,-1:-1.689]~
+info:10.34% mutation of 'mutant 349'
+num:351
+gnum:350
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2971
+
+org:
+name:mutant 351
+genotype:~
+X[Nu,2:2.313,s:0][Nu,fo:0.175549,fo:0.04][Nu,0:3.741,-1:-1.689]~
+info:7.94% mutation of 'mutant 350'
+num:352
+gnum:351
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2972
+
+org:
+name:mutant 352
+genotype:~
+X[Nu,2:2.313,s:0][Nu,fo:0.0421864,fo:0.04][Nu,0:3.741,-1:-1.689]~
+info:14.29% mutation of 'mutant 351'
+num:353
+gnum:352
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2973
+
+org:
+name:mutant 353
+genotype:~
+X[Nu,2:2.958,s:0][Nu,fo:0.0421864,fo:0.04][Nu,0:3.741,-1:-1.689]~
+info:7.81% mutation of 'mutant 352'
+num:354
+gnum:353
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2974
+
+org:
+name:mutant 354
+genotype:~
+X[Nu,2:2.958,s:0][Nu,fo:0.0421864,fo:0.04,0:1][Nu,0:3.741,-1:-1.689]~
+info:6.25% mutation of 'mutant 353'
+num:355
+gnum:354
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2975
+
+org:
+name:mutant 355
+genotype:~
+X[Nu,2:2.958,s:0][Nu,fo:0.0421864,fo:0.04,0:1][Nu,0:3.741,-1:-1.715]~
+info:8.82% mutation of 'mutant 354'
+num:356
+gnum:355
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2976
+
+org:
+name:mutant 356
+genotype:~
+X[Nu,2:2.958,s:0][Nu,fo:0.0421864,fo:0.04,0:1][Nu,0:3.741,-1:-3.984]~
+info:8.82% mutation of 'mutant 355'
+num:357
+gnum:356
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2977
+
+org:
+name:mutant 357
+genotype:~
+X[Nu,2:2.958,s:0][Nu,fo:0.04,0:1][Nu,0:3.741,-1:-3.984]~
+info:19.12% mutation of 'mutant 356'
+num:358
+gnum:357
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2978
+
+org:
+name:mutant 358
+genotype:~
+X[Nu,2:2.958,s:0][Nu,fo:0.04,0:1,fo:0.04][Nu,0:3.741,-1:-3.984]~
+info:14.55% mutation of 'mutant 357'
+num:359
+gnum:358
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2979
+
+org:
+name:mutant 359
+genotype:~
+X[Nu,2:2.958,s:0][Nu,fo:0.04,0:1,fo:0.04][Nu,0:3.034,-1:-3.984]~
+info:7.94% mutation of 'mutant 358'
+num:360
+gnum:359
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2980
+
+org:
+name:mutant 360
+genotype:~
+X[Nu,s:0][Nu,fo:0.04,0:1,fo:0.04][Nu,0:3.034,-1:-3.984]~
+info:12.70% mutation of 'mutant 359'
+num:361
+gnum:360
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2981
+
+org:
+name:mutant 361
+genotype:~
+X[Nu,s:0][Nu,fo:0.04,0:2.168,fo:0.04][Nu,0:3.034,-1:-3.984]~
+info:9.09% mutation of 'mutant 360'
+num:362
+gnum:361
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2982
+
+org:
+name:mutant 362
+genotype:~
+X[Nu,s:0][Nu,fo:0.04,0:2.168][Nu,0:3.034,-1:-3.984]~
+info:13.56% mutation of 'mutant 361'
+num:363
+gnum:362
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2983
+
+org:
+name:mutant 363
+genotype:~
+X[Nu,s:0][Nu,fo:0.04,0:2.168][Nu,0:3.034,-1:-5.587]~
+info:11.76% mutation of 'mutant 362'
+num:364
+gnum:363
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2984
+
+org:
+name:mutant 364
+genotype:~
+X[Nu,s:0][Nu,fo:0.04,0:2.168][Nu,0:3.034,-1:-6.657]~
+info:11.76% mutation of 'mutant 363'
+num:365
+gnum:364
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2985
+
+org:
+name:mutant 365
+genotype:~
+X[Nu,s:0][Nu,fo:0.04,0:2.168][Nu,0:1.513,-1:-6.657]~
+info:9.80% mutation of 'mutant 364'
+num:366
+gnum:365
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2986
+
+org:
+name:mutant 366
+genotype:X[Nu,s:0][Nu,fo:0.04,0:2.168][Nu,-1:-6.657]
+info:15.69% mutation of 'mutant 365'
+num:367
+gnum:366
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2987
+
+org:
+name:mutant 367
+genotype:X[Nu,s:0][Nu,fo:0.04,0:2.168][Nu,-1:-5.083]
+info:13.95% mutation of 'mutant 366'
+num:368
+gnum:367
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2988
+
+org:
+name:mutant 368
+genotype:X[Nu,s:0][Nu,fo:0.04,0:2.168][Nu]
+info:23.26% mutation of 'mutant 367'
+num:369
+gnum:368
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2989
+
+org:
+name:mutant 369
+genotype:X[Nu,s:0][Nu,fo:0.04,0:2.168][Nu,in:0.8]
+info:21.21% mutation of 'mutant 368'
+num:370
+gnum:369
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2990
+
+org:
+name:mutant 370
+genotype:X[Nu,s:0][Nu,fo:0.04,0:2.168,1:1][Nu,in:0.8]
+info:10.00% mutation of 'mutant 369'
+num:371
+gnum:370
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2991
+
+org:
+name:mutant 371
+genotype:X[Nu,s:0][Nu,fo:0.04,0:0.849,1:1][Nu,in:0.8]
+info:11.36% mutation of 'mutant 370'
+num:372
+gnum:371
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2992
+
+org:
+name:mutant 372
+genotype:X[Nu,s:0][Nu,fo:0.04,0:-4.127,1:1][Nu,in:0.8]
+info:13.64% mutation of 'mutant 371'
+num:373
+gnum:372
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2993
+
+org:
+name:mutant 373
+genotype:X[Nu,s:0][Nu,fo:0.04,0:-4.127,1:3.032][Nu,in:0.8]
+info:11.11% mutation of 'mutant 372'
+num:374
+gnum:373
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2994
+
+org:
+name:mutant 374
+genotype:~
+X[Nu,1:1][Nu,s:0][Nu,fo:0.04,0:-4.127,1:3.032][Nu,in:0.8]~
+info:16.33% mutation of 'mutant 373'
+num:375
+gnum:374
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2995
+
+org:
+name:mutant 375
+genotype:~
+X[Nu,1:1][Nu,s:0][Nu,fo:0.04,0:-4.127,1:5.212][Nu,in:0.8]~
+info:8.77% mutation of 'mutant 374'
+num:376
+gnum:375
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2996
+
+org:
+name:mutant 376
+genotype:~
+X[Nu,1:1][Nu,s:0][Nu,fo:0.04,0:-4.127,1:3.829][Nu,in:0.8]~
+info:8.77% mutation of 'mutant 375'
+num:377
+gnum:376
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2997
+
+org:
+name:mutant 377
+genotype:~
+X[Nu,1:0.441][Nu,s:0][Nu,fo:0.04,0:-4.127,1:3.829][Nu,in:0.8]~
+info:8.77% mutation of 'mutant 376'
+num:378
+gnum:377
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2998
+
+org:
+name:mutant 378
+genotype:~
+X[Nu,1:0.441][Nu,s:0][Nu,fo:0.04,0:-5.482,1:3.829][Nu,in:0.8]~
+info:9.84% mutation of 'mutant 377'
+num:379
+gnum:378
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g2999
+
+org:
+name:mutant 379
+genotype:X[Nu,1:0.441][Nu,s:0][Nu,fo:0.04,0:-5.482]
+info:18.03% mutation of 'mutant 378'
+num:380
+gnum:379
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3000
+
+org:
+name:mutant 380
+genotype:X[Nu,1:0.441][Nu,s:0][Nu,fo:0.04,0:-6.539]
+info:14.29% mutation of 'mutant 379'
+num:381
+gnum:380
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3001
+
+org:
+name:mutant 381
+genotype:X[Nu,1:-0.263][Nu,s:0][Nu,fo:0.04,0:-6.539]
+info:14.29% mutation of 'mutant 380'
+num:382
+gnum:381
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3002
+
+org:
+name:mutant 382
+genotype:X[Nu,1:-0.263,2:1][Nu,s:0][Nu,fo:0.04,0:-6.539]
+info:9.30% mutation of 'mutant 381'
+num:383
+gnum:382
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3003
+
+org:
+name:mutant 383
+genotype:X[Nu,2:1][Nu,s:0][Nu,fo:0.04,0:-6.539]
+info:19.15% mutation of 'mutant 382'
+num:384
+gnum:383
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3004
+
+org:
+name:mutant 384
+genotype:X[Nu,2:1][Nu,s:0.108][Nu,fo:0.04,0:-6.539]
+info:13.16% mutation of 'mutant 383'
+num:385
+gnum:384
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3005
+
+org:
+name:mutant 385
+genotype:X[Nu,2:1][Nu,s:0.108][Nu,fo:0.04,0:-5.792]
+info:14.29% mutation of 'mutant 384'
+num:386
+gnum:385
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3006
+
+org:
+name:mutant 386
+genotype:X[Nu][Nu,s:0.108]
+info:50.00% mutation of 'mutant 385'
+num:387
+gnum:386
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3007
+
+org:
+name:mutant 387
+genotype:X[Nu,1:1][Nu][Nu,s:0.108]
+info:47.06% mutation of 'mutant 386'
+num:388
+gnum:387
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3008
+
+org:
+name:mutant 388
+genotype:X[Nu,1:3.048][Nu][Nu,s:0.108]
+info:20.00% mutation of 'mutant 387'
+num:389
+gnum:388
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3009
+
+org:
+name:mutant 389
+genotype:X[Nu,1:3.048][Nu][Nu,s:0.108,0:1]
+info:13.79% mutation of 'mutant 388'
+num:390
+gnum:389
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3010
+
+org:
+name:mutant 390
+genotype:X[Nu,1:3.048][Nu][Nu,s:0.108,0:-2.058]
+info:18.18% mutation of 'mutant 389'
+num:391
+gnum:390
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3011
+
+org:
+name:mutant 391
+genotype:X[Nu,1:3.718][Nu][Nu,s:0.108,0:-2.058]
+info:13.16% mutation of 'mutant 390'
+num:392
+gnum:391
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3012
+
+org:
+name:mutant 392
+genotype:X[Nu,1:3.718][Nu][Nu,s:0.108,0:-2.058,-2:1]
+info:13.16% mutation of 'mutant 391'
+num:393
+gnum:392
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3013
+
+org:
+name:mutant 393
+genotype:X[Nu,1:3.718][Nu][Nu,s:0.108,0:-2.058,-2:-0.835]
+info:13.95% mutation of 'mutant 392'
+num:394
+gnum:393
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3014
+
+org:
+name:mutant 394
+genotype:X[Nu,1:3.718][Nu][Nu,s:0.108,0:-2.096,-2:-0.835]
+info:12.50% mutation of 'mutant 393'
+num:395
+gnum:394
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3015
+
+org:
+name:mutant 395
+genotype:~
+X[Nu,1:3.718][Nu][Nu,s:0.108,0:-2.096,-2:-0.835,in:0.8]~
+info:14.58% mutation of 'mutant 394'
+num:396
+gnum:395
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3016
+
+org:
+name:mutant 396
+genotype:~
+X[Nu,1:3.963][Nu][Nu,s:0.108,0:-2.096,-2:-0.835,in:0.8]~
+info:9.09% mutation of 'mutant 395'
+num:397
+gnum:396
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3017
+
+org:
+name:mutant 397
+genotype:~
+X[Nu,1:3.963,s:0][Nu][Nu,s:0.108,0:-2.096,-2:-0.835,in:0.8]~
+info:7.27% mutation of 'mutant 396'
+num:398
+gnum:397
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3018
+
+org:
+name:mutant 398
+genotype:~
+X[Nu,s:0][Nu][Nu,s:0.108,0:-2.096,-2:-0.835,in:0.8]~
+info:13.56% mutation of 'mutant 397'
+num:399
+gnum:398
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3019
+
+org:
+name:mutant 399
+genotype:X[Nu,s:0][Nu][Nu,s:0.108,0:-2.096,-2:0.166,in:0.8]
+info:11.76% mutation of 'mutant 398'
+num:400
+gnum:399
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3020
+
+org:
+name:mutant 400
+genotype:X[Nu,s:0][Nu][Nu,s:0.108,0:-1.571,-2:0.166,in:0.8]
+info:12.00% mutation of 'mutant 399'
+num:401
+gnum:400
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3021
+
+org:
+name:mutant 401
+genotype:X[Nu,s:0][Nu][Nu,s:0.108,0:-0.031,-2:0.166,in:0.8]
+info:12.00% mutation of 'mutant 400'
+num:402
+gnum:401
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3022
+
+org:
+name:mutant 402
+genotype:X[Nu,s:0][Nu][Nu,s:0.075,0:-0.031,-2:0.166,in:0.8]
+info:10.00% mutation of 'mutant 401'
+num:403
+gnum:402
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3023
+
+org:
+name:mutant 403
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-0.031,-2:0.166,in:0.8]
+info:10.00% mutation of 'mutant 402'
+num:404
+gnum:403
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3024
+
+org:
+name:mutant 404
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-0.031,-2:3.114,in:0.8]
+info:10.20% mutation of 'mutant 403'
+num:405
+gnum:404
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3025
+
+org:
+name:mutant 405
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-1.901,-2:3.114,in:0.8]
+info:12.24% mutation of 'mutant 404'
+num:406
+gnum:405
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3026
+
+org:
+name:mutant 406
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-1.901,-2:-0.714,in:0.8]
+info:12.24% mutation of 'mutant 405'
+num:407
+gnum:406
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3027
+
+org:
+name:mutant 407
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-5.549,-2:-0.714,in:0.8]
+info:12.00% mutation of 'mutant 406'
+num:408
+gnum:407
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3028
+
+org:
+name:mutant 408
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-6.105,-2:-0.714,in:0.8]
+info:12.00% mutation of 'mutant 407'
+num:409
+gnum:408
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3029
+
+org:
+name:mutant 409
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-2.488,-2:-0.714,in:0.8]
+info:12.00% mutation of 'mutant 408'
+num:410
+gnum:409
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3030
+
+org:
+name:mutant 410
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-1.123,-2:-0.714,in:0.8]
+info:12.00% mutation of 'mutant 409'
+num:411
+gnum:410
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3031
+
+org:
+name:mutant 411
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-1.123,-2:0.069,in:0.8]
+info:12.00% mutation of 'mutant 410'
+num:412
+gnum:411
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3032
+
+org:
+name:mutant 412
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-1.926,-2:0.069,in:0.8]
+info:12.24% mutation of 'mutant 411'
+num:413
+gnum:412
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3033
+
+org:
+name:mutant 413
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-1.432,-2:0.069,in:0.8]
+info:12.24% mutation of 'mutant 412'
+num:414
+gnum:413
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3034
+
+org:
+name:mutant 414
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-1.432,-2:1.402,in:0.8]
+info:10.20% mutation of 'mutant 413'
+num:415
+gnum:414
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3035
+
+org:
+name:mutant 415
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-1.432,-2:1.402]
+info:14.29% mutation of 'mutant 414'
+num:416
+gnum:415
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3036
+
+org:
+name:mutant 416
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-1.432,-2:5.216]
+info:11.90% mutation of 'mutant 415'
+num:417
+gnum:416
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3037
+
+org:
+name:mutant 417
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-0.762,-2:5.216]
+info:14.29% mutation of 'mutant 416'
+num:418
+gnum:417
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3038
+
+org:
+name:mutant 418
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-3.006,-2:5.216]
+info:14.29% mutation of 'mutant 417'
+num:419
+gnum:418
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3039
+
+org:
+name:mutant 419
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-2.262,-2:5.216]
+info:14.29% mutation of 'mutant 418'
+num:420
+gnum:419
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3040
+
+org:
+name:mutant 420
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-3.682,-2:5.216]
+info:14.29% mutation of 'mutant 419'
+num:421
+gnum:420
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3041
+
+org:
+name:mutant 421
+genotype:X[Nu,s:0][Nu][Nu,s:0.05,0:-2.518,-2:5.216]
+info:14.29% mutation of 'mutant 420'
+num:422
+gnum:421
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3042
+
+org:
+name:mutant 422
+genotype:X[Nu,s:0][Nu][Nu,0:-2.518,-2:5.216]
+info:16.67% mutation of 'mutant 421'
+num:423
+gnum:422
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3043
+
+org:
+name:mutant 423
+genotype:X[Nu,s:0][Nu]
+info:62.86% mutation of 'mutant 422'
+num:424
+gnum:423
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3044
+
+org:
+name:mutant 424
+genotype:X[Nu,s:0.002][Nu]
+info:38.46% mutation of 'mutant 423'
+num:425
+gnum:424
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3045
+
+org:
+name:mutant 425
+genotype:X[Nu]
+info:70.59% mutation of 'mutant 424'
+num:426
+gnum:425
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3046
+
+org:
+name:mutant 426
+genotype:X[Nu,0:1]
+info:80.00% mutation of 'mutant 425'
+num:427
+gnum:426
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3047
+
+org:
+name:mutant 427
+genotype:X[Nu,0:3.62]
+info:44.44% mutation of 'mutant 426'
+num:428
+gnum:427
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3048
+
+org:
+name:mutant 428
+genotype:X[Nu,0:3.104]
+info:41.67% mutation of 'mutant 427'
+num:429
+gnum:428
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3049
+
+org:
+name:mutant 429
+genotype:X[Nu,0:-0.008]
+info:46.15% mutation of 'mutant 428'
+num:430
+gnum:429
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3050
+
+org:
+name:mutant 430
+genotype:X[Nu,0:-0.008,in:0.8]
+info:50.00% mutation of 'mutant 429'
+num:431
+gnum:430
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3051
+
+org:
+name:mutant 431
+genotype:X[Nu,0:1.543,in:0.8]
+info:28.57% mutation of 'mutant 430'
+num:432
+gnum:431
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3052
+
+org:
+name:mutant 432
+genotype:X[Nu,0:1.577,in:0.8]
+info:25.00% mutation of 'mutant 431'
+num:433
+gnum:432
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3053
+
+org:
+name:mutant 433
+genotype:X[Nu,0:1.577]
+info:35.00% mutation of 'mutant 432'
+num:434
+gnum:433
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3054
+
+org:
+name:mutant 434
+genotype:X[Nu,0:0.277]
+info:38.46% mutation of 'mutant 433'
+num:435
+gnum:434
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3055
+
+org:
+name:mutant 435
+genotype:X[Nu,0:-3.41]
+info:38.46% mutation of 'mutant 434'
+num:436
+gnum:435
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3056
+
+org:
+name:mutant 436
+genotype:X[Nu,0:-6.042]
+info:46.15% mutation of 'mutant 435'
+num:437
+gnum:436
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3057
+
+org:
+name:mutant 437
+genotype:X[Nu]
+info:64.29% mutation of 'mutant 436'
+num:438
+gnum:437
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3058
+
+org:
+name:mutant 438
+genotype:X[Nu,fo:0.04]
+info:160.00% mutation of 'mutant 437'
+num:439
+gnum:438
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3059
+
+org:
+name:mutant 439
+genotype:X[Nu,fo:0.04,0:1]
+info:30.77% mutation of 'mutant 438'
+num:440
+gnum:439
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3060
+
+org:
+name:mutant 440
+genotype:X[Nu,fo:0.04,0:1,0:1]
+info:23.53% mutation of 'mutant 439'
+num:441
+gnum:440
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3061
+
+org:
+name:mutant 441
+genotype:X[Nu,fo:0.04,0:1,0:-0.013]
+info:28.57% mutation of 'mutant 440'
+num:442
+gnum:441
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3062
+
+org:
+name:mutant 442
+genotype:X[Nu,fo:0.04,0:1]
+info:34.62% mutation of 'mutant 441'
+num:443
+gnum:442
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3063
+
+org:
+name:mutant 443
+genotype:X[Nu,fo:0.04,0:-1.703]
+info:35.29% mutation of 'mutant 442'
+num:444
+gnum:443
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3064
+
+org:
+name:mutant 444
+genotype:X[Nu,fo:0.04,0:-3.554]
+info:27.27% mutation of 'mutant 443'
+num:445
+gnum:444
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3065
+
+org:
+name:mutant 445
+genotype:X[Nu,fo:0.04,0:-3.382]
+info:27.27% mutation of 'mutant 444'
+num:446
+gnum:445
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3066
+
+org:
+name:mutant 446
+genotype:X[Nu,fo:0.04,0:-3.517]
+info:27.27% mutation of 'mutant 445'
+num:447
+gnum:446
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3067
+
+org:
+name:mutant 447
+genotype:X[Nu,fo:0.04,0:-0.691]
+info:27.27% mutation of 'mutant 446'
+num:448
+gnum:447
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3068
+
+org:
+name:mutant 448
+genotype:X[Nu,fo:0.129194,0:-0.691]
+info:36.36% mutation of 'mutant 447'
+num:449
+gnum:448
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3069
+
+org:
+name:mutant 449
+genotype:X[Nu,fo:0.129194,0:-1.212]
+info:23.08% mutation of 'mutant 448'
+num:450
+gnum:449
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3070
+
+org:
+name:mutant 450
+genotype:X[Nu,fo:0.129194,0:-0.572]
+info:23.08% mutation of 'mutant 449'
+num:451
+gnum:450
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3071
+
+org:
+name:mutant 451
+genotype:X[Nu,fo:0.129194,0:-0.572,fo:0.04]
+info:30.77% mutation of 'mutant 450'
+num:452
+gnum:451
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3072
+
+org:
+name:mutant 452
+genotype:X[Nu,fo:0.129194,0:-1.552,fo:0.04]
+info:17.65% mutation of 'mutant 451'
+num:453
+gnum:452
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3073
+
+org:
+name:mutant 453
+genotype:X[Nu,fo:0.129194,0:-1.257,fo:0.04]
+info:17.65% mutation of 'mutant 452'
+num:454
+gnum:453
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3074
+
+org:
+name:mutant 454
+genotype:X[Nu,0:-1.257,fo:0.04]
+info:35.29% mutation of 'mutant 453'
+num:455
+gnum:454
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3075
+
+org:
+name:mutant 455
+genotype:X[Nu,0:-1.33,fo:0.04]
+info:27.27% mutation of 'mutant 454'
+num:456
+gnum:455
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3076
+
+org:
+name:mutant 456
+genotype:X[Nu,0:-1.085,fo:0.04]
+info:28.57% mutation of 'mutant 455'
+num:457
+gnum:456
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3077
+
+org:
+name:mutant 457
+genotype:X[Nu,0:-1.72,fo:0.04]
+info:27.27% mutation of 'mutant 456'
+num:458
+gnum:457
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3078
+
+org:
+name:mutant 458
+genotype:X[Nu,0:-1.497,fo:0.04]
+info:28.57% mutation of 'mutant 457'
+num:459
+gnum:458
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3079
+
+org:
+name:mutant 459
+genotype:X[Nu,0:0.162,fo:0.04]
+info:27.27% mutation of 'mutant 458'
+num:460
+gnum:459
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3080
+
+org:
+name:mutant 460
+genotype:X[Nu,0:-2.03,fo:0.04]
+info:23.81% mutation of 'mutant 459'
+num:461
+gnum:460
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3081
+
+org:
+name:mutant 461
+genotype:X[Nu,0:-2.03]
+info:38.10% mutation of 'mutant 460'
+num:462
+gnum:461
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3082
+
+org:
+name:mutant 462
+genotype:X[Nu,0:0.929]
+info:38.46% mutation of 'mutant 461'
+num:463
+gnum:462
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3083
+
+org:
+name:mutant 463
+genotype:X[Nu,0:0.259]
+info:38.46% mutation of 'mutant 462'
+num:464
+gnum:463
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3084
+
+org:
+name:mutant 464
+genotype:X[Nu]
+info:61.54% mutation of 'mutant 463'
+num:465
+gnum:464
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3085
+
+org:
+name:mutant 465
+genotype:X[Nu,0:1]
+info:80.00% mutation of 'mutant 464'
+num:466
+gnum:465
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3086
+
+org:
+name:mutant 466
+genotype:X[Nu]
+info:44.44% mutation of 'mutant 465'
+num:467
+gnum:466
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3087
+
+org:
+name:mutant 467
+genotype:X[Nu,fo:0.04]
+info:160.00% mutation of 'mutant 466'
+num:468
+gnum:467
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3088
+
+org:
+name:mutant 468
+genotype:X[Nu,fo:0.04,0:1]
+info:30.77% mutation of 'mutant 467'
+num:469
+gnum:468
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3089
+
+org:
+name:mutant 469
+genotype:X[Nu,fo:0.04,0:2.086]
+info:29.41% mutation of 'mutant 468'
+num:470
+gnum:469
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3090
+
+org:
+name:mutant 470
+genotype:X[Nu,fo:0.04,0:-0.71]
+info:23.81% mutation of 'mutant 469'
+num:471
+gnum:470
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3091
+
+org:
+name:mutant 471
+genotype:X[Nu,fo:0.04,0:-1.745]
+info:28.57% mutation of 'mutant 470'
+num:472
+gnum:471
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3092
+
+org:
+name:mutant 472
+genotype:X
+info:95.45% mutation of 'mutant 471'
+num:473
+gnum:472
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3093
+
+org:
+name:mutant 473
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 472'
+num:474
+gnum:473
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3094
+
+org:
+name:mutant 474
+genotype:X[Nu,si:2]
+info:100.00% mutation of 'mutant 473'
+num:475
+gnum:474
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3095
+
+org:
+name:mutant 475
+genotype:X[Nu]
+info:50.00% mutation of 'mutant 474'
+num:476
+gnum:475
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3096
+
+org:
+name:mutant 476
+genotype:X[Nu,in:0.8]
+info:140.00% mutation of 'mutant 475'
+num:477
+gnum:476
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3097
+
+org:
+name:mutant 477
+genotype:X[Nu]
+info:58.33% mutation of 'mutant 476'
+num:478
+gnum:477
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3098
+
+org:
+name:mutant 478
+genotype:X[Nu,1:1][Nu]
+info:160.00% mutation of 'mutant 477'
+num:479
+gnum:478
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3099
+
+org:
+name:mutant 479
+genotype:X[Nu][Nu]
+info:30.77% mutation of 'mutant 478'
+num:480
+gnum:479
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3100
+
+org:
+name:mutant 480
+genotype:X[Nu,in:0.8][Nu]
+info:77.78% mutation of 'mutant 479'
+num:481
+gnum:480
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3101
+
+org:
+name:mutant 481
+genotype:X[Nu,in:0.8][Nu,-1:1]
+info:31.25% mutation of 'mutant 480'
+num:482
+gnum:481
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3102
+
+org:
+name:mutant 482
+genotype:X[Nu,in:0.965626][Nu,-1:1]
+info:38.10% mutation of 'mutant 481'
+num:483
+gnum:482
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3103
+
+org:
+name:mutant 483
+genotype:X[Nu][Nu,-1:1]
+info:46.15% mutation of 'mutant 482'
+num:484
+gnum:483
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3104
+
+org:
+name:mutant 484
+genotype:X[Nu][Nu,-1:0.331]
+info:35.71% mutation of 'mutant 483'
+num:485
+gnum:484
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3105
+
+org:
+name:mutant 485
+genotype:X[Nu][Nu,-1:2.757]
+info:27.78% mutation of 'mutant 484'
+num:486
+gnum:485
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3106
+
+org:
+name:mutant 486
+genotype:X[Nu][Nu,-1:2.757,fo:0.04]
+info:44.44% mutation of 'mutant 485'
+num:487
+gnum:486
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3107
+
+org:
+name:mutant 487
+genotype:X[Nu][Nu,-1:8.646,fo:0.04]
+info:19.23% mutation of 'mutant 486'
+num:488
+gnum:487
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3108
+
+org:
+name:mutant 488
+genotype:X[Nu,2:1][Nu][Nu,-1:8.646,fo:0.04]
+info:30.77% mutation of 'mutant 487'
+num:489
+gnum:488
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3109
+
+org:
+name:mutant 489
+genotype:X[Nu,2:1][Nu][Nu,-1:7.087,fo:0.04]
+info:14.71% mutation of 'mutant 488'
+num:490
+gnum:489
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3110
+
+org:
+name:mutant 490
+genotype:X[Nu,2:1.034][Nu][Nu,-1:7.087,fo:0.04]
+info:14.71% mutation of 'mutant 489'
+num:491
+gnum:490
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3111
+
+org:
+name:mutant 491
+genotype:X[Nu,2:1.382][Nu][Nu,-1:7.087,fo:0.04]
+info:13.16% mutation of 'mutant 490'
+num:492
+gnum:491
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3112
+
+org:
+name:mutant 492
+genotype:X[Nu,2:1.382][Nu][Nu,-1:6.981,fo:0.04]
+info:13.16% mutation of 'mutant 491'
+num:493
+gnum:492
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3113
+
+org:
+name:mutant 493
+genotype:X[Nu,2:3.819][Nu][Nu,-1:6.981,fo:0.04]
+info:13.16% mutation of 'mutant 492'
+num:494
+gnum:493
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3114
+
+org:
+name:mutant 494
+genotype:X[Nu,2:3.819][Nu][Nu,-1:5.633,fo:0.04]
+info:13.16% mutation of 'mutant 493'
+num:495
+gnum:494
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3115
+
+org:
+name:mutant 495
+genotype:X[Nu,2:3.999][Nu][Nu,-1:5.633,fo:0.04]
+info:13.16% mutation of 'mutant 494'
+num:496
+gnum:495
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3116
+
+org:
+name:mutant 496
+genotype:X[Nu,2:3.999][Nu][Nu,-1:5.633]
+info:21.05% mutation of 'mutant 495'
+num:497
+gnum:496
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3117
+
+org:
+name:mutant 497
+genotype:X[Nu,2:4.615][Nu][Nu,-1:5.633]
+info:16.67% mutation of 'mutant 496'
+num:498
+gnum:497
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3118
+
+org:
+name:mutant 498
+genotype:X[Nu,2:2.964][Nu][Nu,-1:5.633]
+info:16.67% mutation of 'mutant 497'
+num:499
+gnum:498
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3119
+
+org:
+name:mutant 499
+genotype:X[Nu][Nu]
+info:43.33% mutation of 'mutant 498'
+num:500
+gnum:499
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3120
+
+org:
+name:mutant 500
+genotype:X[Nu,fo:0.04][Nu]
+info:88.89% mutation of 'mutant 499'
+num:501
+gnum:500
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3121
+
+org:
+name:mutant 501
+genotype:X[Nu,fo:0.04]
+info:23.53% mutation of 'mutant 500'
+num:502
+gnum:501
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3122
+
+org:
+name:mutant 502
+genotype:X[Nu,fo:0.04,0:1]
+info:30.77% mutation of 'mutant 501'
+num:503
+gnum:502
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3123
+
+org:
+name:mutant 503
+genotype:X[Nu,fo:0.04,0:0.716]
+info:29.41% mutation of 'mutant 502'
+num:504
+gnum:503
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3124
+
+org:
+name:mutant 504
+genotype:X[Nu,fo:0.04,0:0.716,in:0.8]
+info:33.33% mutation of 'mutant 503'
+num:505
+gnum:504
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3125
+
+org:
+name:mutant 505
+genotype:X[Nu,fo:0.04,0:-0.933,in:0.8]
+info:21.43% mutation of 'mutant 504'
+num:506
+gnum:505
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3126
+
+org:
+name:mutant 506
+genotype:X[Nu,fo:0.04,0:-0.444,in:0.8]
+info:20.69% mutation of 'mutant 505'
+num:507
+gnum:506
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3127
+
+org:
+name:mutant 507
+genotype:X
+info:96.55% mutation of 'mutant 506'
+num:508
+gnum:507
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3128
+
+org:
+name:mutant 508
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 507'
+num:509
+gnum:508
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3129
+
+org:
+name:mutant 509
+genotype:X[Nu,in:0.8]
+info:140.00% mutation of 'mutant 508'
+num:510
+gnum:509
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3130
+
+org:
+name:mutant 510
+genotype:X[Nu,in:0.8,s:0]
+info:33.33% mutation of 'mutant 509'
+num:511
+gnum:510
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3131
+
+org:
+name:mutant 511
+genotype:X[Nu,in:0.8]
+info:25.00% mutation of 'mutant 510'
+num:512
+gnum:511
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3132
+
+org:
+name:mutant 512
+genotype:X[Nu]
+info:58.33% mutation of 'mutant 511'
+num:513
+gnum:512
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3133
+
+org:
+name:mutant 513
+genotype:X
+info:80.00% mutation of 'mutant 512'
+num:514
+gnum:513
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3134
+
+org:
+name:mutant 514
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 513'
+num:515
+gnum:514
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3135
+
+org:
+name:mutant 515
+genotype:X[Nu,0:1]
+info:80.00% mutation of 'mutant 514'
+num:516
+gnum:515
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3136
+
+org:
+name:mutant 516
+genotype:X[Nu]
+info:44.44% mutation of 'mutant 515'
+num:517
+gnum:516
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3137
+
+org:
+name:mutant 517
+genotype:X[Nu,si:2]
+info:100.00% mutation of 'mutant 516'
+num:518
+gnum:517
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3138
+
+org:
+name:mutant 518
+genotype:X[Nu,si:2,0:1]
+info:40.00% mutation of 'mutant 517'
+num:519
+gnum:518
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3139
+
+org:
+name:mutant 519
+genotype:X[Nu,si:2]
+info:28.57% mutation of 'mutant 518'
+num:520
+gnum:519
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3140
+
+org:
+name:mutant 520
+genotype:X[Nu,si:2,0:1]
+info:40.00% mutation of 'mutant 519'
+num:521
+gnum:520
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3141
+
+org:
+name:mutant 521
+genotype:X[Nu,0:1]
+info:35.71% mutation of 'mutant 520'
+num:522
+gnum:521
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3142
+
+org:
+name:mutant 522
+genotype:X
+info:88.89% mutation of 'mutant 521'
+num:523
+gnum:522
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3143
+
+org:
+name:mutant 523
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 522'
+num:524
+gnum:523
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3144
+
+org:
+name:mutant 524
+genotype:X[Nu,1:1][Nu]
+info:160.00% mutation of 'mutant 523'
+num:525
+gnum:524
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3145
+
+org:
+name:mutant 525
+genotype:X[Nu,1:2.579][Nu]
+info:38.46% mutation of 'mutant 524'
+num:526
+gnum:525
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3146
+
+org:
+name:mutant 526
+genotype:X[Nu,1:3.663][Nu]
+info:29.41% mutation of 'mutant 525'
+num:527
+gnum:526
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3147
+
+org:
+name:mutant 527
+genotype:X[Nu,1:3.663][Nu,0:1]
+info:23.53% mutation of 'mutant 526'
+num:528
+gnum:527
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3148
+
+org:
+name:mutant 528
+genotype:X[Nu,1:4.54][Nu,0:1]
+info:23.81% mutation of 'mutant 527'
+num:529
+gnum:528
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3149
+
+org:
+name:mutant 529
+genotype:X[Nu,1:4.54][Nu]
+info:20.00% mutation of 'mutant 528'
+num:530
+gnum:529
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3150
+
+org:
+name:mutant 530
+genotype:X[Nu,1:4.54][Nu,in:0.8]
+info:43.75% mutation of 'mutant 529'
+num:531
+gnum:530
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3151
+
+org:
+name:mutant 531
+genotype:X[Nu,1:4.3][Nu,in:0.8]
+info:17.39% mutation of 'mutant 530'
+num:532
+gnum:531
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3152
+
+org:
+name:mutant 532
+genotype:X[Nu,1:7.275][Nu,in:0.8]
+info:22.73% mutation of 'mutant 531'
+num:533
+gnum:532
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3153
+
+org:
+name:mutant 533
+genotype:X[Nu,1:11.964][Nu,in:0.8]
+info:25.00% mutation of 'mutant 532'
+num:534
+gnum:533
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3154
+
+org:
+name:mutant 534
+genotype:X[Nu,1:11.726][Nu,in:0.8]
+info:24.00% mutation of 'mutant 533'
+num:535
+gnum:534
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3155
+
+org:
+name:mutant 535
+genotype:X[Nu,1:11.119][Nu,in:0.8]
+info:24.00% mutation of 'mutant 534'
+num:536
+gnum:535
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3156
+
+org:
+name:mutant 536
+genotype:X[Nu,1:8.97][Nu,in:0.8]
+info:24.00% mutation of 'mutant 535'
+num:537
+gnum:536
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3157
+
+org:
+name:mutant 537
+genotype:X[Nu,1:7.022][Nu,in:0.8]
+info:21.74% mutation of 'mutant 536'
+num:538
+gnum:537
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3158
+
+org:
+name:mutant 538
+genotype:X[Nu,2:1][Nu,1:7.022][Nu,in:0.8]
+info:33.33% mutation of 'mutant 537'
+num:539
+gnum:538
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3159
+
+org:
+name:mutant 539
+genotype:X[Nu,2:1][Nu,1:10.157][Nu,in:0.8]
+info:18.75% mutation of 'mutant 538'
+num:540
+gnum:539
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3160
+
+org:
+name:mutant 540
+genotype:X[Nu,2:2.761][Nu,1:10.157][Nu,in:0.8]
+info:15.15% mutation of 'mutant 539'
+num:541
+gnum:540
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3161
+
+org:
+name:mutant 541
+genotype:X[Nu,2:2.761][Nu,1:12.619][Nu,in:0.8]
+info:16.22% mutation of 'mutant 540'
+num:542
+gnum:541
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3162
+
+org:
+name:mutant 542
+genotype:X[Nu,2:2.761][Nu,1:12.619][Nu]
+info:18.92% mutation of 'mutant 541'
+num:543
+gnum:542
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3163
+
+org:
+name:mutant 543
+genotype:X[Nu,2:4.133][Nu,1:12.619][Nu]
+info:16.67% mutation of 'mutant 542'
+num:544
+gnum:543
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3164
+
+org:
+name:mutant 544
+genotype:X[Nu,2:4.133][Nu,1:12.619][Nu,-2:1]
+info:16.67% mutation of 'mutant 543'
+num:545
+gnum:544
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3165
+
+org:
+name:mutant 545
+genotype:X[Nu,2:2.408][Nu,1:12.619][Nu,-2:1]
+info:14.29% mutation of 'mutant 544'
+num:546
+gnum:545
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3166
+
+org:
+name:mutant 546
+genotype:X[Nu,2:2.408][Nu,1:12.619][Nu,-2:6.238]
+info:14.29% mutation of 'mutant 545'
+num:547
+gnum:546
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3167
+
+org:
+name:mutant 547
+genotype:X[Nu,2:2.408][Nu,1:12.619][Nu,-2:6.689]
+info:12.82% mutation of 'mutant 546'
+num:548
+gnum:547
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3168
+
+org:
+name:mutant 548
+genotype:X[Nu][Nu]
+info:33.33% mutation of 'mutant 547'
+num:549
+gnum:548
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3169
+
+org:
+name:mutant 549
+genotype:X[Nu,fo:0.04][Nu]
+info:88.89% mutation of 'mutant 548'
+num:550
+gnum:549
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3170
+
+org:
+name:mutant 550
+genotype:X[Nu,fo:0.04][Nu,0:1]
+info:23.53% mutation of 'mutant 549'
+num:551
+gnum:550
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3171
+
+org:
+name:mutant 551
+genotype:X[Nu,fo:0.04][Nu,0:-0.048]
+info:28.57% mutation of 'mutant 550'
+num:552
+gnum:551
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3172
+
+org:
+name:mutant 552
+genotype:X[Nu,fo:0.04][Nu,0:-2.625]
+info:23.08% mutation of 'mutant 551'
+num:553
+gnum:552
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3173
+
+org:
+name:mutant 553
+genotype:X[Nu,fo:1][Nu,0:-2.625]
+info:15.38% mutation of 'mutant 552'
+num:554
+gnum:553
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3174
+
+org:
+name:mutant 554
+genotype:X[Nu,fo:1][Nu,0:-4.533]
+info:26.09% mutation of 'mutant 553'
+num:555
+gnum:554
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3175
+
+org:
+name:mutant 555
+genotype:X[Nu,1:1][Nu,fo:1][Nu,0:-4.533]
+info:34.78% mutation of 'mutant 554'
+num:556
+gnum:555
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3176
+
+org:
+name:mutant 556
+genotype:X[Nu,1:1][Nu,fo:1][Nu,0:-5.996]
+info:19.35% mutation of 'mutant 555'
+num:557
+gnum:556
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3177
+
+org:
+name:mutant 557
+genotype:X[Nu,1:1,2:1][Nu,fo:1][Nu,0:-5.996]
+info:12.90% mutation of 'mutant 556'
+num:558
+gnum:557
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3178
+
+org:
+name:mutant 558
+genotype:X[Nu,1:1,2:1][Nu,fo:0.00950678][Nu,0:-5.996]
+info:28.57% mutation of 'mutant 557'
+num:559
+gnum:558
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3179
+
+org:
+name:mutant 559
+genotype:X[Nu,1:1,2:1][Nu,fo:0.00950678][Nu,0:-5.786]
+info:13.64% mutation of 'mutant 558'
+num:560
+gnum:559
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3180
+
+org:
+name:mutant 560
+genotype:~
+X[Nu,1:1,2:1][Nu,fo:0.00950678,fo:0.04][Nu,0:-5.786]~
+info:18.18% mutation of 'mutant 559'
+num:561
+gnum:560
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3181
+
+org:
+name:mutant 561
+genotype:~
+X[Nu,1:1,2:1][Nu,fo:0.00950678,fo:0.04][Nu,0:-5.786,-2:1]~
+info:9.62% mutation of 'mutant 560'
+num:562
+gnum:561
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3182
+
+org:
+name:mutant 562
+genotype:~
+X[Nu,1:1,2:1][Nu,fo:0.00950678,fo:0.04][Nu,0:-3.732,-2:1]~
+info:10.53% mutation of 'mutant 561'
+num:563
+gnum:562
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3183
+
+org:
+name:mutant 563
+genotype:~
+X[Nu,1:1,2:1][Nu,fo:0.00950678,fo:0.04][Nu,0:-3.732,-2:2.112]~
+info:8.77% mutation of 'mutant 562'
+num:564
+gnum:563
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3184
+
+org:
+name:mutant 564
+genotype:~
+X[Nu,1:1,2:1][Nu,fo:0.00950678,fo:0.04][Nu,0:-3.732,-2:5]~
+info:8.20% mutation of 'mutant 563'
+num:565
+gnum:564
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3185
+
+org:
+name:mutant 565
+genotype:~
+X[Nu,1:1,2:2.487][Nu,fo:0.00950678,fo:0.04][Nu,0:-3.732,-2:5]~
+info:8.77% mutation of 'mutant 564'
+num:566
+gnum:565
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3186
+
+org:
+name:mutant 566
+genotype:~
+X[Nu,1:1,2:2.487][Nu,fo:0.00950678,fo:0.04][Nu,0:-3.732,-2:3.914]~
+info:8.20% mutation of 'mutant 565'
+num:567
+gnum:566
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3187
+
+org:
+name:mutant 567
+genotype:~
+X[Nu,2:2.487][Nu,fo:0.00950678,fo:0.04][Nu,0:-3.732,-2:3.914]~
+info:6.15% mutation of 'mutant 566'
+num:568
+gnum:567
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3188
+
+org:
+name:mutant 568
+genotype:~
+X[Nu,2:2.487][Nu,fo:0.00950678,fo:0.04][Nu,0:-4.18,-2:3.914]~
+info:9.84% mutation of 'mutant 567'
+num:569
+gnum:568
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3189
+
+org:
+name:mutant 569
+genotype:~
+X[Nu,2:2.487,1:1][Nu,fo:0.00950678,fo:0.04][Nu,0:-4.18,-2:3.914]~
+info:6.67% mutation of 'mutant 568'
+num:570
+gnum:569
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3190
+
+org:
+name:mutant 570
+genotype:X[Nu,1:2.487][Nu,0:-4.18,-1:3.914]
+info:40.62% mutation of 'mutant 569'
+num:571
+gnum:570
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3191
+
+org:
+name:mutant 571
+genotype:X[Nu,1:2.495][Nu,0:-4.18,-1:3.914]
+info:14.71% mutation of 'mutant 570'
+num:572
+gnum:571
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3192
+
+org:
+name:mutant 572
+genotype:X[Nu,1:2.495][Nu,0:-4.18,-1:3.495]
+info:14.71% mutation of 'mutant 571'
+num:573
+gnum:572
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3193
+
+org:
+name:mutant 573
+genotype:X[Nu,1:2.495,fo:0.04][Nu,0:-4.18,-1:3.495]
+info:23.53% mutation of 'mutant 572'
+num:574
+gnum:573
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3194
+
+org:
+name:mutant 574
+genotype:X[Nu,1:2.715,fo:0.04][Nu,0:-4.18,-1:3.495]
+info:11.90% mutation of 'mutant 573'
+num:575
+gnum:574
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3195
+
+org:
+name:mutant 575
+genotype:X[Nu,1:-2.069,fo:0.04][Nu,0:-4.18,-1:3.495]
+info:14.29% mutation of 'mutant 574'
+num:576
+gnum:575
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3196
+
+org:
+name:mutant 576
+genotype:X[Nu,1:-1.85,fo:0.04][Nu,0:-4.18,-1:3.495]
+info:13.95% mutation of 'mutant 575'
+num:577
+gnum:576
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3197
+
+org:
+name:mutant 577
+genotype:X[Nu,1:-1.85,fo:0.04][Nu,0:-5.771,-1:3.495]
+info:14.29% mutation of 'mutant 576'
+num:578
+gnum:577
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3198
+
+org:
+name:mutant 578
+genotype:X[Nu,1:-1.85,fo:0.04][Nu,0:-3.464,-1:3.495]
+info:13.95% mutation of 'mutant 577'
+num:579
+gnum:578
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3199
+
+org:
+name:mutant 579
+genotype:~
+X[Nu,1:-1.85,fo:0.04][Nu,0:-3.464,-1:3.495,fo:0.04]~
+info:18.60% mutation of 'mutant 578'
+num:580
+gnum:579
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3200
+
+org:
+name:mutant 580
+genotype:X[Nu,1:-1.85,fo:0.04][Nu,-1:3.495,fo:0.04]
+info:17.65% mutation of 'mutant 579'
+num:581
+gnum:580
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3201
+
+org:
+name:mutant 581
+genotype:X[Nu,1:-1.85,fo:0.04][Nu,-1:2.99,fo:0.04]
+info:11.90% mutation of 'mutant 580'
+num:582
+gnum:581
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3202
+
+org:
+name:mutant 582
+genotype:X[Nu,1:-2.853,fo:0.04][Nu,-1:2.99,fo:0.04]
+info:14.63% mutation of 'mutant 581'
+num:583
+gnum:582
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3203
+
+org:
+name:mutant 583
+genotype:X[Nu,1:-2.73,fo:0.04][Nu,-1:2.99,fo:0.04]
+info:14.29% mutation of 'mutant 582'
+num:584
+gnum:583
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3204
+
+org:
+name:mutant 584
+genotype:X[Nu,1:-2.73,fo:0.04,0:1][Nu,-1:2.99,fo:0.04]
+info:9.76% mutation of 'mutant 583'
+num:585
+gnum:584
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3205
+
+org:
+name:mutant 585
+genotype:X[Nu,fo:0.04]
+info:53.33% mutation of 'mutant 584'
+num:586
+gnum:585
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3206
+
+org:
+name:mutant 586
+genotype:X[Nu]
+info:61.54% mutation of 'mutant 585'
+num:587
+gnum:586
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3207
+
+org:
+name:mutant 587
+genotype:X
+info:80.00% mutation of 'mutant 586'
+num:588
+gnum:587
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3208
+
+org:
+name:mutant 588
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 587'
+num:589
+gnum:588
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3209
+
+org:
+name:mutant 589
+genotype:X
+info:80.00% mutation of 'mutant 588'
+num:590
+gnum:589
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3210
+
+org:
+name:mutant 590
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 589'
+num:591
+gnum:590
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3211
+
+org:
+name:mutant 591
+genotype:X[Nu,si:2]
+info:100.00% mutation of 'mutant 590'
+num:592
+gnum:591
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3212
+
+org:
+name:mutant 592
+genotype:X[Nu,si:2,0:1]
+info:40.00% mutation of 'mutant 591'
+num:593
+gnum:592
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3213
+
+org:
+name:mutant 593
+genotype:X[Nu,si:2,0:4.163]
+info:35.71% mutation of 'mutant 592'
+num:594
+gnum:593
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3214
+
+org:
+name:mutant 594
+genotype:X[Nu,si:2,0:10.394]
+info:33.33% mutation of 'mutant 593'
+num:595
+gnum:594
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3215
+
+org:
+name:mutant 595
+genotype:X[Nu,si:2]
+info:47.37% mutation of 'mutant 594'
+num:596
+gnum:595
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3216
+
+org:
+name:mutant 596
+genotype:X[Nu,si:-1.00145]
+info:80.00% mutation of 'mutant 595'
+num:597
+gnum:596
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3217
+
+org:
+name:mutant 597
+genotype:X[Nu]
+info:70.59% mutation of 'mutant 596'
+num:598
+gnum:597
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3218
+
+org:
+name:mutant 598
+genotype:X[Nu,0:1]
+info:80.00% mutation of 'mutant 597'
+num:599
+gnum:598
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3219
+
+org:
+name:mutant 599
+genotype:X[Nu,0:-1.591]
+info:66.67% mutation of 'mutant 598'
+num:600
+gnum:599
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3220
+
+org:
+name:mutant 600
+genotype:X[Nu,0:-5.546]
+info:42.86% mutation of 'mutant 599'
+num:601
+gnum:600
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3221
+
+org:
+name:mutant 601
+genotype:X[Nu,0:-10.325]
+info:50.00% mutation of 'mutant 600'
+num:602
+gnum:601
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3222
+
+org:
+name:mutant 602
+genotype:X[Nu]
+info:66.67% mutation of 'mutant 601'
+num:603
+gnum:602
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3223
+
+org:
+name:mutant 603
+genotype:X
+info:80.00% mutation of 'mutant 602'
+num:604
+gnum:603
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3224
+
+org:
+name:mutant 604
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 603'
+num:605
+gnum:604
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3225
+
+org:
+name:mutant 605
+genotype:X[Nu,0:1]
+info:80.00% mutation of 'mutant 604'
+num:606
+gnum:605
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3226
+
+org:
+name:mutant 606
+genotype:X[Nu,0:1,fo:0.04]
+info:88.89% mutation of 'mutant 605'
+num:607
+gnum:606
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3227
+
+org:
+name:mutant 607
+genotype:X[Nu,0:1.415,fo:0.04]
+info:29.41% mutation of 'mutant 606'
+num:608
+gnum:607
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3228
+
+org:
+name:mutant 608
+genotype:X[Nu,0:3.641,fo:0.04]
+info:23.81% mutation of 'mutant 607'
+num:609
+gnum:608
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3229
+
+org:
+name:mutant 609
+genotype:X[Nu,0:2.081,fo:0.04]
+info:23.81% mutation of 'mutant 608'
+num:610
+gnum:609
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3230
+
+org:
+name:mutant 610
+genotype:X[Nu,0:3.206,fo:0.04]
+info:23.81% mutation of 'mutant 609'
+num:611
+gnum:610
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3231
+
+org:
+name:mutant 611
+genotype:X[Nu,0:3.341,fo:0.04]
+info:23.81% mutation of 'mutant 610'
+num:612
+gnum:611
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3232
+
+org:
+name:mutant 612
+genotype:X[Nu,0:1.527,fo:0.04]
+info:23.81% mutation of 'mutant 611'
+num:613
+gnum:612
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3233
+
+org:
+name:mutant 613
+genotype:X[Nu,0:1.151,fo:0.04]
+info:23.81% mutation of 'mutant 612'
+num:614
+gnum:613
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3234
+
+org:
+name:mutant 614
+genotype:X[Nu,0:3.477,fo:0.04]
+info:23.81% mutation of 'mutant 613'
+num:615
+gnum:614
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3235
+
+org:
+name:mutant 615
+genotype:X[Nu,0:3.477]
+info:38.10% mutation of 'mutant 614'
+num:616
+gnum:615
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3236
+
+org:
+name:mutant 616
+genotype:X[Nu,0:6.823]
+info:38.46% mutation of 'mutant 615'
+num:617
+gnum:616
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3237
+
+org:
+name:mutant 617
+genotype:X[Nu,0:6.601]
+info:38.46% mutation of 'mutant 616'
+num:618
+gnum:617
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3238
+
+org:
+name:mutant 618
+genotype:X[Nu,0:5.448]
+info:38.46% mutation of 'mutant 617'
+num:619
+gnum:618
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3239
+
+org:
+name:mutant 619
+genotype:X[Nu,0:3.354]
+info:38.46% mutation of 'mutant 618'
+num:620
+gnum:619
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3240
+
+org:
+name:mutant 620
+genotype:X[Nu]
+info:61.54% mutation of 'mutant 619'
+num:621
+gnum:620
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3241
+
+org:
+name:mutant 621
+genotype:X[Nu,0:1]
+info:80.00% mutation of 'mutant 620'
+num:622
+gnum:621
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3242
+
+org:
+name:mutant 622
+genotype:X[Nu]
+info:44.44% mutation of 'mutant 621'
+num:623
+gnum:622
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3243
+
+org:
+name:mutant 623
+genotype:X[Nu,0:1]
+info:80.00% mutation of 'mutant 622'
+num:624
+gnum:623
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3244
+
+org:
+name:mutant 624
+genotype:X[Nu,0:2.429]
+info:55.56% mutation of 'mutant 623'
+num:625
+gnum:624
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3245
+
+org:
+name:mutant 625
+genotype:X[Nu,0:5.398]
+info:38.46% mutation of 'mutant 624'
+num:626
+gnum:625
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3246
+
+org:
+name:mutant 626
+genotype:X[Nu,0:5.107]
+info:38.46% mutation of 'mutant 625'
+num:627
+gnum:626
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3247
+
+org:
+name:mutant 627
+genotype:X[Nu,0:2.303]
+info:38.46% mutation of 'mutant 626'
+num:628
+gnum:627
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3248
+
+org:
+name:mutant 628
+genotype:X[Nu,0:5.871]
+info:38.46% mutation of 'mutant 627'
+num:629
+gnum:628
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3249
+
+org:
+name:mutant 629
+genotype:X[Nu,0:5.871,fo:0.04]
+info:61.54% mutation of 'mutant 628'
+num:630
+gnum:629
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3250
+
+org:
+name:mutant 630
+genotype:X[Nu,0:1.357,fo:0.04]
+info:23.81% mutation of 'mutant 629'
+num:631
+gnum:630
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3251
+
+org:
+name:mutant 631
+genotype:X[Nu,0:0.995,fo:0.04]
+info:23.81% mutation of 'mutant 630'
+num:632
+gnum:631
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3252
+
+org:
+name:mutant 632
+genotype:X[Nu,0:1.708,fo:0.04]
+info:23.81% mutation of 'mutant 631'
+num:633
+gnum:632
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3253
+
+org:
+name:mutant 633
+genotype:X
+info:95.24% mutation of 'mutant 632'
+num:634
+gnum:633
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3254
+
+org:
+name:mutant 634
+genotype:X[Nu]
+info:400.00% mutation of 'mutant 633'
+num:635
+gnum:634
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3255
+
+org:
+name:mutant 635
+genotype:X[Nu,fo:0.04]
+info:160.00% mutation of 'mutant 634'
+num:636
+gnum:635
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3256
+
+org:
+name:mutant 636
+genotype:X[Nu,fo:0.04,0:1]
+info:30.77% mutation of 'mutant 635'
+num:637
+gnum:636
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3257
+
+org:
+name:mutant 637
+genotype:X[Nu,fo:1,0:1]
+info:23.53% mutation of 'mutant 636'
+num:638
+gnum:637
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3258
+
+org:
+name:mutant 638
+genotype:X[Nu,1:1][Nu,fo:1,0:1]
+info:57.14% mutation of 'mutant 637'
+num:639
+gnum:638
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3259
+
+org:
+name:mutant 639
+genotype:X[Nu,1:1][Nu,fo:1,0:1]
+info:4.55% mutation of 'mutant 638'
+num:640
+gnum:639
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3260
+
+org:
+name:mutant 640
+genotype:X[Nu,1:1][Nu,fo:1,0:0.953]
+info:22.73% mutation of 'mutant 639'
+num:641
+gnum:640
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3261
+
+org:
+name:mutant 641
+genotype:X[Nu,1:1][Nu,fo:1,0:0.56]
+info:19.23% mutation of 'mutant 640'
+num:642
+gnum:641
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3262
+
+org:
+name:mutant 642
+genotype:X[Nu,1:1][Nu,fo:1,0:-3.541]
+info:24.00% mutation of 'mutant 641'
+num:643
+gnum:642
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3263
+
+org:
+name:mutant 643
+genotype:X[Nu,1:1][Nu,fo:1,0:-2.881]
+info:22.22% mutation of 'mutant 642'
+num:644
+gnum:643
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3264
+
+org:
+name:mutant 644
+genotype:X[Nu,1:-0.793][Nu,fo:1,0:-2.881]
+info:22.22% mutation of 'mutant 643'
+num:645
+gnum:644
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3265
+
+org:
+name:mutant 645
+genotype:X[Nu,2:1][Nu,1:-0.793][Nu,fo:1,0:-2.881]
+info:25.00% mutation of 'mutant 644'
+num:646
+gnum:645
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3266
+
+org:
+name:mutant 646
+genotype:X[Nu,2:1][Nu][Nu,fo:1,0:-2.881]
+info:22.50% mutation of 'mutant 645'
+num:647
+gnum:646
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3267
+
+org:
+name:mutant 647
+genotype:X[Nu,2:1,0:1][Nu][Nu,fo:1,0:-2.881]
+info:12.90% mutation of 'mutant 646'
+num:648
+gnum:647
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3268
+
+org:
+name:mutant 648
+genotype:X[Nu,2:-0.051,0:1][Nu][Nu,fo:1,0:-2.881]
+info:17.14% mutation of 'mutant 647'
+num:649
+gnum:648
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3269
+
+org:
+name:mutant 649
+genotype:X[Nu,2:0.37,0:1][Nu][Nu,fo:1,0:-2.881]
+info:15.00% mutation of 'mutant 648'
+num:650
+gnum:649
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3270
+
+org:
+name:mutant 650
+genotype:X[Nu,2:0.37,0:1][Nu][Nu,fo:1,0:-1.813]
+info:15.79% mutation of 'mutant 649'
+num:651
+gnum:650
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3271
+
+org:
+name:mutant 651
+genotype:X[Nu,2:0.37,0:1][Nu][Nu,fo:1,0:-1.773]
+info:15.79% mutation of 'mutant 650'
+num:652
+gnum:651
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3272
+
+org:
+name:mutant 652
+genotype:X[Nu,2:0.37,0:1][Nu][Nu,fo:1,0:-2.618]
+info:15.79% mutation of 'mutant 651'
+num:653
+gnum:652
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3273
+
+org:
+name:mutant 653
+genotype:X[Nu,2:0.37,0:2.265][Nu][Nu,fo:1,0:-2.618]
+info:13.16% mutation of 'mutant 652'
+num:654
+gnum:653
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3274
+
+org:
+name:mutant 654
+genotype:X[Nu,2:0.37,0:1.657][Nu][Nu,fo:1,0:-2.618]
+info:11.90% mutation of 'mutant 653'
+num:655
+gnum:654
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3275
+
+org:
+name:mutant 655
+genotype:X[Nu,2:0.37,0:1.657,fo:0.04][Nu][Nu,fo:1,0:-2.618]
+info:19.05% mutation of 'mutant 654'
+num:656
+gnum:655
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3276
+
+org:
+name:mutant 656
+genotype:X[Nu,2:0.37,0:1.55,fo:0.04][Nu][Nu,fo:1,0:-2.618]
+info:10.00% mutation of 'mutant 655'
+num:657
+gnum:656
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3277
+
+org:
+name:mutant 657
+genotype:X[Nu,2:0.37,0:1.55][Nu][Nu,fo:1,0:-2.618]
+info:16.33% mutation of 'mutant 656'
+num:658
+gnum:657
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3278
+
+org:
+name:mutant 658
+genotype:X[Nu,2:0.37,0:1.55][Nu][Nu,fo:1,0:-2.618,-1:1]
+info:12.20% mutation of 'mutant 657'
+num:659
+gnum:658
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3279
+
+org:
+name:mutant 659
+genotype:X[Nu,2:0.37,0:1.55][Nu][Nu,fo:1,0:-4.259,-1:1]
+info:13.04% mutation of 'mutant 658'
+num:660
+gnum:659
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3280
+
+org:
+name:mutant 660
+genotype:~
+X[Nu,2:0.37,0:1.55,in:0.8][Nu][Nu,fo:1,0:-4.259,-1:1]~
+info:15.22% mutation of 'mutant 659'
+num:661
+gnum:660
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3281
+
+org:
+name:mutant 661
+genotype:X[Nu,0:1.55,in:0.8][Nu][Nu,fo:1,0:-4.259,-1:1]
+info:13.21% mutation of 'mutant 660'
+num:662
+gnum:661
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3282
+
+org:
+name:mutant 662
+genotype:X[Nu,0:1.55,in:0.8][Nu][Nu,fo:1,0:-6.621,-1:1]
+info:13.04% mutation of 'mutant 661'
+num:663
+gnum:662
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3283
+
+org:
+name:mutant 663
+genotype:~
+X[Nu,0:1.55,in:0.8][Nu][Nu,fo:1,0:-6.621,-1:-2.103]~
+info:13.04% mutation of 'mutant 662'
+num:664
+gnum:663
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3284
+
+org:
+name:mutant 664
+genotype:X[Nu,0:1.55,in:0.8][Nu][Nu,fo:1,0:-6.621,-1:1.982]
+info:11.76% mutation of 'mutant 663'
+num:665
+gnum:664
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3285
+
+org:
+name:mutant 665
+genotype:~
+X[Nu,0:1.55,in:0.8][Nu,1:1][Nu,fo:1,0:-6.621,-1:1.982]~
+info:8.00% mutation of 'mutant 664'
+num:666
+gnum:665
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3286
+
+org:
+name:mutant 666
+genotype:~
+X[Nu,0:1.55,in:0.8][Nu,1:1][Nu,fo:1,0:-6.621,-1:6.486]~
+info:9.26% mutation of 'mutant 665'
+num:667
+gnum:666
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3287
+
+org:
+name:mutant 667
+genotype:~
+X[Nu,0:0.153,in:0.8][Nu,1:1][Nu,fo:1,0:-6.621,-1:6.486]~
+info:9.26% mutation of 'mutant 666'
+num:668
+gnum:667
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3288
+
+org:
+name:mutant 668
+genotype:~
+X[Nu,0:0.153,in:0.8][Nu,1:1][Nu,fo:1,0:-6.621,-1:8.584]~
+info:9.09% mutation of 'mutant 667'
+num:669
+gnum:668
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3289
+
+org:
+name:mutant 669
+genotype:~
+X[Nu,0:0.153,in:0.8][Nu,1:2.012][Nu,fo:1,0:-6.621,-1:8.584]~
+info:9.09% mutation of 'mutant 668'
+num:670
+gnum:669
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3290
+
+org:
+name:mutant 670
+genotype:~
+X[Nu,0:0.153,in:0.8][Nu,1:2.012][Nu,fo:1,0:-6.738,-1:8.584]~
+info:10.17% mutation of 'mutant 669'
+num:671
+gnum:670
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3291
+
+org:
+name:mutant 671
+genotype:~
+X[Nu,0:0.153,in:0.8][Nu,1:2.012][Nu,fo:1,0:-9.844,-1:8.584]~
+info:10.17% mutation of 'mutant 670'
+num:672
+gnum:671
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3292
+
+org:
+name:mutant 672
+genotype:~
+X[Nu,0:0.153][Nu,1:2.012][Nu,fo:1,0:-9.844,-1:8.584]~
+info:11.86% mutation of 'mutant 671'
+num:673
+gnum:672
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3293
+
+org:
+name:mutant 673
+genotype:~
+X[Nu,0:-0.844][Nu,1:2.012][Nu,fo:1,0:-9.844,-1:8.584]~
+info:11.54% mutation of 'mutant 672'
+num:674
+gnum:673
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3294
+
+org:
+name:mutant 674
+genotype:~
+X[Nu,0:-0.844][Nu,1:2.012][Nu,fo:1,0:-9.844,-1:10.264]~
+info:11.32% mutation of 'mutant 673'
+num:675
+gnum:674
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3295
+
+org:
+name:mutant 675
+genotype:~
+X[Nu,0:-0.844][Nu,1:2.012,fo:0.04][Nu,fo:1,0:-9.844,-1:10.264]~
+info:14.81% mutation of 'mutant 674'
+num:676
+gnum:675
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3296
+
+org:
+name:mutant 676
+genotype:~
+X[Nu,0:-0.844][Nu,1:2.012,fo:0.04][Nu,fo:1,0:-9.844,-1:10.264,s:0]~
+info:6.45% mutation of 'mutant 675'
+num:677
+gnum:676
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3297
+
+org:
+name:mutant 677
+genotype:~
+X[Nu,0:-0.844][Nu,1:2.012,fo:0.04][Nu,fo:1,0:-9.844,-1:6.806,s:0]~
+info:9.09% mutation of 'mutant 676'
+num:678
+gnum:677
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3298
+
+org:
+name:mutant 678
+genotype:~
+X[Nu,0:-0.844][Nu,1:2.012,fo:0.598576][Nu,fo:1,0:-9.844,-1:6.806,s:0]~
+info:12.31% mutation of 'mutant 677'
+num:679
+gnum:678
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3299
+
+org:
+name:mutant 679
+genotype:~
+X[Nu,0:-0.844][Nu,1:2.012,fo:0.598576][Nu,fo:1,0:-9.157,-1:6.806,s:0]~
+info:8.70% mutation of 'mutant 678'
+num:680
+gnum:679
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3300
+
+org:
+name:mutant 680
+genotype:~
+X[Nu,0:-2.016][Nu,1:2.012,fo:0.598576][Nu,fo:1,0:-9.157,-1:6.806,s:0]~
+info:8.70% mutation of 'mutant 679'
+num:681
+gnum:680
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3301
+
+org:
+name:mutant 681
+genotype:~
+X[Nu,0:-2.016,0:1][Nu,1:2.012,fo:0.598576][Nu,fo:1,0:-9.157,-1:6.806,s:0]~
+info:5.80% mutation of 'mutant 680'
+num:682
+gnum:681
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3302
+
+org:
+name:mutant 682
+genotype:~
+X[Nu,0:-2.016,0:1][Nu,1:4.655,fo:0.598576][Nu,fo:1,0:-9.157,-1:6.806,s:0]~
+info:6.85% mutation of 'mutant 681'
+num:683
+gnum:682
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3303
+
+org:
+name:mutant 683
+genotype:~
+X[Nu,0:-2.016,0:1.018][Nu,1:4.655,fo:0.598576][Nu,fo:1,0:-9.157,-1:6.806,s:0]~
+info:6.85% mutation of 'mutant 682'
+num:684
+gnum:683
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3304
+
+org:
+name:mutant 684
+genotype:~
+X[Nu,0:-2.016,0:1.018][Nu,1:4.655,fo:0.598576][Nu,fo:1,0:-9.157,-1:8.585,s:0]~
+info:6.49% mutation of 'mutant 683'
+num:685
+gnum:684
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3305
+
+org:
+name:mutant 685
+genotype:~
+X[Nu,0:-2.016][Nu,1:4.655,fo:0.598576][Nu,fo:1,0:-9.157,-1:8.585,s:0]~
+info:10.39% mutation of 'mutant 684'
+num:686
+gnum:685
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3306
+
+org:
+name:mutant 686
+genotype:~
+X[Nu,0:-1.286][Nu,1:4.655,fo:0.598576][Nu,fo:1,0:-9.157,-1:8.585,s:0]~
+info:8.70% mutation of 'mutant 685'
+num:687
+gnum:686
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3307
+
+org:
+name:mutant 687
+genotype:~
+X[Nu,0:-1.286][Nu,1:4.655,fo:0.598576][Nu,fo:1,0:-9.157,-1:6.803,s:0]~
+info:7.25% mutation of 'mutant 686'
+num:688
+gnum:687
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3308
+
+org:
+name:mutant 688
+genotype:~
+X[Nu,0:-1.286][Nu,1:4.655,fo:0.598576][Nu,fo:1,0:-9.157,-1:6.803,s:0,in:0.8]~
+info:10.14% mutation of 'mutant 687'
+num:689
+gnum:688
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3309
+
+org:
+name:mutant 689
+genotype:~
+X[Nu,0:-1.286][Nu,1:4.655,fo:0.598576][Nu,fo:1,0:-9.157,-1:6.803,s:0]~
+info:9.21% mutation of 'mutant 688'
+num:690
+gnum:689
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3310
+
+org:
+name:mutant 690
+genotype:~
+X[Nu,0:-1.286][Nu,1:4.655,fo:0.598576,0:1][Nu,fo:1,0:-9.157,-1:6.803,s:0]~
+info:5.80% mutation of 'mutant 689'
+num:691
+gnum:690
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3311
+
+org:
+name:mutant 691
+genotype:~
+X[Nu,0:-1.286][Nu,1:5.966,fo:0.598576,0:1][Nu,fo:1,0:-9.157,-1:6.803,s:0]~
+info:6.85% mutation of 'mutant 690'
+num:692
+gnum:691
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3312
+
+org:
+name:mutant 692
+genotype:~
+X[Nu,0:-1.286][Nu,1:5.966,fo:0.598576,0:1][Nu,fo:1,0:-9.157,-1:7.023,s:0]~
+info:6.85% mutation of 'mutant 691'
+num:693
+gnum:692
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3313
+
+org:
+name:mutant 693
+genotype:X[Nu,0:-1.286][Nu,fo:1,0:-9.157,s:0]
+info:38.36% mutation of 'mutant 692'
+num:694
+gnum:693
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3314
+
+org:
+name:mutant 694
+genotype:X[Nu,fo:1,0:-9.157,s:0]
+info:36.11% mutation of 'mutant 693'
+num:695
+gnum:694
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3315
+
+org:
+name:mutant 695
+genotype:X[Nu,0:-9.157,s:0]
+info:21.74% mutation of 'mutant 694'
+num:696
+gnum:695
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3316
+
+org:
+name:mutant 696
+genotype:X[Nu,0:-9.175,s:0]
+info:33.33% mutation of 'mutant 695'
+num:697
+gnum:696
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3317
+
+org:
+name:mutant 697
+genotype:X[Nu,0:-7.444,s:0]
+info:33.33% mutation of 'mutant 696'
+num:698
+gnum:697
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3318
+
+org:
+name:mutant 698
+genotype:X[Nu,0:-8.074,s:0]
+info:33.33% mutation of 'mutant 697'
+num:699
+gnum:698
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3319
+
+org:
+name:mutant 699
+genotype:X[Nu,0:-8.194,s:0]
+info:33.33% mutation of 'mutant 698'
+num:700
+gnum:699
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3320
+
+org:
+name:mutant 700
+genotype:X[Nu,0:-8.194,s:0,0:1]
+info:22.22% mutation of 'mutant 699'
+num:701
+gnum:700
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3321
+
+org:
+name:mutant 701
+genotype:X[Nu,s:0,0:1]
+info:40.91% mutation of 'mutant 700'
+num:702
+gnum:701
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3322
+
+org:
+name:mutant 702
+genotype:X[Nu,s:0,0:-0.871]
+info:46.15% mutation of 'mutant 701'
+num:703
+gnum:702
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3323
+
+org:
+name:mutant 703
+genotype:X[Nu,s:0.326,0:-0.871]
+info:27.78% mutation of 'mutant 702'
+num:704
+gnum:703
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3324
+
+org:
+name:mutant 704
+genotype:X[Nu,s:0.326,0:-1.566]
+info:27.27% mutation of 'mutant 703'
+num:705
+gnum:704
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3325
+
+org:
+name:mutant 705
+genotype:X[Nu,s:0.326,0:-0.716]
+info:27.27% mutation of 'mutant 704'
+num:706
+gnum:705
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3326
+
+org:
+name:mutant 706
+genotype:X[Nu,s:0.326,0:-0.716,0:1]
+info:18.18% mutation of 'mutant 705'
+num:707
+gnum:706
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3327
+
+org:
+name:mutant 707
+genotype:X[Nu,s:0.326,0:-0.716,0:4.707]
+info:19.23% mutation of 'mutant 706'
+num:708
+gnum:707
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3328
+
+org:
+name:mutant 708
+genotype:X[Nu,s:0.326,0:-3.385,0:4.707]
+info:20.00% mutation of 'mutant 707'
+num:709
+gnum:708
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3329
+
+org:
+name:mutant 709
+genotype:X[Nu,s:0.326,0:-3.69,0:4.707]
+info:20.00% mutation of 'mutant 708'
+num:710
+gnum:709
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3330
+
+org:
+name:mutant 710
+genotype:X[Nu,s:0.326,0:-3.583,0:4.707]
+info:20.69% mutation of 'mutant 709'
+num:711
+gnum:710
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3331
+
+org:
+name:mutant 711
+genotype:X[Nu,s:0.326,0:-3.583,0:3.325]
+info:16.67% mutation of 'mutant 710'
+num:712
+gnum:711
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3332
+
+org:
+name:mutant 712
+genotype:X[Nu,s:0.326,0:-2.549,0:3.325]
+info:20.00% mutation of 'mutant 711'
+num:713
+gnum:712
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3333
+
+org:
+name:mutant 713
+genotype:X[Nu,s:0.326,0:-2.549,0:4.968]
+info:16.67% mutation of 'mutant 712'
+num:714
+gnum:713
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3334
+
+org:
+name:mutant 714
+genotype:X[Nu,s:0.326,0:-0.889,0:4.968]
+info:20.00% mutation of 'mutant 713'
+num:715
+gnum:714
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3335
+
+org:
+name:mutant 715
+genotype:X[Nu,s:0.326,0:-0.889,0:4.968,0:1]
+info:13.33% mutation of 'mutant 714'
+num:716
+gnum:715
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3336
+
+org:
+name:mutant 716
+genotype:X[Nu,1:1][Nu,s:0.326,0:-0.889,0:4.968,0:1]
+info:23.53% mutation of 'mutant 715'
+num:717
+gnum:716
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3337
+
+org:
+name:mutant 717
+genotype:X[Nu,1:1][Nu,s:0.326,0:-0.889,0:4.968,0:1.822]
+info:11.90% mutation of 'mutant 716'
+num:718
+gnum:717
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3338
+
+org:
+name:mutant 718
+genotype:X[Nu,1:1][Nu,s:0.326,0:-0.889,0:5.555,0:1.822]
+info:10.87% mutation of 'mutant 717'
+num:719
+gnum:718
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3339
+
+org:
+name:mutant 719
+genotype:X[Nu,1:1][Nu,s:0.326,0:1.188,0:5.555,0:1.822]
+info:13.04% mutation of 'mutant 718'
+num:720
+gnum:719
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3340
+
+org:
+name:mutant 720
+genotype:X[Nu,1:1][Nu,s:0.326,0:1.188,0:5.555,0:1.822,0:1]
+info:8.89% mutation of 'mutant 719'
+num:721
+gnum:720
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3341
+
+org:
+name:mutant 721
+genotype:~
+X[Nu,1:2.939][Nu,s:0.326,0:1.188,0:5.555,0:1.822,0:1]~
+info:10.20% mutation of 'mutant 720'
+num:722
+gnum:721
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3342
+
+org:
+name:mutant 722
+genotype:~
+X[Nu,1:2.939][Nu,s:0.326,0:1.188,0:5.259,0:1.822,0:1]~
+info:9.43% mutation of 'mutant 721'
+num:723
+gnum:722
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3343
+
+org:
+name:mutant 723
+genotype:~
+X[Nu,1:2.939][Nu,s:0.326,0:1.188,0:3.338,0:1.822,0:1]~
+info:9.43% mutation of 'mutant 722'
+num:724
+gnum:723
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3344
+
+org:
+name:mutant 724
+genotype:~
+X[Nu,1:2.939,fo:0.04][Nu,s:0.326,0:1.188,0:3.338,0:1.822,0:1]~
+info:15.09% mutation of 'mutant 723'
+num:725
+gnum:724
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3345
+
+org:
+name:mutant 725
+genotype:~
+X[Nu,1:2.939,fo:0.04][Nu,s:0.326,0:1.188,0:3.338,0:1.822,0:-2.405]~
+info:9.84% mutation of 'mutant 724'
+num:726
+gnum:725
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3346
+
+org:
+name:mutant 726
+genotype:~
+X[Nu,1:2.939,fo:0.04][Nu,s:0.326,0:1.736,0:3.338,0:1.822,0:-2.405]~
+info:7.58% mutation of 'mutant 725'
+num:727
+gnum:726
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3347
+
+org:
+name:mutant 727
+genotype:~
+X[Nu,1:2.939,fo:0.04][Nu,s:0.326,0:0.102,0:3.338,0:1.822,0:-2.405]~
+info:7.58% mutation of 'mutant 726'
+num:728
+gnum:727
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3348
+
+org:
+name:mutant 728
+genotype:~
+X[Nu,1:2.939,fo:0.04][Nu,s:0.326,0:0.102,0:3.338,0:1.822,0:-1.631]~
+info:9.09% mutation of 'mutant 727'
+num:729
+gnum:728
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3349
+
+org:
+name:mutant 729
+genotype:~
+X[Nu,1:2.939,fo:0.04][Nu,s:0.326,0:0.102,0:2.532,0:1.822,0:-1.631]~
+info:7.58% mutation of 'mutant 728'
+num:730
+gnum:729
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3350
+
+org:
+name:mutant 730
+genotype:~
+X[Nu,1:3.138,fo:0.04][Nu,s:0.326,0:0.102,0:2.532,0:1.822,0:-1.631]~
+info:7.58% mutation of 'mutant 729'
+num:731
+gnum:730
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3351
+
+org:
+name:mutant 731
+genotype:~
+X[Nu,1:3.138,fo:0.04][Nu,s:0.326,0:0.102,0:2.532,0:1.822,0:-2.348]~
+info:9.09% mutation of 'mutant 730'
+num:732
+gnum:731
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3352
+
+org:
+name:mutant 732
+genotype:~
+X[Nu,1:3.138,fo:0.04][Nu,s:0.326,0:0.102,0:2.449,0:1.822,0:-2.348]~
+info:7.58% mutation of 'mutant 731'
+num:733
+gnum:732
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3353
+
+org:
+name:mutant 733
+genotype:~
+X[Nu,1:2.275,fo:0.04][Nu,s:0.326,0:0.102,0:2.449,0:1.822,0:-2.348]~
+info:7.58% mutation of 'mutant 732'
+num:734
+gnum:733
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3354
+
+org:
+name:mutant 734
+genotype:~
+X[Nu,1:2.275,fo:0.04][Nu,0:0.102,0:2.449,0:1.822,0:-2.348]~
+info:12.12% mutation of 'mutant 733'
+num:735
+gnum:734
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3355
+
+org:
+name:mutant 735
+genotype:~
+X[Nu,1:2.275,fo:0.936437][Nu,0:0.102,0:2.449,0:1.822,0:-2.348]~
+info:13.79% mutation of 'mutant 734'
+num:736
+gnum:735
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3356
+
+org:
+name:mutant 736
+genotype:X[Nu,fo:0.936437]
+info:59.68% mutation of 'mutant 735'
+num:737
+gnum:736
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3357
+
+org:
+name:mutant 737
+genotype:X[Nu,fo:0.936437,0:1]
+info:23.53% mutation of 'mutant 736'
+num:738
+gnum:737
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3358
+
+org:
+name:mutant 738
+genotype:X[Nu,fo:0.936437,0:0.641]
+info:23.81% mutation of 'mutant 737'
+num:739
+gnum:738
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3359
+
+org:
+name:mutant 739
+genotype:X[Nu,0:0.641]
+info:48.00% mutation of 'mutant 738'
+num:740
+gnum:739
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3360
+
+org:
+name:mutant 740
+genotype:X[Nu,0:0.641,0:1]
+info:30.77% mutation of 'mutant 739'
+num:741
+gnum:740
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3361
+
+org:
+name:mutant 741
+genotype:X[Nu,0:0.434,0:1]
+info:29.41% mutation of 'mutant 740'
+num:742
+gnum:741
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3362
+
+org:
+name:mutant 742
+genotype:X[Nu,0:0.434,0:1,s:0]
+info:23.53% mutation of 'mutant 741'
+num:743
+gnum:742
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3363
+
+org:
+name:mutant 743
+genotype:X[Nu,0:0.434,0:4.082,s:0]
+info:23.81% mutation of 'mutant 742'
+num:744
+gnum:743
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3364
+
+org:
+name:mutant 744
+genotype:X[Nu,0:-1.14,0:4.082,s:0]
+info:20.00% mutation of 'mutant 743'
+num:745
+gnum:744
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3365
+
+org:
+name:mutant 745
+genotype:X[Nu,1:1][Nu,0:-1.14,0:4.082,s:0]
+info:32.00% mutation of 'mutant 744'
+num:746
+gnum:745
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3366
+
+org:
+name:mutant 746
+genotype:X[Nu,1:1][Nu,0:-1.14,0:5.373,s:0]
+info:15.15% mutation of 'mutant 745'
+num:747
+gnum:746
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3367
+
+org:
+name:mutant 747
+genotype:X[Nu,1:3.282][Nu,0:-1.14,0:5.373,s:0]
+info:15.15% mutation of 'mutant 746'
+num:748
+gnum:747
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3368
+
+org:
+name:mutant 748
+genotype:X[Nu,1:3.914][Nu,0:-1.14,0:5.373,s:0]
+info:13.51% mutation of 'mutant 747'
+num:749
+gnum:748
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3369
+
+org:
+name:mutant 749
+genotype:X[Nu,1:3.914][Nu,0:-3.406,0:5.373,s:0]
+info:16.22% mutation of 'mutant 748'
+num:750
+gnum:749
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3370
+
+org:
+name:mutant 750
+genotype:X[Nu,1:3.914][Nu,0:-3.406,s:0]
+info:21.05% mutation of 'mutant 749'
+num:751
+gnum:750
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3371
+
+org:
+name:mutant 751
+genotype:X[Nu,1:3.914][Nu,0:-3.406]
+info:13.33% mutation of 'mutant 750'
+num:752
+gnum:751
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3372
+
+org:
+name:mutant 752
+genotype:X[Nu,1:3.914][Nu,0:-3.406,fo:0.04]
+info:30.77% mutation of 'mutant 751'
+num:753
+gnum:752
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3373
+
+org:
+name:mutant 753
+genotype:X[Nu,1:1.413][Nu,0:-3.406,fo:0.04]
+info:14.71% mutation of 'mutant 752'
+num:754
+gnum:753
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3374
+
+org:
+name:mutant 754
+genotype:X[Nu,1:1.77][Nu,0:-3.406,fo:0.04]
+info:14.71% mutation of 'mutant 753'
+num:755
+gnum:754
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3375
+
+org:
+name:mutant 755
+genotype:X[Nu,1:1.77][Nu,0:-3.406,fo:0.04,-1:1]
+info:15.15% mutation of 'mutant 754'
+num:756
+gnum:755
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3376
+
+org:
+name:mutant 756
+genotype:X[Nu,1:5.913][Nu,0:-3.406,fo:0.04,-1:1]
+info:13.16% mutation of 'mutant 755'
+num:757
+gnum:756
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3377
+
+org:
+name:mutant 757
+genotype:X[Nu,1:5.913][Nu,0:-3.406,fo:0.04,-1:1,si:2]
+info:12.82% mutation of 'mutant 756'
+num:758
+gnum:757
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3378
+
+org:
+name:mutant 758
+genotype:X[Nu,1:7.715][Nu,0:-3.406,fo:0.04,-1:1,si:2]
+info:11.36% mutation of 'mutant 757'
+num:759
+gnum:758
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3379
+
+org:
+name:mutant 759
+genotype:X[Nu][Nu,0:-3.406,fo:0.04,-1:1,si:2]
+info:18.18% mutation of 'mutant 758'
+num:760
+gnum:759
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3380
+
+org:
+name:mutant 760
+genotype:X[Nu][Nu,0:-3.406,fo:0.04,-1:1.423,si:2]
+info:13.89% mutation of 'mutant 759'
+num:761
+gnum:760
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3381
+
+org:
+name:mutant 761
+genotype:X[Nu][Nu,0:1.408,fo:0.04,-1:1.423,si:2]
+info:15.00% mutation of 'mutant 760'
+num:762
+gnum:761
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3382
+
+org:
+name:mutant 762
+genotype:X[Nu][Nu,0:0.243,fo:0.04,-1:1.423,si:2]
+info:12.82% mutation of 'mutant 761'
+num:763
+gnum:762
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3383
+
+org:
+name:mutant 763
+genotype:X[Nu][Nu,0:0.243,fo:0.04,-1:1.423,si:2,fo:0.04]
+info:20.51% mutation of 'mutant 762'
+num:764
+gnum:763
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3384
+
+org:
+name:mutant 764
+genotype:X[Nu][Nu,0:0.243,fo:0.04,-1:3.816,si:2,fo:0.04]
+info:10.64% mutation of 'mutant 763'
+num:765
+gnum:764
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3385
+
+org:
+name:mutant 765
+genotype:X[Nu][Nu,fo:0.04,-1:3.816,si:2,fo:0.04]
+info:17.02% mutation of 'mutant 764'
+num:766
+gnum:765
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3386
+
+org:
+name:mutant 766
+genotype:X[Nu][Nu,fo:0.04,-1:3.816,si:2,fo:0.04,-1:1]
+info:12.82% mutation of 'mutant 765'
+num:767
+gnum:766
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3387
+
+org:
+name:mutant 767
+genotype:X[Nu][Nu,fo:0.172405,-1:3.816,si:2,fo:0.04,-1:1]
+info:18.18% mutation of 'mutant 766'
+num:768
+gnum:767
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3388
+
+org:
+name:mutant 768
+genotype:~
+X[Nu][Nu,fo:0.172405,-1:3.816,si:2,fo:0.04,-1:1.836]~
+info:10.42% mutation of 'mutant 767'
+num:769
+gnum:768
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3389
+
+org:
+name:mutant 769
+genotype:~
+X[Nu][Nu,fo:0.172405,-1:3.816,si:2,fo:0.04,-1:1.581]~
+info:9.62% mutation of 'mutant 768'
+num:770
+gnum:769
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3390
+
+org:
+name:mutant 770
+genotype:X[Nu][Nu,fo:0.172405,-1:3.816,si:2,fo:0.04]
+info:17.31% mutation of 'mutant 769'
+num:771
+gnum:770
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3391
+
+org:
+name:mutant 771
+genotype:X[Nu][Nu,fo:0.172405,-1:3.816,si:2,fo:1]
+info:9.30% mutation of 'mutant 770'
+num:772
+gnum:771
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3392
+
+org:
+name:mutant 772
+genotype:X[Nu][Nu,fo:0.172405,-1:2.396,si:2,fo:1]
+info:12.50% mutation of 'mutant 771'
+num:773
+gnum:772
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3393
+
+org:
+name:mutant 773
+genotype:X[Nu][Nu,fo:0.172405,-1:1.345,si:2,fo:1]
+info:12.50% mutation of 'mutant 772'
+num:774
+gnum:773
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3394
+
+org:
+name:mutant 774
+genotype:X[Nu][Nu,fo:0.172405,-1:-0.853,si:2,fo:1]
+info:15.00% mutation of 'mutant 773'
+num:775
+gnum:774
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3395
+
+org:
+name:mutant 775
+genotype:X[Nu,in:0.8][Nu,fo:0.172405,-1:-0.853,si:2,fo:1]
+info:17.07% mutation of 'mutant 774'
+num:776
+gnum:775
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3396
+
+org:
+name:mutant 776
+genotype:~
+X[Nu,in:0.8][Nu,fo:0.172405,-1:-0.853,si:2,fo:1,0:1]~
+info:8.33% mutation of 'mutant 775'
+num:777
+gnum:776
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3397
+
+org:
+name:mutant 777
+genotype:~
+X[Nu,in:0.8][Nu,fo:0.172405,-1:-3.412,si:2,fo:1,0:1]~
+info:11.54% mutation of 'mutant 776'
+num:778
+gnum:777
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3398
+
+org:
+name:mutant 778
+genotype:~
+X[Nu,in:0.8][Nu,fo:0.172405,-1:-3.412,si:2,fo:1,0:1.813]~
+info:9.62% mutation of 'mutant 777'
+num:779
+gnum:778
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3399
+
+org:
+name:mutant 779
+genotype:~
+X[Nu,in:0.8][Nu,fo:0.172405,-1:-3.412,si:2,fo:1,0:0.762]~
+info:8.93% mutation of 'mutant 778'
+num:780
+gnum:779
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3400
+
+org:
+name:mutant 780
+genotype:~
+X[Nu,2:1][Nu,in:0.8][Nu,fo:0.172405,-1:-3.412,si:2,fo:1,0:0.762]~
+info:14.29% mutation of 'mutant 779'
+num:781
+gnum:780
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3401
+
+org:
+name:mutant 781
+genotype:~
+X[Nu,2:1][Nu,in:0.8][Nu,fo:0.172405,-1:-3.412,si:2,fo:1,0:-1.558]~
+info:9.38% mutation of 'mutant 780'
+num:782
+gnum:781
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3402
+
+org:
+name:mutant 782
+genotype:~
+X[Nu,2:1][Nu,in:0.8][Nu,fo:0.172405,-1:-3.412,fo:1,0:-1.558]~
+info:7.69% mutation of 'mutant 781'
+num:783
+gnum:782
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3403
+
+org:
+name:mutant 783
+genotype:~
+X[Nu,2:1][Nu,in:0.8,fo:0.04][Nu,fo:0.172405,-1:-3.412,fo:1,0:-1.558]~
+info:13.33% mutation of 'mutant 782'
+num:784
+gnum:783
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3404
+
+org:
+name:mutant 784
+genotype:~
+X[Nu,2:1][Nu,in:0.8,fo:0.04][Nu,fo:0.172405,-1:-3.412,fo:1,0:-1.668]~
+info:8.82% mutation of 'mutant 783'
+num:785
+gnum:784
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3405
+
+org:
+name:mutant 785
+genotype:~
+X[Nu,2:1][Nu,fo:0.04][Nu,fo:0.172405,-1:-3.412,fo:1,0:-1.668]~
+info:10.29% mutation of 'mutant 784'
+num:786
+gnum:785
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3406
+
+org:
+name:mutant 786
+genotype:~
+X[Nu,2:2.162][Nu,fo:0.04][Nu,fo:0.172405,-1:-3.412,fo:1,0:-1.668]~
+info:8.20% mutation of 'mutant 785'
+num:787
+gnum:786
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3407
+
+org:
+name:mutant 787
+genotype:~
+X[Nu,2:2.162][Nu][Nu,fo:0.172405,-1:-3.412,fo:1,0:-1.668]~
+info:12.31% mutation of 'mutant 786'
+num:788
+gnum:787
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3408
+
+org:
+name:mutant 788
+genotype:~
+X[Nu,2:-1.588][Nu][Nu,fo:0.172405,-1:-3.412,fo:1,0:-1.668]~
+info:10.53% mutation of 'mutant 787'
+num:789
+gnum:788
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3409
+
+org:
+name:mutant 789
+genotype:~
+X[Nu,2:-1.588][Nu][Nu,fo:0.172405,-1:-3.412,fo:1,0:-5.283]~
+info:10.34% mutation of 'mutant 788'
+num:790
+gnum:789
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3410
+
+org:
+name:mutant 790
+genotype:~
+X[Nu,2:-0.495][Nu][Nu,fo:0.172405,-1:-3.412,fo:1,0:-5.283]~
+info:10.34% mutation of 'mutant 789'
+num:791
+gnum:790
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3411
+
+org:
+name:mutant 791
+genotype:~
+X[Nu,2:-0.495][Nu][Nu,fo:0.172405,-1:-3.412,fo:1,0:-3.876]~
+info:10.34% mutation of 'mutant 790'
+num:792
+gnum:791
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3412
+
+org:
+name:mutant 792
+genotype:~
+X[Nu,2:-0.495][Nu][Nu,fo:0.172405,-1:-3.412,fo:1,0:-1.808]~
+info:10.34% mutation of 'mutant 791'
+num:793
+gnum:792
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3413
+
+org:
+name:mutant 793
+genotype:X[Nu][Nu][Nu,fo:0.172405,-1:-3.412,fo:1,0:-1.808]
+info:15.52% mutation of 'mutant 792'
+num:794
+gnum:793
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3414
+
+org:
+name:mutant 794
+genotype:X[Nu][Nu][Nu,fo:0.172405,-1:-3.412,fo:1,0:-4.904]
+info:12.24% mutation of 'mutant 793'
+num:795
+gnum:794
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3415
+
+org:
+name:mutant 795
+genotype:X[Nu][Nu][Nu,fo:0.172405,fo:1,0:-4.904]
+info:20.41% mutation of 'mutant 794'
+num:796
+gnum:795
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3416
+
+org:
+name:mutant 796
+genotype:X[Nu][Nu][Nu,fo:0.172405,fo:1,0:-9.316]
+info:15.38% mutation of 'mutant 795'
+num:797
+gnum:796
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3417
+
+org:
+name:mutant 797
+genotype:X[Nu][Nu][Nu,fo:0.172405,fo:1,0:-8.032]
+info:15.38% mutation of 'mutant 796'
+num:798
+gnum:797
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3418
+
+org:
+name:mutant 798
+genotype:X[Nu,1:1][Nu][Nu][Nu,fo:0.172405,fo:1,0:-8.032]
+info:20.51% mutation of 'mutant 797'
+num:799
+gnum:798
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3419
+
+org:
+name:mutant 799
+genotype:~
+X[Nu,1:-0.188][Nu][Nu][Nu,fo:0.172405,fo:1,0:-8.032]~
+info:12.77% mutation of 'mutant 798'
+num:800
+gnum:799
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3420
+
+org:
+name:mutant 800
+genotype:~
+X[Nu,1:-0.696][Nu][Nu][Nu,fo:0.172405,fo:1,0:-8.032]~
+info:11.54% mutation of 'mutant 799'
+num:801
+gnum:800
+popsiz:0
+lifespan:0
+velocity:0
+distance:0
+vertvel:0
+vertpos:0
+user1:null
+user2:null
+user3:null
+uid:g3421
+
