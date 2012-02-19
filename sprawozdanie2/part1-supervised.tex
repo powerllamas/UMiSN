@@ -7,11 +7,20 @@
 \begin{enumerate}
 \item \textbf{
 Skonstruuj zbiór przykładów definiujący dwuargumentową funkcję ("bramkę") AND (File|New|Data set) i zachowaj go. Wszystkie 4 przykłady mają stanowić zbiór uczący. Jakie są klasy decyzyjne w tym zbiorze przykładów i jakie są ich liczności?}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.75]{dane/part1/zad2/dataset_and}
-\caption{Zbiór uczący funkcji "AND"\label{fig:dataset_and}}
-\end{figure}
+\\Zbiór uczący dla problemu "AND" pokazano w tabeli \ref{tab:dataset_and}.
+\begin{table}[ch]
+	\centering
+	\caption{Zbiór uczący funkcji "AND"\label{tab:dataset_and}}
+	\begin{tabular}{|c|c|c|c|}
+	\hline Przykład & Zmienna 1 & Zmienna 2 & Decyzja \\ 
+	\hline 1 & 0 & 0 & 0 \\ 
+	\hline 2 & 0 & 1 & 0 \\ 
+	\hline 3 & 1 & 0 & 0 \\ 
+	\hline 4 & 1 & 1 & 1 \\ 
+	\hline 
+	\end{tabular} 
+\end{table}
+
 
 \item \textbf{
 Wyszukaj w Pomocy hasło "Verification" i przeczytaj wszystkie pięć znalezionych tematów.}
@@ -81,12 +90,21 @@ Wejdź do edytora sieci (Network|Edit) i przypatrz się wagom neuronu wyjściowe
 
 \item \textbf{
 Skonstruuj zbiór przykładów definiujący dwuargumentową funkcję XOR i zachowaj go. Wszystkie 4 przykłady mają stanowić zbiór uczący.}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.75]{dane/part1/zad2/dataset_xor}
-\caption{Zbiór uczący funkcji "XOR"\label{fig:dataset_xor}}
-\end{figure}
-\\Zbiór uczący dla funkcji XOR pokazano na rys. \ref{fig:dataset_xor}. 
+
+Zbiór uczący dla funkcji XOR pokazano w tabel rys. \ref{tab:dataset_xor}. 
+
+\begin{table}[ch]
+	\centering
+	\caption{Zbiór uczący funkcji "XOR"\label{tab:dataset_xor}}
+	\begin{tabular}{|c|c|c|c|}
+	\hline Przykład & Zmienna 1 & Zmienna 2 & Decyzja \\ 
+	\hline 1 & 0 & 0 & 0 \\ 
+	\hline 2 & 0 & 1 & 1 \\ 
+	\hline 3 & 1 & 0 & 1 \\ 
+	\hline 4 & 1 & 1 & 0 \\ 
+	\hline 
+	\end{tabular} 
+\end{table}
 
 \item \textbf{
 Wyobraź sobie (narysuj) pożądaną funkcję odpowiedzi sieci.}
