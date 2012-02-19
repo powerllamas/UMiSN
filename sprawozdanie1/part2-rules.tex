@@ -38,7 +38,12 @@
 \item \textbf{Przeprowadzając kilka eksperymentów uczenia i~testowania przeanalizuj wpływ parametrów \emph{Confidence Level} i~\emph{Redundancy Factor} na~otrzymywany zbiór reguł.}
 \end{itemize}
 
-\subsection{Generowanie reguł z~użyciem algorytmu \emph{LEM}}
+	\input{figures/part2/task2/vote-confidence-level}
+
+	Parametr \emph{Confidence Level} steruje liczbą i~rozmiarem reguł. Dla zbioru \emph{vote} zależność między wartością tego parametru a~rozmiarem zbioru reguł i~liczbą błędów przy klasyfikacji przedstawia tabela \ref{p2t2-vote-confidence-level}. Jak widać, zwiększenie wartości parametru prowadzi do zwiększenia rozmiaru zbioru reguł. Wprawdzie oznacza to polepszenie klasyfikacji dla zbioru uczącego, jednak (dla zbioru \emph{vote}) nie ma wpływu na jakość klasyfikacji dla zbioru testowego.
+
+
+	\subsection{Generowanie reguł z~użyciem algorytmu \emph{LEM}}
 
 \begin{itemize}
 \item Wygeneruj reguły dla zbioru \emph{HPAP.ISF}.
