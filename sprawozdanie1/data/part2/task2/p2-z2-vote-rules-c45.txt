@@ -1,0 +1,27 @@
+Rule 1: [98.4%]
+    IF    physician fee freeze = n
+    THEN  democrat
+
+Rule 2: [97.5%]
+    IF    synfuels corporation cutback = y
+    AND   duty free exports = y
+    THEN  democrat
+
+Rule 3: [63.0%]
+    IF    physician fee freeze = u
+    AND   mx missile = n
+    THEN  democrat
+
+Rule 4: [88.7%]
+    IF    physician fee freeze = y
+    THEN  republican
+
+Rule 5: [50.0%]
+    IF    physician fee freeze = u
+    AND   mx missile = u
+    THEN  republican
+
+Default class: democrat
+
+Errors in training set: 11 (3.7%)
+Errors in test     set: 6 (4.4%)
