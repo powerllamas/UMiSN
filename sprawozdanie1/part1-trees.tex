@@ -57,13 +57,15 @@ outlook = rain:
 \subsection{Konsultowanie}
 
 \begin{itemize}
-\item Dokonaj konsultacji wymyślonego przykładu dla wygenerowanego drzewa.
+\item \textbf{Dokonaj konsultacji wymyślonego przykładu dla wygenerowanego drzewa.}
+
 	\\Dokonano konsultacji przykładu o wartościach atrybutów: outlook = overcast, temperature = 5, humidity = 100, windy = true. W wyniku konsultacji podanego przykładu otrzymano decyzję "Play". Poneważ wartości atrybutów zostały podane w sposób deterministyczny to decyzja ta była pewna (prawdopodobieństwo, że analizowany przykład należy do klasy "Play" wynosiło 1). Wynik jest zgodny z oczekiwaniami, poniważ wygenerowane drzewo decyzyjne na podstawi galęzi "Outlook = overcast" przydziela wszystkie przykłady z taką wartością atrybutu do klasy "Don't play", niezależnie od wartości pozostałych atrybutów.
 	
-\item Konsultowanie przykładu ,,niepełnego''; dokładnie przeanalizuj wynik.
+\item \textbf{Konsultowanie przykładu ,,niepełnego''; dokładnie przeanalizuj wynik.}
+
 	\\Przykład niepełny miał postać: (overcast = sunny, temperature = 15, humidity = ?, windy = false). Przechodząc ścieżkę klasyfikującą ten przykład dochodzimy do atrybutu humidity. Nie jest znana wartość analizowanego przykładu na tym atrybucie, więc zostają obliczone prawdopodobieństwa przyjęcia konkretnych wartości. W analizowanym węźle (za gałęzią "sunny") znajduje się 5 przykładów uczących, w tym 2 ( $ 40\% $ ) przyjmują wartość "humidity" większą niż $ 75\% $ a 3  $ ( 60\% ) $ mniejszą. Dlatego przyjmuje się, że analizowany przykład będzie miał z prawdopodobieństwem $ 60\% $ wartość humidity większą niż $ 75\% $ a mniejszą z prawdopodobieństwem $ 40\% $ .	Dalej w drzewie sa juz tylko liście, można więc obliczyć rpawdopodobieństwo całych kompletów wartości: z prawdopodobieństwem $ 40\% $ analizowany przykład przyjmie wartości (overcast = sunny, temperature = 15, humidity  $ > 75\% $, windy = false) a z prawdopodobieństwem $ 60\% $ wartości  (overcast = sunny, temperature = 15, humidity $ >  75\% $ , windy = false). Drugie prawdopodobieństwo jest wyższe, więc z prawdopodobieństwem $ 60\% $ konsultowany przykład zostaje przypisany do klasy "Don't Play"
 	
-\item Konsultowanie, gdy znany jest rozkład prawdopodobieństwa.
+\item \textbf{Konsultowanie, gdy znany jest rozkład prawdopodobieństwa.}
 	\\W przypadku przykładu ze znanym rozkładem prawdopodobieństwa analizowane są wszystkie gałęzie o niezerowym prawdopodobieństwie z wagami odpowiadającymi przypisanym danm wartośćiom prawdopodobieństwom. Analizowany przykład miał postać: P(sunny) = $ 0.8 $ , P(overcast) = $ 0.2 $ . Dlatego, jeśli wartość humidity była większa niż $ 75\% $ to algorytm przydzielał przykład z $ 20\% $ prawdopodobieństwem do klasy "Play" i $ 80 \% $ prawdopodobieństwem do klasy "Don't play". Ponieważ dla "humidity" mniejszej niż $ 75\% $ i "outlook" = "sunny" drzewo podejmuje decyzję "Play", taką samą jak przy "outlook" = "overcast", to prtawdopodobieństwa wtedy się sumują i lagorytm podejmuje decyzję "Play" z prawdopodobieństwem $ 100 \% $ .
 
 \end{itemize}
@@ -71,8 +73,9 @@ outlook = rain:
 \subsection{Różnica między \emph{gain ratio} a~\emph{info gain} w~praktyce}
 
 \begin{itemize}
-\item Obejrzyj zbiór \emph{testgain} (\emph{dat} i~\emph{nam}).
-\item Wygeneruj dla niego dwukrotnie drzewo z~użyciem opcji \emph{gain ratio} i~\emph{info gain}; skomentuj wyniki.
+\item \textbf{Obejrzyj zbiór \emph{testgain} (\emph{dat} i~\emph{nam}).}
+\item \textbf{Wygeneruj dla niego dwukrotnie drzewo z~użyciem opcji \emph{gain ratio} i~\emph{info gain}; skomentuj wyniki.}
+
 	\\
 
 	Drzewo wygenerowane z użyciem opcji InfoGain:		
@@ -98,21 +101,21 @@ outlook = rain:
 \subsection{Grupowanie wartości atrybutów}
 
 \begin{itemize}
-\item Wygeneruj drzewo dla zbioru \emph{testgain}, zaznaczając opcję \emph{Subsetting}.
+\item \textbf{Wygeneruj drzewo dla zbioru \emph{testgain}, zaznaczając opcję \emph{Subsetting}.}
 	\begin{verbatim}
 	a1 in {1,2}: A (4.0)
 	a1 in {3,4}: B (4.0)
 	\end{verbatim}
 Jak widać grupowanie wpłynęło pozytywnie na wielkość generowanego drzewa.
 
-\item Analogicznie dla \emph{CRX}: opisać problem (przyznawanie kard kretytowych), obejrzeć zbiór (atrybuty \emph{A4}, \emph{A6} i~\emph{A7} mają wiele wartości); wygenerować drzewo bez i~z~grupowaniem.
-\\Ponieważ dane dotyczące tego problemu zawierały poufne dane etykiety atrybutów zostały zmienione na nie nieznaczące symbole.
+\item \textbf{Analogicznie dla \emph{CRX}: opisać problem (przyznawanie kard kretytowych), obejrzeć zbiór (atrybuty \emph{A4}, \emph{A6} i~\emph{A7} mają wiele wartości); wygenerować drzewo bez i~z~grupowaniem.}
+
+	\\Ponieważ dane dotyczące tego problemu zawierały poufne dane etykiety atrybutów zostały zmienione na nie nieznaczące symbole.
 \\W problemie tym występują dwie klasy decyzyjne: "+" i "-". W zbiorze uczącym mogą mieć one interpretację klientów, którzy odpowiednio: spłacali lub niespłacali zaciągniętych kredytów w terminie spłaty. Przy klasyfikacji mogą mieć one interpretację: pozytywne lub negatywne rozpatrzenie wniosku o przyznanie karty kredytowej.
 Każdy klient opisany jest za pomocą 15 atrybutóW, w tym 6 atrybutów przyjmujących wartości ciągłe i 9 atrybutów przyjmujących wartości ze znanych 2 do 14 elementowych zbiorów.
 
+\item \textbf{Obejrzeć macierz pomyłek dla zbioru uczącego i~testującego; czy w~tym zastosowaniu przydałaby się macierz kosztów pomyłek?}
 
-
-\item Obejrzeć macierz pomyłek dla zbioru uczącego i~testującego; czy w~tym zastosowaniu przydałaby się macierz kosztów pomyłek?
 \\Dla drzewa bez grupowania procent błędnych klasyfikacji w zbiorze trenującym wynosi $ 6,5\% $, w zbiorze testowym $20,5\%$.
 \\Dla drzewa z grupowaniem wartości te wynoszą odpowiednio $6,7\%$ i $17,5\%$. Na podstawie tych wartości można się domyślać, że występuje zjawisko przeuczenia: dla większego drzewa 
 (bez grupowania) różnica w trafność klasyfikacji przykładów ze zbioru uczącego i testowego jest większa niż dla mniejszego drzewa.
@@ -123,7 +126,7 @@ Każdy klient opisany jest za pomocą 15 atrybutóW, w tym 6 atrybutów przyjmuj
 \subsection{Poszukiwanie optymalnej wielkości drzewa uproszczonego}
 
 \begin{itemize}
-\item Poszukiwanie optymalnej wielkości drzewa uproszczonego przez dobór poziomu ufności procedury upraszczającej (\emph{Pruning confidence level}); przeprowadź serię eksperymentów \emph{10-fold cross-validation} dla zbioru \emph{Monk2}, ze~zmieniającym się poziomem ufności od~0.05 do~0.5, z~krokiem co najwyżej 0.05. Sporządź wykres zależności:
+\item \textbf{Poszukiwanie optymalnej wielkości drzewa uproszczonego przez dobór poziomu ufności procedury upraszczającej (\emph{Pruning confidence level}); przeprowadź serię eksperymentów \emph{10-fold cross-validation} dla zbioru \emph{Monk2}, ze~zmieniającym się poziomem ufności od~0.05 do~0.5, z~krokiem co najwyżej 0.05. Sporządź wykres zależności:}
 
 \begin{itemize}
 	\item średniego (po \emph{cross-validation}) rozmiaru drzewa uproszczonego,  
@@ -158,9 +161,9 @@ Analizując otrzymane wyniki można stwierdzić, że optymalna wielkość drzewa
 
 
 
-\item Poszukiwanie optymalnej wielkości drzewa uproszczonego poprzez prepruning, tj.~manewrowanie minimalną licznością węzła (\emph{Minimum objects}). Dla zbioru \emph{CRX} przebadać przedział od~2 do~10.
+\item \textbf{Poszukiwanie optymalnej wielkości drzewa uproszczonego poprzez prepruning, tj.~manewrowanie minimalną licznością węzła (\emph{Minimum objects}). Dla zbioru \emph{CRX} przebadać przedział od~2 do~10.}
 
-Jak widać na rysunku \ref{p1t5b-rozmiar} rozmiar drzewa maleje wraz ze wzrostem minimalnej wielkości węzła, przy czym powyżej wielkości węzła 6 dynamika spadku wielkości drzewa znacząco maleje. Jednocześnie z wykresu \ref{p1t5b-trafnosc} wynika, że dla minimalnej wielkości węzłą 7 drzewo osiąda najwyższą trafność klasyfikacji. W związku z tym optymalną wielkością drzewa uproszczonego przez preprouning jest wielkość 38, która jest osiągana dla minimalnej liczności węzła równej 7.
+\\Jak widać na rysunku \ref{p1t5b-rozmiar} rozmiar drzewa maleje wraz ze wzrostem minimalnej wielkości węzła, przy czym powyżej wielkości węzła 6 dynamika spadku wielkości drzewa znacząco maleje. Jednocześnie z wykresu \ref{p1t5b-trafnosc} wynika, że dla minimalnej wielkości węzłą 7 drzewo osiąda najwyższą trafność klasyfikacji. W związku z tym optymalną wielkością drzewa uproszczonego przez preprouning jest wielkość 38, która jest osiągana dla minimalnej liczności węzła równej 7.
 
 \begin{figure}	
 	\includegraphics[scale=0.7]{figures/part1/task5b/rozmiar.pdf}
@@ -177,7 +180,7 @@ Jak widać na rysunku \ref{p1t5b-rozmiar} rozmiar drzewa maleje wraz ze wzrostem
 
 
 
-\item Analiza wygenerowanego drzewa: poszukiwanie słabych punktów (liści o~małym wsparciu, poddrzew które generują szczególnie dużo błędów, etc.).
+\item \textbf{Analiza wygenerowanego drzewa: poszukiwanie słabych punktów (liści o~małym wsparciu, poddrzew które generują szczególnie dużo błędów, etc.).}
 
 
 \end{itemize}
@@ -185,18 +188,22 @@ Jak widać na rysunku \ref{p1t5b-rozmiar} rozmiar drzewa maleje wraz ze wzrostem
 \subsection{\emph{Windowing}}
 
 \begin{itemize}
-\item Wyjaśnić zasadę i~opcje: \emph{Trials}, \emph{Initial window size}, \emph{Window increment}.
+\item \textbf{Wyjaśnić zasadę i~opcje: \emph{Trials}, \emph{Initial window size}, \emph{Window increment}.}
+
 \\Technika "okien" ("Windowing") polega na konstruowaniu drzewa na podstawie podzbioru zbioru uczącego zwanego oknem. Początkowa wielkość okna ustalana jest za pomocą parametru "Initial window size". Po skonstruowania drzewa w oparciu o aktualne okno pozostałe przykłądy ze zbioru uczącego są za jego pomocą klasyfikowane. Część z błednie sklasyfikowanych przykładów trafia do nowego "okna". Ich liczbę określa parametr "Window Increment". Na podstawie nowego okna drzewo jest aktualizowane.
 \\Ponieważ początkowe okno jest losowane, to takich okien, a co za tym idzie powstających z nich drzew może być wiele. Ilość generowanych okien ustala parametr "Trials". P otworzeniu wszystkich okien wybierane jest najlepsze z nich.
-\item Analiza wyników (\emph{CRX})
+
+\item \textbf{Analiza wyników (\emph{CRX})}
+
 \\Wśród 10 wygenerowanych drzew (Trials = 10) ( z wielkościami parametrów Initital window size i window increment dobieranymi przez program) większość okazała się mniejsza od drzewa wygenerowanego bez użycia techniki windowing (Normalne drzewo - wielkość 72, drzewa wygenerowane przy użyciu okien - średnio 67,8; minimalnie 62, maksymalnie 75). Trafność klasyfikacji drzew konstruowanych przy pomocy okien nie różniła się znacząco od drzewa konstruowanego tradycyjnie: różnice wynosiły maksymalnie ok $ \pm 1\% $ . Ogólnie wydaje się, że w testowanym zbiorze technika okien nie przyniosła znacznych korzyści. Może być ona jednak przydatna jeżeli ostotne są ograniczenia pamięciowe.
 \end{itemize}
 
 \subsection{Generowanie krzywej uczenia}
 
 \begin{itemize}
-\item Dla zbioru \emph{vote} przygotować kilka[naście] zbiorów uczących o~liczności $n$ zmieniającej się od~50 do~300, ze~skokiem np.~50 przypadków, poprzez wybieranie pierwszych $n$ ze~zbioru \emph{vote.dat}.
-\item Wykreślić jako funkcję $n$ rozmiar drzewa uproszczonego oraz trafność klasyfikowania drzewa uproszczonego na zbiorze testującym.
+\item \textbf{Dla zbioru \emph{vote} przygotować kilka[naście] zbiorów uczących o~liczności $n$ zmieniającej się od~50 do~300, ze~skokiem np.~50 przypadków, poprzez wybieranie pierwszych $n$ ze~zbioru \emph{vote.dat}.}
+
+\item \textbf{Wykreślić jako funkcję $n$ rozmiar drzewa uproszczonego oraz trafność klasyfikowania drzewa uproszczonego na zbiorze testującym.}
 
 \\Jak widać na wykresie \ref{p1t7-rozmiar} rozmiar generowanego drzewa rośnie wraz z wielkością zbioru uczącego, aż do wielkości 300 kiedy zaczyna maleć. Po analizie drzew wygenerowanych na podstawie zbiorów o liczności 275 i 300 można zauważyć, że drzewo wygenerowane dla większego zbioru jest mniejsze, ponieważ rozkład klas w węźle jest w nim na tyle mało równomierny (3 / 94 przypadki w porównaniu z 3 / 85 przypadków dla mniejszego zbioru), że entropia w tym węźle jest zbyt mała by opłacało się dokonywać dalszego podziału.
 
