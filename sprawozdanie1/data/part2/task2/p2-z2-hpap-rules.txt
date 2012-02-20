@@ -1,0 +1,11 @@
+rule 1. (Hem = f) & (Temp = l) => (Comfort = l); [2, 2, 66.67%, 100.00%][2, 0, 0]
+[{1, 2}, {}, {}]
+rule 2. (Temp = l) & (Hem = g) => (Comfort = m); [2, 2, 50.00%, 100.00%][0, 2, 0]
+[{}, {5, 6}, {}]
+rule 3. (Blood = n) & (Temp = n) => (Comfort = m); [1, 1, 25.00%, 100.00%][0, 1, 0]
+[{}, {7}, {}]
+rule 4. (Blood = h) => (Comfort = vl); [2, 2, 100.00%, 100.00%][0, 0, 2]
+[{}, {}, {8, 9}]
+! Approximate rules
+rule 5. (Blood = l) & (Temp = n) => (Comfort = l) OR (Comfort = m); [2, 2, 100.00%, 100.00%][1, 1, 0]
+[{3}, {4}, {}]

@@ -1,0 +1,21 @@
+\begin{figure}
+\begin{verbatim}
+rule 1.
+(Hem = f) & (Temp = l) => (Comfort = l);
+
+rule 2.
+(Temp = l) & (Hem = g) => (Comfort = m);
+
+rule 3.
+(Blood = n) & (Temp = n) => (Comfort = m);
+
+rule 4.
+(Blood = h) => (Comfort = vl);
+
+! Approximate rules
+rule 5.
+(Blood = l) & (Temp = n) => (Comfort = l) OR (Comfort = m);
+\end{verbatim}
+\caption{Reguły decyzyjne dla zbioru \emph{hpap} uzyskane algorytmem \emph{LEM}}
+\label{p2t2-hpap-rules}
+\end{figure}

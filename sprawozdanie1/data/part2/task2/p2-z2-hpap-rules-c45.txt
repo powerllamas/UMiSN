@@ -1,0 +1,7 @@
+Rule 1: [50.0%]
+    IF    blood = h
+    THEN  vl
+
+Default class: m
+
+Errors in training set: 3 (33.3%)
