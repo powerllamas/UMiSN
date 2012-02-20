@@ -38,8 +38,12 @@
 \item \textbf{Przeprowadzając kilka eksperymentów uczenia i~testowania przeanalizuj wpływ parametrów \emph{Confidence Level} i~\emph{Redundancy Factor} na~otrzymywany zbiór reguł.}
 
 	\input{figures/part2/task2/vote-confidence-level}
-	\\Parametr \emph{Confidence Level} steruje liczbą i~rozmiarem reguł. Dla zbioru \emph{vote} zależność między wartością tego parametru a~rozmiarem zbioru reguł i~liczbą błędów przy klasyfikacji przedstawia tabela \ref{p2t2-vote-confidence-level}. Jak widać, zwiększenie wartości parametru prowadzi do zwiększenia rozmiaru zbioru reguł. Wprawdzie oznacza to polepszenie klasyfikacji dla zbioru uczącego, jednak (dla zbioru \emph{vote}) nie ma wpływu na jakość klasyfikacji dla zbioru testowego.
+	\\Parametr \emph{Confidence Level} steruje liczbą i~rozmiarem reguł. Dla zbioru \emph{vote} zależność między wartością tego parametru a~rozmiarem zbioru reguł i~liczbą błędów przy klasyfikacji przedstawia tabela \ref{p2t2-vote-confidence-level}. Jak widać, zwiększenie wartości parametru prowadzi do zwiększenia rozmiaru zbioru reguł. Wprawdzie oznacza to polepszenie klasyfikacji dla zbioru uczącego, jednak (w~przypadku zbioru \emph{vote}) nie zauważono wpływu na jakość klasyfikacji dla zbioru testowego.
 
+	\input{figures/part2/task2/vote-redundancy-factor}
+	\\Parametr \emph{Redundancy Factor} steruje wyborem atrybutów do~reguł. Dla zbioru \emph{vote} zależność między wartością parametru a~rozmiarem zbioru reguł i~liczbą błędów przy klasyfikacji przedstawiona jest w~tabeli \ref{p2t2-vote-redundancy-factor}. Im mniejsza wartość parametru, tym mniej atrybutów zostanie wybranych do pojedynczej reguły decyzyjnej, co wpływa bezpośrednio na rozmiar samego zbioru reguł. W~zbiorze \emph{vote} zaobserwowano polepszenie klasyfikacji dla małych wartości \emph{Redundancy Factor}.
+
+	\\Podsumowując, sterując tymi parametrami można uniknąć przeuczenia systemu, efekty jednak zależeć będą od~konkretnego zbioru przykładów uczących.
 \end{itemize}
 
 
