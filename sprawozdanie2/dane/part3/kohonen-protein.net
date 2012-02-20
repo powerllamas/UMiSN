@@ -1,0 +1,102 @@
+# Trajan v1.0 Network
+
+type Kohonen
+error_fn "Kohonen"
+no_layers 2
+
+layer 1
+no_units 9
+width 1
+act_fn "Linear"
+psp_fn "Linear"
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+layer 2
+no_units 9
+width 3
+act_fn "Square Root"
+psp_fn "Radial"
+1
+1
+1
+1
+1
+1
+1
+1
+1
+weights 1
+0.263801	0.26346	0.259144	0.36848	-0.353412	-0.410655	-0.379043	-0.147952	
+-0.446053	
+-0.350168	-0.329338	-0.411837	-0.0304723	0.0964517	-0.0137553	0.170329	0.526519	
+0.531653	
+-0.341542	-0.439929	0.445951	0.189381	0.150763	0.320335	0.372083	-0.0937342	
+-0.427199	
+0.203155	0.467631	-0.53127	0.147609	-0.0498129	-0.422861	0.243575	-0.0690468	
+0.436605	
+-0.653239	0.280787	-0.168368	0.0476369	-0.00574683	0.13251	-0.440464	-0.310804	
+-0.394489	
+-0.212153	-0.557168	0.0552613	0.17819	-0.237528	-0.703259	0.0395591	-0.166348	
+-0.171813	
+0	0	0	0	0	0	0	0	
+0	
+0	0	0	0	0	0	0	0	
+0	
+0	0	0	0	0	0	0	0	
+0	
+
+normalisation
+classify_by error
+accept 0.05
+reject 0
+steps 1
+lookahead 0
+input_normalisation "None"
+output_normalisation "None"
+no_inputs 9
+no_outputs 1
+no_normed_inputs 9
+no_normed_outputs 1
+attributes
+REDMEAT
+WHITEMEAT
+EGGS
+MILK
+FISH
+CEREAL
+STARCH
+NUTS
+FRUITVEG
+={Known,Unused}
+factors
+Minimax	Mean	0	1	0	1
+Minimax	Mean	0	1	0	1
+Minimax	Mean	0	1	0	1
+Minimax	Mean	0	1	0	1
+Minimax	Mean	0	1	0	1
+Minimax	Mean	0	1	0	1
+Minimax	Mean	0	1	0	1
+Minimax	Mean	0	1	0	1
+Minimax	Mean	0	1	0	1
+Kohonen	Mean	0	1	0	1
+missing values
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+
