@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Exported by Framsticks (http://www.framsticks.com/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg2"
+   height="647"
+   width="489"
+   y="0.0000000"
+   x="0.0000000"
+   version="1.0">
+  <defs
+     id="defs3" />
+  <g
+     id="layer1">
+<path id="path1" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 31,440 L 15,424 L 15,456 L 31,440 L 40,440 M 31,203 "/><path id="path2" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 31,203 L 15,187 L 15,219 L 31,203 L 40,203 M 31,392 "/><path id="path3" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 31,392 L 15,376 L 15,408 L 31,392 L 40,392 M 31,251 "/><path id="path4" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 31,251 L 15,235 L 15,267 L 31,251 L 40,251 M 31,345 "/><path id="path5" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 31,345 L 15,329 L 15,361 L 31,345 L 40,345 M 31,298 "/><path id="path6" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 31,298 L 15,282 L 15,314 L 31,298 L 40,298 "/><rect
+       id="rect7"
+       style="fill:#ffffff;fill-opacity:1;stroke-opacity:0"
+       x="236"
+       y="478"
+       width="33"
+       height="33" />
+<path id="path8" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 260,494 L 244,478 L 244,510 L 260,494 L 269,494 M 244,482 "/><path id="path9" style="fill:none;stroke:#444444;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 244,482 L 237,482 "/><path id="path10" style="fill:none;stroke:#ae6eee;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 237,482 L 40,298 M 244,487 L 238,487 L 40,345 M 244,492 L 239,492 L 40,251 M 244,496 L 240,496 L 40,392 M 244,501 L 241,501 L 40,203 M 244,506 L 243,506 L 40,440 "/><rect
+       id="rect11"
+       style="fill:#ffffff;fill-opacity:1;stroke-opacity:0"
+       x="228"
+       y="149"
+       width="33"
+       height="33" />
+<path id="path12" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 252,165 L 236,149 L 236,181 L 252,165 L 261,165 M 236,153 "/><path id="path13" style="fill:none;stroke:#444444;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 236,153 L 229,153 "/><path id="path14" style="fill:none;stroke:#ae6eee;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 229,153 L 40,298 M 236,158 L 230,158 L 40,345 M 236,163 L 231,163 L 40,251 M 236,167 L 232,167 L 40,392 M 236,172 L 233,172 L 40,203 M 236,177 L 235,177 L 40,440 "/><rect
+       id="rect15"
+       style="fill:#ffffff;fill-opacity:1;stroke-opacity:0"
+       x="228"
+       y="206"
+       width="33"
+       height="33" />
+<path id="path16" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 252,222 L 236,206 L 236,238 L 252,222 L 261,222 M 236,210 "/><path id="path17" style="fill:none;stroke:#444444;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 236,210 L 229,210 "/><path id="path18" style="fill:none;stroke:#ae6eee;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 229,210 L 40,298 M 236,215 L 230,215 L 40,345 M 236,220 L 231,220 L 40,251 M 236,224 L 232,224 L 40,392 M 236,229 L 233,229 L 40,203 M 236,234 L 235,234 L 40,440 "/><rect
+       id="rect19"
+       style="fill:#ffffff;fill-opacity:1;stroke-opacity:0"
+       x="209"
+       y="82"
+       width="33"
+       height="33" />
+<path id="path20" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 233,98 L 217,82 L 217,114 L 233,98 L 242,98 M 217,86 "/><path id="path21" style="fill:none;stroke:#444444;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 217,86 L 210,86 "/><path id="path22" style="fill:none;stroke:#ae6eee;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 210,86 L 40,298 M 217,91 L 211,91 L 40,345 M 217,96 L 212,96 L 40,251 M 217,100 L 213,100 L 40,392 M 217,105 L 214,105 L 40,203 M 217,110 L 216,110 L 40,440 M 257,574 "/><path id="path23" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 257,574 L 241,558 L 241,590 L 257,574 L 266,574 M 241,562 "/><path id="path24" style="fill:none;stroke:#444444;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 241,562 L 234,562 "/><path id="path25" style="fill:none;stroke:#ae6eee;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 234,562 L 40,298 M 241,567 L 235,567 L 40,345 M 241,572 L 236,572 L 40,251 M 241,576 L 237,576 L 40,392 M 241,581 L 238,581 L 40,203 M 241,586 L 240,586 L 40,440 "/><rect
+       id="rect26"
+       style="fill:#ffffff;fill-opacity:1;stroke-opacity:0"
+       x="167"
+       y="36"
+       width="33"
+       height="33" />
+<path id="path27" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 191,52 L 175,36 L 175,68 L 191,52 L 200,52 M 175,40 "/><path id="path28" style="fill:none;stroke:#444444;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 175,40 L 168,40 "/><path id="path29" style="fill:none;stroke:#ae6eee;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 168,40 L 40,298 M 175,45 L 169,45 L 40,345 M 175,50 L 170,50 L 40,251 M 175,54 L 171,54 L 40,392 M 175,59 L 172,59 L 40,203 M 175,64 L 174,64 L 40,440 M 302,390 "/><path id="path30" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 302,390 L 286,374 L 286,406 L 302,390 L 311,390 M 286,378 "/><path id="path31" style="fill:none;stroke:#444444;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 286,378 L 279,378 "/><path id="path32" style="fill:none;stroke:#ae6eee;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 279,378 L 40,298 M 286,383 L 280,383 L 40,345 M 286,388 L 281,388 L 40,251 M 286,392 L 282,392 L 40,392 M 286,397 L 283,397 L 40,203 M 286,402 L 285,402 L 40,440 M 311,270 "/><path id="path33" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 311,270 L 295,254 L 295,286 L 311,270 L 320,270 M 295,258 "/><path id="path34" style="fill:none;stroke:#444444;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 295,258 L 288,258 "/><path id="path35" style="fill:none;stroke:#ae6eee;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 288,258 L 40,298 M 295,263 L 289,263 L 40,345 M 295,268 L 290,268 L 40,251 M 295,272 L 291,272 L 40,392 M 295,277 L 292,277 L 40,203 M 295,282 L 294,282 L 40,440 M 311,327 "/><path id="path36" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 311,327 L 295,311 L 295,343 L 311,327 L 320,327 M 295,315 "/><path id="path37" style="fill:none;stroke:#444444;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 295,315 L 288,315 "/><path id="path38" style="fill:none;stroke:#ae6eee;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 288,315 L 40,298 M 295,320 L 289,320 L 40,345 M 295,325 L 290,325 L 40,251 M 295,329 L 291,329 L 40,392 M 295,334 L 292,334 L 40,203 M 295,339 L 294,339 L 40,440 M 466,390 "/><path id="path39" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 466,390 L 450,374 L 450,406 L 466,390 L 475,390 M 450,382 "/><path id="path40" style="fill:none;stroke:#444444;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 450,382 L 444,382 "/><path id="path41" style="fill:none;stroke:#ae6eee;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 444,382 L 320,327 M 450,390 L 446,390 L 320,270 M 450,398 L 448,398 L 311,390 "/><rect
+       id="rect42"
+       style="fill:#ffffff;fill-opacity:1;stroke-opacity:0"
+       x="429"
+       y="248"
+       width="33"
+       height="33" />
+<path id="path43" style="fill:none;stroke:#222222;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 453,264 L 437,248 L 437,280 L 453,264 L 462,264 M 437,256 "/><path id="path44" style="fill:none;stroke:#444444;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 437,256 L 431,256 "/><path id="path45" style="fill:none;stroke:#ae6eee;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 431,256 L 320,327 M 437,264 L 433,264 L 320,270 M 437,272 L 435,272 L 311,390 "/></g></svg>

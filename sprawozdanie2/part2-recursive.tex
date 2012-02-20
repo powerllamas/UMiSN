@@ -105,20 +105,63 @@ Na rysunkach \ref{fig:mutations-neurons} oraz \ref{fig:mutations-connections} po
 \item \textbf{Krzyżowanie}
 	\begin{itemize}
 		\item Wybierz jedną z reprezentacji: f0 lub f1.
+		Wybrano reprezentację f1.
 		\item Stwórz dwie sieci neuronowe o tej samej topologii, różniące się tylko wagami.
+		Utworozno sieci Feed-Forward o topologii 3-4-3 pokazane na rysunku \ref{fig:3-4-3}.
+		\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.4\textwidth]{dane/part2/zad3/3-4-3}
+		\caption{Sieć o architekturze 3-4-3, "rodzic" sieci prezentowanych na następnych rysunkach.\label{fig:3-4-3}}
+		\end{figure}
+		
 		\item Dokonaj ich krzyżowania. Czy rezultat spełnia postulaty dobrego krzyżowania podane w poprzednim ćwiczeniu? 
-		\\W konsoli:
-				\begin{verbatim}
-//cross over two neural networks.
-//ensure there are two genotypes in the gene pool! 
-GenePools.group=0; //select first group
-GenePools.genotype=0; //select first genotype
-GenePools.crossoverSelected(1); //cross over with the second genotype
-Genotype.name="child"; //set descendant's name
-GenePools.copySelected(0);
-}
-		\end{verbatim}
+		\\Sieci widoczne na rysunkach \ref{fig:child2_3-4-3}, \ref{fig:child3_3-4-3} i \ref{fig:child4_3-4-3} są niespójne: w rezultacie krzyżowania powstały dwie niepołączone ze sobą sieci. Nie zawsze też jest zachowana liczba wejść i wyjść sieci (jak w przypadku sieci pokazanej na rys. \ref{fig:child4_3-4-3}). Obie wymienione wady przeprowadzonego krzyżowania sprawiają, że bez nałożenia ograniczeń na dopuszczalne powstałe genotypy nie powinno ono być stosowane. Z drugiej strony, sieci o niewłaściwej liczbie wejś/wyjść w wyniku selekcji byłyby odrzucane z populacji, więc użycie takiego krzyżowania jest możliwe.
+		
+		
+		\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.5\textwidth]{dane/part2/zad3/dziecko1_3-4-3}
+		\caption{Potomek powstały w wyniku krzyżowania dwóch sieci o architekturze 3-4-3 widocznej na rys.\ref{fig:3-4-3}.\label{fig:child1_3-4-3}}
+		\end{figure}
+				
+	
 		\item Powtórz tę operację. Czy krzyżowanie jest deterministyczne?
-		\item Powtórz to zadanie (krzyżowanie) dla pary sieci neuronowych o bardzo różnych topologiach.
+		\\Nie, krzyżowanie nie jest deterministyczne. Sieci widoczne na rysunkach \ref{fig:child1_3-4-3} - \ref{fig:child4_3-4-3} powstały w wyniku krzyżowania tych samych dwóch sieci o architekturach 3-4-3 (rys.\ref{fig:3-4-3}), ale różnią się od siebie.
+
+		\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.5\textwidth]{dane/part2/zad3/dziecko2_3-4-3}
+		\caption{Potomek powstały w wyniku krzyżowania dwóch sieci o architekturze 3-4-3 widocznej na rys.\ref{fig:3-4-3}.\label{fig:child2_3-4-3}}
+		\end{figure}
+	
+		\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.6\textwidth]{dane/part2/zad3/dziecko3_3-4-3}
+		\caption{Potomek powstały w wyniku krzyżowania dwóch sieci o architekturze 3-4-3 widocznej na rys.\ref{fig:3-4-3}.\label{fig:child3_3-4-3}}
+		\end{figure}
+
+		\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.3\textwidth]{dane/part2/zad3/dziecko4_3-4-3}
+		\caption{Potomek powstały w wyniku krzyżowania dwóch sieci o architekturze 3-4-3 widocznej na rys.\ref{fig:3-4-3}.\label{fig:child4_3-4-3}}
+		\end{figure}	
+	
+		\item Powtórz to zadanie (krzyżowanie) dla pary sieci neuronowych o bardzo różnych topologiach
+
+		W wyniku krzyżowania dwóch bardzo różnych sieci: sieci feed-forward o topologii 6-12-8 oraz "podłużnej" sieci ze sprzężeniem zwrotnym pokazanej na rys. \ref{fig:feedback} powstała dość ciekawa sieć (pokazana na rys.\ref{fig:dziecko_1111_6-12-8}), która łączy w sobie cechy obu tych sieci: z jednej strony ma mało wejść i wiele sprzężeń zwrotnych (jak sieć ze sprzężeniem), z drugiej ma dużo wyjść - jak sieć 6-12-8.
+
+		\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{dane/part2/zad3/feedback}
+		\caption{Sieć ze sprzężeniem zwrotnym.\label{fig:feedback}}
+		\end{figure}	
+
+		\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\textwidth]{dane/part2/zad3/dziecko_1111_6-12-8}
+		\caption{Potomek powstały w wyniku krzyżowania sieci feed-forward o architekturze 6-12-8 i sieci ze sprzężeniem zwrotnym pokazanej na rys.\ref{{fig:feedback}}.\label{fig:dziecko_1111_6-12-8}}
+		\end{figure}			
+		
+		
 	\end{itemize}
 \end{enumerate}
