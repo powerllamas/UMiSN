@@ -48,6 +48,7 @@
 
 
 	\subsection{Generowanie reguł z~użyciem algorytmu \emph{LEM}}
+	\label{sec:lem}
 
 \begin{itemize}
 \item \textbf{Wygeneruj reguły dla zbioru \emph{HPAP.ISF}.}
@@ -56,9 +57,10 @@
 	\\Wygenerowane reguły zostały przedstawione na rysunku \ref{p2t2-hpap-rules}.
 
 \item \textbf{Przyjrzyj się regułom możliwym; opisz je i~,,wydedukuj'', skąd się wzięły.}
-\end{itemize}
 
 	\\Reguły 1--4 to reguły pewne, natomiast reguła 5~jest regułą przybliżoną. Reguła 1~pokrywa 2~z~3 obiektów klasy $l$, stąd jej pokrycie wynosi 66\%, reguła 2~pokrywa dwa obiekty z~klasy $m$ (pokrycie 50\%), reguła 3~pokrywa jeden obiekt z klasy $m$ (pokrycie 25\%), natomiast reguła 4~pokrywa oba obiekty z~klasy $v1$. Pozostały dwa obiekty nie pokryte przez żadną regułę pewną -- wynika to z faktu, że mimo iż posiadają identyczne wartości atrybutów, należą do dwóch różnych klas. Stąd reguła~5, przybliżona, która przypisuje obiekty jednocześnie do dwóch klas. Gdyby chcieć zamienić ją na reguły możliwe, należy usunąć jedną z~klas umieszczonych w~alternatywie.
+
+\end{itemize}
 
 \subsection{Porównanie reguł generowanych za~pomocą algorytmu \emph{LEM} i~\emph{C4.5}}
 
@@ -71,9 +73,11 @@
 	\input{figures/part2/task2/monk-rules}
 	\input{figures/part2/task2/monk-rules-c45}
 	
-	\\Reguły dla zbioru \emph{hpap} znajdują się na~rysunkach \ref{p2t2-hpap-rules} i~\ref{p2t2-hpap-rules-c45}, dla zbioru \emph{vote} na~rysunkach \ref{p2t2-vote-rules} i~\ref{p2t2-vote-rules-c45}, zaś dla zbioru \emph{monk1} na~rysunkach \ref{p2t2-monk-rules} oraz~\ref{p2t2-monk-rules-c45}.
+	\\Reguły dla zbioru \emph{hpap} znajdują się na~rysunkach \ref{p2t2-hpap-rules} i~\ref{p2t2-hpap-rules-c45}, dla zbioru \emph{vote} na~rysunkach \ref{p2t2-vote-rules} i~\ref{p2t2-vote-rules-c45}, zaś dla zbioru \emph{monk1} na~rysunkach \ref{p2t2-monk-rules} oraz~\ref{p2t2-monk-rules-c45}. Jak widać, algorytm \emph{C4.5} generuje znacznie mniejsze zbiory reguł niż \emph{LEM}. W~przypadku zbioru \emph{hpap} \emph{C4.5} tworzy tylko jedną regułę, podczas gdy \emph{LEM} pięć. Podobnie w~przypadku zbioru \emph{vote}, algorytm \emph{LEM} generuje aż pięć razy więcej reguł niż \emph{C4.5}; dla zbioru \emph{monk1} generowanych jest dwa razy więcej reguł. Reguły \emph{LEM} wprawdzie pokrywają wszystkie obiekty, przyporządkowując im odpowiednie klasy, jednak reguły \emph{C4.5} są ogólniejsze, wykorzystują mniejszą liczbę atrybutów, przez co unikają przespecjalizowania.
 
 \item \textbf{Przyjrzyj się niezależnie regułom pewnym i~możliwym (\emph{LEM}).}
+
+	\\Wśród trzech analizowanych zbiorów jedynie dla \emph{hpap} pojawiły się sprzeczności w~przypisaniu do klas. Przypadek ten omówiono już w~punkcie drugim sekcji \ref{sec:lem}.
 \end{itemize}
 
 %Dla chętnych:
