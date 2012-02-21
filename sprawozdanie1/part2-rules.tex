@@ -7,13 +7,12 @@
 \item \textbf{Wygeneruj reguły dla zbioru \emph{GOLF} za~pomocą programu \emph{C4.5 for Windows}.}
 
 \input{figures/part2/task1/rules}
-	\\Wyniki pokazane są na Rys.~\ref{p2t1-rules}.
+Wyniki pokazane są na Rys.~\ref{p2t1-rules}.
 
 \item \textbf{Porównaj wygenerowane reguły z~wyjściowym drzewem decyzyjnym. Czy reguły odzwierciedlają precyzyjnie drzewo?}
 
 \input{figures/part2/task1/trees}
-
-	\\Wyjściowe drzewo zostało przedstawione na Rys.~\ref{p2t1-tree}. Drzewo to nie może być odtworzone przy użyciu samych tylko uzyskanych reguł (Rys.~\ref{p2t1-rules}). Jest tak, ponieważ nie pokrywają one wszystkich możliwych ścieżek od~korzenia do liścia -- brakuje reguły dla \texttt{outlook = sunny AND humidity <= 75}. Ponieważ jednak w~wyniku zawarta jest również klasa domyślna, w~tym wypadku \texttt{Play}, możemy ją wykorzystać jako liść dla ścieżek w~drzewie odpowiadającym brakującym regułom. W~ten sposób, w~tym konkretnym przypadku, możliwe jest zrekonstruowanie drzewa. Stąd reguły odzwierciedlają drzewo w~sposób precyzyjny.
+Wyjściowe drzewo zostało przedstawione na Rys.~\ref{p2t1-tree}. Drzewo to nie może być odtworzone przy użyciu samych tylko uzyskanych reguł (Rys.~\ref{p2t1-rules}). Jest tak, ponieważ nie pokrywają one wszystkich możliwych ścieżek od~korzenia do liścia -- brakuje reguły dla \texttt{outlook = sunny AND humidity <= 75}. Ponieważ jednak w~wyniku zawarta jest również klasa domyślna, w~tym wypadku \texttt{Play}, możemy ją wykorzystać jako liść dla ścieżek w~drzewie odpowiadającym brakującym regułom. W~ten sposób, w~tym konkretnym przypadku, możliwe jest zrekonstruowanie drzewa. Stąd reguły odzwierciedlają drzewo w~sposób precyzyjny.
 \end{itemize}
 
 \subsection{Porównanie klasyfikowania za pomocą drzew decyzyjnych i~reguł decyzyjnych (\emph{C4.5rules})}
@@ -24,26 +23,28 @@
 \input{figures/part2/task2/golf-rules-cv}
 \input{figures/part2/task2/vote-trees-cv}
 \input{figures/part2/task2/vote-rules-cv}
-	\\Wyniki uzyskane z~programu \emph{C4.5 for windows} zostały przedstawione następująco: dla zbioru \emph{golf} w~Tab.~\ref{p2t2-golf-trees-cv} oraz Tab.~\ref{p2t2-golf-rules-cv}, dla zbioru \emph{vote} w~Tab.~\ref{p2t2-vote-trees-cv} oraz Tab.~\ref{p2t2-vote-rules-cv}.
+
+
+Wyniki uzyskane z~programu \emph{C4.5 for windows} zostały przedstawione następująco: dla zbioru \emph{golf} w~Tab.~\ref{p2t2-golf-trees-cv} oraz Tab.~\ref{p2t2-golf-rules-cv}, dla zbioru \emph{vote} w~Tab.~\ref{p2t2-vote-trees-cv} oraz Tab.~\ref{p2t2-vote-rules-cv}.
 
 \item \textbf{Porównaj wyniki pod kątem trafności klasyfikowania na zbiorze testującym oraz rozmiaru opisu.}
 	
 	\input{figures/part2/task2/compare-errors}
-	\\Na Rys.~\ref{p2t2-compare-errors} przedstawiono zależność między trafnością klasyfikowania a~typem reprezentacji (drzewa, reguły). Dla wszystkich zbiorów danych z~wyjątkiem \emph{golf} reprezentacja regułowa daje lepszą klasyfikację niż drzewa. (Drobne różnice między drzewem po pruningu a~regułami dla zbioru \emph{vote} pomijamy.)
-	\\Odmienną zależność dla zbioru \emph{golf} możemy tłumaczyć małą liczbą przypadków uczących w~tym zbiorze -- zaledwie 14~przykładów -- przez co zbiory testowe zawierają 1-2~przypadków testowych. W~tej sytuacji pojedynczy błąd ma istotny wpływ na końcową jakość klasyfikacji.
+Na Rys.~\ref{p2t2-compare-errors} przedstawiono zależność między trafnością klasyfikowania a~typem reprezentacji (drzewa, reguły). Dla wszystkich zbiorów danych z~wyjątkiem \emph{golf} reprezentacja regułowa daje lepszą klasyfikację niż drzewa. (Drobne różnice między drzewem po pruningu a~regułami dla zbioru \emph{vote} pomijamy.)
+\\Odmienną zależność dla zbioru \emph{golf} możemy tłumaczyć małą liczbą przypadków uczących w~tym zbiorze -- zaledwie 14~przykładów -- przez co zbiory testowe zawierają 1-2~przypadków testowych. W~tej sytuacji pojedynczy błąd ma istotny wpływ na końcową jakość klasyfikacji.
 	
 	\input{figures/part2/task2/compare-sizes}
-	\\Na Rys.~\ref{p2t2-compare-sizes} dokonano porównania rozmiarów różnych reprezentacji wiedzy dla kilku wybranych zbiorów danych. Jako jednostkę przyjęto w~przypadku drzew pojedynczy liść, zaś w~przypadku reguł pojedynczą regułę. Widać znaczną redukcję rozmiaru przy przejściu od drzew bez pruningu przez drzewa z~pruningiem do reguł.
+Na Rys.~\ref{p2t2-compare-sizes} dokonano porównania rozmiarów różnych reprezentacji wiedzy dla kilku wybranych zbiorów danych. Jako jednostkę przyjęto w~przypadku drzew pojedynczy liść, zaś w~przypadku reguł pojedynczą regułę. Widać znaczną redukcję rozmiaru przy przejściu od drzew bez pruningu przez drzewa z~pruningiem do reguł.
 	
 \item \textbf{Przeprowadzając kilka eksperymentów uczenia i~testowania przeanalizuj wpływ parametrów \emph{Confidence Level} i~\emph{Redundancy Factor} na~otrzymywany zbiór reguł.}
 
 	\input{figures/part2/task2/vote-confidence-level}
-	\\Parametr \emph{Confidence Level} steruje liczbą i~rozmiarem reguł. Dla zbioru \emph{vote} zależność między wartością tego parametru a~rozmiarem zbioru reguł i~liczbą błędów przy klasyfikacji przedstawia tabela \ref{p2t2-vote-confidence-level}. Jak widać, zwiększenie wartości parametru prowadzi do zwiększenia rozmiaru zbioru reguł. Wprawdzie oznacza to polepszenie klasyfikacji dla zbioru uczącego, jednak (w~przypadku zbioru \emph{vote}) nie zauważono wpływu na jakość klasyfikacji dla zbioru testowego.
+Parametr \emph{Confidence Level} steruje liczbą i~rozmiarem reguł. Dla zbioru \emph{vote} zależność między wartością tego parametru a~rozmiarem zbioru reguł i~liczbą błędów przy klasyfikacji przedstawia tabela \ref{p2t2-vote-confidence-level}. Jak widać, zwiększenie wartości parametru prowadzi do zwiększenia rozmiaru zbioru reguł. Wprawdzie oznacza to polepszenie klasyfikacji dla zbioru uczącego, jednak (w~przypadku zbioru \emph{vote}) nie zauważono wpływu na jakość klasyfikacji dla zbioru testowego.
 
 	\input{figures/part2/task2/vote-redundancy-factor}
-	\\Parametr \emph{Redundancy Factor} steruje wyborem atrybutów do~reguł. Dla zbioru \emph{vote} zależność między wartością parametru a~rozmiarem zbioru reguł i~liczbą błędów przy klasyfikacji przedstawiona jest w~tabeli \ref{p2t2-vote-redundancy-factor}. Im mniejsza wartość parametru, tym mniej atrybutów zostanie wybranych do pojedynczej reguły decyzyjnej, co wpływa bezpośrednio na rozmiar samego zbioru reguł. W~zbiorze \emph{vote} zaobserwowano polepszenie klasyfikacji dla małych wartości \emph{Redundancy Factor}.
+Parametr \emph{Redundancy Factor} steruje wyborem atrybutów do~reguł. Dla zbioru \emph{vote} zależność między wartością parametru a~rozmiarem zbioru reguł i~liczbą błędów przy klasyfikacji przedstawiona jest w~tabeli \ref{p2t2-vote-redundancy-factor}. Im mniejsza wartość parametru, tym mniej atrybutów zostanie wybranych do pojedynczej reguły decyzyjnej, co wpływa bezpośrednio na rozmiar samego zbioru reguł. W~zbiorze \emph{vote} zaobserwowano polepszenie klasyfikacji dla małych wartości \emph{Redundancy Factor}.
 
-	\\Podsumowując, sterując tymi parametrami można uniknąć przeuczenia systemu, efekty jednak zależeć będą od~konkretnego zbioru przykładów uczących.
+Podsumowując, sterując tymi parametrami można uniknąć przeuczenia systemu, efekty jednak zależeć będą od~konkretnego zbioru przykładów uczących.
 \end{itemize}
 
 
@@ -54,11 +55,11 @@
 \item \textbf{Wygeneruj reguły dla zbioru \emph{HPAP.ISF}.}
 
 	\input{figures/part2/task2/hpap-rules}
-	\\Wygenerowane reguły zostały przedstawione na rysunku \ref{p2t2-hpap-rules}.
+Wygenerowane reguły zostały przedstawione na rysunku \ref{p2t2-hpap-rules}.
 
 \item \textbf{Przyjrzyj się regułom możliwym; opisz je i~,,wydedukuj'', skąd się wzięły.}
 
-	\\Reguły 1--4 to reguły pewne, natomiast reguła 5~jest regułą przybliżoną. Reguła 1~pokrywa 2~z~3 obiektów klasy $l$, stąd jej pokrycie wynosi 66\%, reguła 2~pokrywa dwa obiekty z~klasy $m$ (pokrycie 50\%), reguła 3~pokrywa jeden obiekt z klasy $m$ (pokrycie 25\%), natomiast reguła 4~pokrywa oba obiekty z~klasy $v1$. Pozostały dwa obiekty nie pokryte przez żadną regułę pewną -- wynika to z faktu, że mimo iż posiadają identyczne wartości atrybutów, należą do dwóch różnych klas. Stąd reguła~5, przybliżona, która przypisuje obiekty jednocześnie do dwóch klas. Gdyby chcieć zamienić ją na reguły możliwe, należy usunąć jedną z~klas umieszczonych w~alternatywie.
+Reguły 1--4 to reguły pewne, natomiast reguła 5~jest regułą przybliżoną. Reguła 1~pokrywa 2~z~3 obiektów klasy $l$, stąd jej pokrycie wynosi 66\%, reguła 2~pokrywa dwa obiekty z~klasy $m$ (pokrycie 50\%), reguła 3~pokrywa jeden obiekt z klasy $m$ (pokrycie 25\%), natomiast reguła 4~pokrywa oba obiekty z~klasy $v1$. Pozostały dwa obiekty nie pokryte przez żadną regułę pewną -- wynika to z faktu, że mimo iż posiadają identyczne wartości atrybutów, należą do dwóch różnych klas. Stąd reguła~5, przybliżona, która przypisuje obiekty jednocześnie do dwóch klas. Gdyby chcieć zamienić ją na reguły możliwe, należy usunąć jedną z~klas umieszczonych w~alternatywie.
 
 \end{itemize}
 
@@ -73,11 +74,10 @@
 	\input{figures/part2/task2/monk-rules}
 	\input{figures/part2/task2/monk-rules-c45}
 	
-	\\Reguły dla zbioru \emph{hpap} znajdują się na~rysunkach \ref{p2t2-hpap-rules} i~\ref{p2t2-hpap-rules-c45}, dla zbioru \emph{vote} na~rysunkach \ref{p2t2-vote-rules} i~\ref{p2t2-vote-rules-c45}, zaś dla zbioru \emph{monk1} na~rysunkach \ref{p2t2-monk-rules} oraz~\ref{p2t2-monk-rules-c45}. Jak widać, algorytm \emph{C4.5} generuje znacznie mniejsze zbiory reguł niż \emph{LEM}. W~przypadku zbioru \emph{hpap} \emph{C4.5} tworzy tylko jedną regułę, podczas gdy \emph{LEM} pięć. Podobnie w~przypadku zbioru \emph{vote}, algorytm \emph{LEM} generuje aż pięć razy więcej reguł niż \emph{C4.5}; dla zbioru \emph{monk1} generowanych jest dwa razy więcej reguł. Reguły \emph{LEM} wprawdzie pokrywają wszystkie obiekty, przyporządkowując im odpowiednie klasy, jednak reguły \emph{C4.5} są ogólniejsze, wykorzystują mniejszą liczbę atrybutów, przez co unikają przespecjalizowania.
+Reguły dla zbioru \emph{hpap} znajdują się na~rysunkach \ref{p2t2-hpap-rules} i~\ref{p2t2-hpap-rules-c45}, dla zbioru \emph{vote} na~rysunkach \ref{p2t2-vote-rules} i~\ref{p2t2-vote-rules-c45}, zaś dla zbioru \emph{monk1} na~rysunkach \ref{p2t2-monk-rules} oraz~\ref{p2t2-monk-rules-c45}. Jak widać, algorytm \emph{C4.5} generuje znacznie mniejsze zbiory reguł niż \emph{LEM}. W~przypadku zbioru \emph{hpap} \emph{C4.5} tworzy tylko jedną regułę, podczas gdy \emph{LEM} pięć. Podobnie w~przypadku zbioru \emph{vote}, algorytm \emph{LEM} generuje aż pięć razy więcej reguł niż \emph{C4.5}; dla zbioru \emph{monk1} generowanych jest dwa razy więcej reguł. Reguły \emph{LEM} wprawdzie pokrywają wszystkie obiekty, przyporządkowując im odpowiednie klasy, jednak reguły \emph{C4.5} są ogólniejsze, wykorzystują mniejszą liczbę atrybutów, przez co unikają przespecjalizowania.
 
 \item \textbf{Przyjrzyj się niezależnie regułom pewnym i~możliwym (\emph{LEM}).}
-
-	\\Wśród trzech analizowanych zbiorów jedynie dla \emph{hpap} pojawiły się sprzeczności w~przypisaniu do klas. Przypadek ten omówiono już w~punkcie drugim sekcji \ref{sec:lem}.
+\\Wśród trzech analizowanych zbiorów jedynie dla \emph{hpap} pojawiły się sprzeczności w~przypisaniu do klas. Przypadek ten omówiono już w~punkcie drugim sekcji \ref{sec:lem}.
 \end{itemize}
 
 %Dla chętnych:
