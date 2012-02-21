@@ -67,27 +67,10 @@ if __name__ == '__main__':
 \subsection{ Optymalizacja wag i topologii }
 
 \begin{enumerate}
-\item \textbf{Mutacja.}
+\item \textbf{Mutacja}
 	\begin{itemize}
-		\item Ustaw parametry mutacji (Experiment->Genetics) w f0 i f1 tak, żeby dotyczyły tylko dodawania/usuwania neuronów i dodawania/usuwania połączeń. Ustaw "Neurons to add" na jeden rodzaj neuronu – Nu.
-		\item Stwórz kilkanaście razy sekwencję 200 mutantów zaczynając od sieci z jednym neuronem. Co można powiedzieć o tych sekwencjach? Pomocniczo zrób wykresy liczby neuronów i połączeń neuronowych w funkcji n. 
-W konsoli:
-		\begin{verbatim}
-		//make mutant sequence.
-//ensure there is one genotype in the gene pool! 
-var n,ile=200;
-GenePools.group=0; //select first group
-for(n=1;n<=ile;n++)
-{
-   GenePools.genotype=n-1; //select n-th genotype as ancestor
-   GenePools.mutateSelected();
-   Genotype.name="mutant "+n; //set its name to consecutive number
-   GenePools.copySelected(0);
-   //Simulator.print(""+n+" "+Genotype.nnsiz);
-}
-		\end{verbatim}
-
-Na rysunkach \ref{fig:mutations-neurons} oraz \ref{fig:mutations-connections} pokazano odpowiednio ilość neuronów i ilość połączeń między nimi w funkcji ilość mutacji. Widać na nich, że w trakcie mutacji neurony i połączenia między nimi są zarówno dodawane jak i odejmowane, sama mutacja bez presji selekcyjnej nie prowadzi w żadnym kierunku.
+		\item \textbf{Stwórz kilkanaście razy sekwencję 200 mutantów zaczynając od sieci z jednym neuronem. Co można powiedzieć o tych sekwencjach? Pomocniczo zrób wykresy liczby neuronów i połączeń neuronowych w funkcji n.}
+\\Na rysunkach \ref{fig:mutations-neurons} oraz \ref{fig:mutations-connections} pokazano odpowiednio ilość neuronów i ilość połączeń między nimi w funkcji ilość mutacji. Widać na nich, że w trakcie mutacji neurony i połączenia między nimi są zarówno dodawane jak i odejmowane, sama mutacja bez presji selekcyjnej nie prowadzi w żadnym kierunku.
 		
 	\begin{figure}[h]
 	\centering
@@ -104,17 +87,17 @@ Na rysunkach \ref{fig:mutations-neurons} oraz \ref{fig:mutations-connections} po
 	\end{itemize}
 \item \textbf{Krzyżowanie}
 	\begin{itemize}
-		\item Wybierz jedną z reprezentacji: f0 lub f1.
-		Wybrano reprezentację f1.
-		\item Stwórz dwie sieci neuronowe o tej samej topologii, różniące się tylko wagami.
-		Utworozno sieci Feed-Forward o topologii 3-4-3 pokazane na rysunku \ref{fig:3-4-3}.
+		\item \textbf{Wybierz jedną z reprezentacji: f0 lub f1.}
+		\\Wybrano reprezentację f1.
+		\item \textbf{Stwórz dwie sieci neuronowe o tej samej topologii, różniące się tylko wagami.}
+		\\Utworozno sieci Feed-Forward o topologii 3-4-3 pokazane na rysunku \ref{fig:3-4-3}.
 		\begin{figure}[h]
 		\centering
 		\includegraphics[width=0.4\textwidth]{dane/part2/zad3/3-4-3}
 		\caption{Sieć o architekturze 3-4-3, "rodzic" sieci prezentowanych na następnych rysunkach.\label{fig:3-4-3}}
 		\end{figure}
 		
-		\item Dokonaj ich krzyżowania. Czy rezultat spełnia postulaty dobrego krzyżowania podane w poprzednim ćwiczeniu? 
+		\item \textbf{Dokonaj ich krzyżowania. Czy rezultat spełnia postulaty dobrego krzyżowania podane w poprzednim ćwiczeniu? }
 		\\Sieci widoczne na rysunkach \ref{fig:child2_3-4-3}, \ref{fig:child3_3-4-3} i \ref{fig:child4_3-4-3} są niespójne: w rezultacie krzyżowania powstały dwie niepołączone ze sobą sieci. Nie zawsze też jest zachowana liczba wejść i wyjść sieci (jak w przypadku sieci pokazanej na rys. \ref{fig:child4_3-4-3}). Obie wymienione wady przeprowadzonego krzyżowania sprawiają, że bez nałożenia ograniczeń na dopuszczalne powstałe genotypy nie powinno ono być stosowane. Z drugiej strony, sieci o niewłaściwej liczbie wejś/wyjść w wyniku selekcji byłyby odrzucane z populacji, więc użycie takiego krzyżowania jest możliwe.
 		
 		
@@ -125,7 +108,7 @@ Na rysunkach \ref{fig:mutations-neurons} oraz \ref{fig:mutations-connections} po
 		\end{figure}
 				
 	
-		\item Powtórz tę operację. Czy krzyżowanie jest deterministyczne?
+		\item\textbf{ Powtórz tę operację. Czy krzyżowanie jest deterministyczne?}
 		\\Nie, krzyżowanie nie jest deterministyczne. Sieci widoczne na rysunkach \ref{fig:child1_3-4-3} - \ref{fig:child4_3-4-3} powstały w wyniku krzyżowania tych samych dwóch sieci o architekturach 3-4-3 (rys.\ref{fig:3-4-3}), ale różnią się od siebie.
 
 		\begin{figure}[h]
@@ -146,9 +129,8 @@ Na rysunkach \ref{fig:mutations-neurons} oraz \ref{fig:mutations-connections} po
 		\caption{Potomek powstały w wyniku krzyżowania dwóch sieci o architekturze 3-4-3 widocznej na rys.\ref{fig:3-4-3}.\label{fig:child4_3-4-3}}
 		\end{figure}	
 	
-		\item Powtórz to zadanie (krzyżowanie) dla pary sieci neuronowych o bardzo różnych topologiach
-
-		W wyniku krzyżowania dwóch bardzo różnych sieci: sieci feed-forward o topologii 6-12-8 oraz "podłużnej" sieci ze sprzężeniem zwrotnym pokazanej na rys. \ref{fig:feedback} powstała dość ciekawa sieć (pokazana na rys.\ref{fig:dziecko_1111_6-12-8}), która łączy w sobie cechy obu tych sieci: z jednej strony ma mało wejść i wiele sprzężeń zwrotnych (jak sieć ze sprzężeniem), z drugiej ma dużo wyjść - jak sieć 6-12-8.
+		\item \textbf{Powtórz to zadanie (krzyżowanie) dla pary sieci neuronowych o bardzo różnych topologiach}
+		\\W wyniku krzyżowania dwóch bardzo różnych sieci: sieci feed-forward o topologii 6-12-8 oraz "podłużnej" sieci ze sprzężeniem zwrotnym pokazanej na rys. \ref{fig:feedback} powstała dość ciekawa sieć (pokazana na rys.\ref{fig:dziecko_1111_6-12-8}), która łączy w sobie cechy obu tych sieci: z jednej strony ma mało wejść i wiele sprzężeń zwrotnych (jak sieć ze sprzężeniem), z drugiej ma dużo wyjść - jak sieć 6-12-8.
 
 		\begin{figure}[h]
 		\centering

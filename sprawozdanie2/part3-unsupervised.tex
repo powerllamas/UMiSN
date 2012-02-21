@@ -9,24 +9,14 @@
 
 \item \textbf{
 Otwórz edytor sieci (Edit|Network). Jakiego typu neurony są stosowane w warstwie wyjściowej (okienko z ilustracją sieci to sugeruje) ?}
-Stosowane są neurony z radialną funkcją PSP (jak w sieci RBF) oraz pierwiastkową funkcją aktywacji (Act).
+\\Stosowane są neurony z radialną funkcją PSP (jak w sieci RBF) oraz pierwiastkową funkcją aktywacji (Act).
 
-\item \textbf{
-Zwróć uwagę, jak zdefiniowany jest błąd popełniany przez sieć (Error function) (Suma po wszystkich przykładach odległości pomiędzy przykładem a najbliższym mu wektorem wag neuronów w warstwie wyjściowej => uczenie nienadzorowane!)}
-
-\item \textbf{
-Zobacz, jak można zmieniać topologię sieci manewrując parametrem Width dla drugiej warstwy.}
-
-\item \textbf{
-Naucz sieć (Train|Kohonen) przy domyślnych ustawieniach parametrów. Zwróć uwagę, że mimo nienadzorowanego charakteru uczenia ma sens wyświetlanie przebiegu błędu.}
-
-\item \textbf{
-Co więcej, można używać zbioru weryfikującego i oprzeć na nim warunek stopu. Zbadaj, jak uczy się sieć np. z warunkiem stopu Minimum improvement|Verification = 0.01, Window = 10 (wydaje się to sensowne, bo widać, że minimum lokalne znajdowane jest bardzo szybko i nie ma potrzeby uczyć sieci aż przez 100 epok).}
 
 \item \textbf{
 Testowanie sieci. Obejrzyj najpierw, jak „odpowiadają” poszczególne neurony na kolejne przykłady ze zbioru uczącego (Run|Activations). Potem obejrzyj odpowiedzi sieci w diagramie, który zachowuje jej topologię (Run|Topological Map).  Jak grupują się przykłady ?
 Zwróć uwagę, że podczas przeglądania przykładów mapą topologiczną, można samemu nazywać przykłady (górne pole bez nazwy) i/lub neurony (dolne pole bez nazwy); działa także prawy przycisk myszki.}
-\\Na rysunku \ref{fig:map-iris} przedstawiono mapę topologiczną dla problemu IRIS utworzoną za pomocą sieci SOM. Etykiety przypisano według klasy przykładów najczęściej mapowyanych na dany neuron. Widać, że przestrzenne rozłożenie neuronoów odpowiada podobieństwom między przykładami, do których są one podobne - przykłądy należące do tej samej klasy są zgrupowane.
+\\Na rysunku \ref{fig:map-iris} przedstawiono mapę topologiczną dla problemu IRIS utworzoną za pomocą sieci SOM. Etykiety przypisano według klasy przykładów najczęściej mapowyanych na dany neuron. Widać, że przestrzenne rozłożenie neuronoów odpowiada podobieństwom między przykładami, do których są one podobne - przykłady należące do tej samej klasy są zgrupowane.
+
 \begin{figure}[h]
 \begin{centering}
 \includegraphics[width=0.6\textwidth]{dane/part3/zad1/map-iris}
@@ -34,13 +24,6 @@ Zwróć uwagę, że podczas przeglądania przykładów mapą topologiczną, moż
 \end{centering}
 \end{figure}
 
-
-\item \textbf{
-Poza tym można też obejrzeć statystykę „wygrywania” współzawodnictwa przez poszczególne neurony w poszczególnych podzbiorach (Statistics|Win frequencies).}
-
-\item \textbf{
-W podobny sposób naucz i przeanalizuj dla tego samego zbioru sieć o innej topologii (szczególnie ciekawe jest to dla sieci o topologii „jednowymiarowej”, gdzie warstwa wyjściowa ma np. 20 neuronów ułożonych w rzędzie, parametr Width = 1 dla warstwy 2 w edytorze sieci).}
-	
 \end{enumerate}
 
 \subsection{ Analiza rzeczywistego problemu przy użyciu sieci SOM}
@@ -55,7 +38,7 @@ W podobny sposób naucz i przeanalizuj dla tego samego zbioru sieć o innej topo
 \end{centering}
 \end{figure}
 
-Zbudowano sieć som o topologii 4x3. Jak widać na rysunku \ref{fig:proteins12} sieć bardzo dobrze odwzorowuje podobieństwa między państwami (jeśli założyć, że państwa położone blisko siebie cechują się względnie podobnymi nawykami żywieniowymi). Na przykład wszystkie kraje przypisane do wierzchołka o etykiecie "Europa Zachodnia" są rzeczywiście zaliczane do krajów Europy Zachodniej (wg. klasyikacji ONZ). Podobnie było z krajami należącymi do Bałkanów, krajami Skandynawskimi jak i śródziemnomorskimi (półwysep iberyjski i Włochy).
+Zbudowano sieć SOM o topologii 4x3. Jak widać na rysunku \ref{fig:proteins12} sieć bardzo dobrze odwzorowuje podobieństwa między państwami (jeśli założyć, że państwa położone blisko siebie cechują się względnie podobnymi nawykami żywieniowymi). Na przykład wszystkie kraje przypisane do wierzchołka o etykiecie "Europa Zachodnia" są rzeczywiście zaliczane do krajów Europy Zachodniej (wg. klasyikacji ONZ). Podobnie było z krajami należącymi do Bałkanów, krajami Skandynawskimi jak i śródziemnomorskimi (Półwysep Iberyjski i Włochy).
 
 \begin{figure}[h]
 \begin{centering}
@@ -77,5 +60,4 @@ Inaczej jest np. w przypadku kuchni Norweskiej(rys. \ref{fig:norwegia}):  aktywa
 
 \subsection{Projektowanie i testowanie prostej sieci typu SOM}
  \paragraph{\textbf{Zobacz, co się dzieje, gdy opcja "Shuffle cases" jest wyłączona. Sprawdź wpływ parametrów algorytmu uczącego (blisko "skrajnych" wartości parametrów) na przebieg i efekty uczenia.}}
- Dla szybkości uczenia równej 1 wszystkie przykłady zostały przypisane do zaledwie 3 wierzchołków a błąd uczenia był bardzo duży (ok. 0.8). Im mniejsza prędkość uczenia tym mniejszy błąd, ale tym wolniej osiągane warunki stopu. Obserwując wykres błędu sieci i eksperymentując prędkością uczenia można dojść do wniosku, że w przypadku zbioru \emph{PROTEIN} optymalna prędkość wynosi ok 0.1.
-Funkcja "Shuffle cases" nie ma istotengo wpływu na błąd uczenia.
+Dla szybkości uczenia równej 1 wszystkie przykłady zostały przypisane do zaledwie 3 wierzchołków a błąd uczenia był bardzo duży (ok. 0.8). Im mniejsza prędkość uczenia tym mniejszy błąd, ale tym wolniej osiągane warunki stopu. Obserwując wykres błędu sieci i eksperymentując prędkością uczenia można dojść do wniosku, że w przypadku zbioru \emph{PROTEIN} optymalna prędkość wynosi ok 0.1.\\Funkcja "Shuffle cases" nie ma istotengo wpływu na błąd uczenia.
